@@ -1,5 +1,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073431.svg)](https://doi.org/10.5281/zenodo.22073431)
+# Estimator forensics for the wide-binary gravity test
 
+**arXiv:2608.24556** (astro-ph.GA, August 2026)  
+Preprint: https://arxiv.org/abs/2608.24556  
+PDF: https://arxiv.org/pdf/2608.24556
 **Cite as:** Boufourou (2026), *Estimator forensics for the wide-binary gravity test*, Paper I v1.0, Zenodo DOI 10.5281/zenodo.22073431 — code & données : github.com/HBoufourou/paperI-wide-binaries
 # Reproducibility package — Boufourou (2026), Paper I
 ## "Estimator forensics for the wide-binary gravity test: the eccentricity–triple coupling manufactures a pseudo-signal, and a pre-registered protocol for Gaia DR4"
