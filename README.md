@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073431.svg)](https://doi.org/10.5281/zenodo.22073431)
 # Estimator forensics for the wide-binary gravity test
 
