@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Public source catalogue downloaded and checksum-verified by code/data_source.py
+data/external/
+
+# Generated numerical products not intended for version control
+phase_H_LL.npy
+
+# Locally assembled upload bundles
+release/
+
+# Private correspondence drafts (never publish to the public repository)
+private_drafts/
