@@ -1,0 +1,41 @@
+{
+  "title": "Estimator forensics for the wide-binary gravity test: corrected Gaia DR3 application",
+  "version": "v3.0-correction",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Corrected reproducibility release. Versions 1-2 incorrectly treated Chae's 81,088-row virtual Newtonian catalogue as observational Gaia DR3 data. The affected observational gravity claims are withdrawn. This release provides a provenance audit, a checksum-verified loader for the 81,880-row real corrected-RUWE catalogue, a corrected model-dependent/non-conclusive Gaia DR3 analysis, and the surviving known-truth injection-recovery experiment.",
+  "creators": [
+    {
+      "name": "Boufourou, Hicham",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "wide binaries",
+    "Gaia DR3",
+    "gravity",
+    "hierarchical triples",
+    "injection recovery",
+    "data provenance",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22073430",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22114321",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2608.24556",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ]
+}

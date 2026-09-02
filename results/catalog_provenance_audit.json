@@ -1,0 +1,43 @@
+{
+  "finding": "legacy observational input is Chae's virtual Newtonian v5 catalogue",
+  "legacy_rows": 81088,
+  "official_mock_rows": 81088,
+  "corrected_real_rows": 81880,
+  "matched_to_mock_by_source_id": 81088,
+  "matched_to_real_by_source_id": 81088,
+  "all_reduced_columns_match_mock_at_rtol_1e_9": true,
+  "column_match_fraction_to_mock": {
+    "R_chance": 1.0,
+    "s[kau]": 1.0,
+    "d1[pc]": 1.0,
+    "d1_err[pc]": 1.0,
+    "d2[pc]": 1.0,
+    "d2_err[pc]": 1.0,
+    "M1[Msun]": 1.0,
+    "M2[Msun]": 1.0,
+    "mu1ra[mas/yr]": 1.0,
+    "mu1ra_err[mas/yr]": 1.0,
+    "mu1dec[mas/yr]": 1.0,
+    "mu1dec_err[mas/yr]": 1.0,
+    "mu2ra[mas/yr]": 1.0,
+    "mu2ra_err[mas/yr]": 1.0,
+    "mu2dec[mas/yr]": 1.0,
+    "mu2dec_err[mas/yr]": 1.0,
+    "ruwe1": 1.0,
+    "ruwe2": 1.0,
+    "e": 1.0
+  },
+  "distance_fingerprint": {
+    "legacy_median_abs_d1_minus_real_weighted_mean_pc": 0.0007680331890469461,
+    "real_median_abs_d1_minus_real_weighted_mean_pc": 0.1375691582149159,
+    "legacy_fraction_within_projected_orbital_offset": 0.9418902920284136,
+    "real_fraction_within_projected_orbital_offset": 0.08420481452249408
+  },
+  "relative_proper_motion_correlation_with_real": 0.6264412162038565,
+  "sources": {
+    "mock_zenodo_record": 10652994,
+    "mock_filename": "Newton_dr3_MSMS_d200pc_5.csv",
+    "mock_md5": "997069b5635200853896d005a238dde9",
+    "real_zenodo_record": 10986733
+  }
+}

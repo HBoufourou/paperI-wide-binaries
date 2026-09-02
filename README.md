@@ -1,90 +1,81 @@
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073431.svg)](https://doi.org/10.5281/zenodo.22073431)
 # Estimator forensics for the wide-binary gravity test
-
-**arXiv:2608.24556** (astro-ph.GA, August 2026)  
-Preprint: https://arxiv.org/abs/2608.24556  
-PDF: https://arxiv.org/pdf/2608.24556
-**Cite as:** Boufourou (2026), *Estimator forensics for the wide-binary gravity test*, Paper I v1.0, Zenodo DOI 10.5281/zenodo.22073431 — code & données : github.com/HBoufourou/paperI-wide-binaries
->>>>>>> 0b29cb3c014ddfc7cb4fe232168cfec60c9538ff
-# Reproducibility package — Boufourou (2026), Paper I
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22114321.svg)](https://doi.org/10.5281/zenodo.22114321)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.24556-b31b1b.svg)](https://arxiv.org/abs/2608.24556)
 
-## "Estimator forensics for the wide-binary gravity test: the eccentricity–triple coupling manufactures a pseudo-signal, and a pre-registered protocol for Gaia DR4"
+Hicham Boufourou — Independent Researcher, Brussels, Belgium
 
-Hicham Boufourou — Independent Researcher, Brussels, Belgium — hicham.boufourou@hotmail.com
+## Important data-provenance correction (2026-09-02)
 
----
+Repository versions 1.0 and 2.0 incorrectly treated an 81,088-row synthetic
+Newtonian catalogue (`Newton_dr3_MSMS_d200pc_5.csv`) as the observational Gaia
+DR3 sample. The affected Section 5 measurements, figures, and claims — including
+the quoted `gamma = 1.05`, `Delta ln L = 129`, approximately `16 sigma`
+rejection, and the deep-bin exclusion — are withdrawn.
 
-## Versions
+The synthetic injection–recovery experiment remains a synthetic result and was
+rerun after the correction. The corrected application uses the complete
+81,880-row real Gaia catalogue with corrected RUWE from Chae's Zenodo record
+10986733. Its outcome is model-dependent and does not support the previous
+strong observational verdict. See [CORRECTION_NOTICE.md](CORRECTION_NOTICE.md)
+for the numerical audit and scope of the correction.
 
-- **v2.0 (2026-08-26)** — updated reproducibility package
-  - Zenodo: [DOI 10.5281/zenodo.22114321](https://doi.org/10.5281/zenodo.22114321)
-  - arXiv: [arXiv:2608.24556](https://arxiv.org/abs/2608.24556)
-  - MNRAS: manuscript MN-26-2659-P (under review)
-  - **Updates since v1.0:**
-    - Threshold sensitivity scan (`code/etape_E_seuil.py`) showing stability of γ across T ∈ [1.2, 1.8]
-    - Complete Table 1 with deep-bin measurements
-    - Makarov (2026, AJ 171, 79) citation as independent Newtonian verdict
-    - Explicit definition of "oracles" terminology (Section 3)
-    - Acknowledgments section
-    - MNRAS-formatted LaTeX source (`paperI_mnras.tex`)
+## Corrected reproduction
 
-- **v1.0 (2026-07-15)** — frozen protocol version
-  - Zenodo: [DOI 10.5281/zenodo.22073431](https://doi.org/10.5281/zenodo.22073431)
-  - Pre-registered protocol for Gaia DR4 analysis (unchanged)
+Python 3.10+ is recommended.
 
-**Cite as:** Boufourou (2026), *Estimator forensics for the wide-binary gravity test*, Paper I v2.0, Zenodo DOI 10.5281/zenodo.22114321 — code & données : github.com/HBoufourou/paperI-wide-binaries
+```bash
+python -m pip install -r requirements.txt
+python code/data_source.py
+python code/audit_catalog_provenance.py
+python code/moteur_population.py
+python code/phase_G.py
+python code/corrected_dr3_analysis.py
+python code/build_pdf.py
+```
 
----
+`data_source.py` downloads the authoritative table, checks its MD5 digest and
+row count, and refuses the known `Newton_*` filenames and the 81,088-row
+fingerprint. Downloaded external data are not committed.
 
-## Contents
+## Repository map
 
-- `Boufourou_2026_PaperI_wide_binaries.pdf` — the article (preprint, arXiv version).
-- `paperI.tex` — LaTeX source (arXiv version).
-- `paperI_mnras.tex` — LaTeX source (MNRAS format, submitted 2026-08-26).
-- `code/` — the full analysis pipeline:
-  - `moteur_population.py` — synthetic wide-binary population engine (Keplerian orbits,
-    El-Badry-type selection, Gaia-like noise, triple contamination).
-  - `etape_AB_reduction.py` — independent reduction of the Chae (2024) sample
-    (v_2D, v_c, quality cuts).
-  - `etape_C_robustesse.py` — robustness grid over cuts and estimator variants.
-  - `etape_D_verdict.py` — pre-registered decision criteria applied to the data.
-  - `etape_E_seuil.py` — threshold sensitivity scan: stability of γ across T ∈ [1.2, 1.8] (Section 5).
-  - `phase_G.py`, `phase_H.py` — injection–recovery experiments: the competing estimator
-    families confronted with the same synthetic universes of known truth (Newtonian and
-    MOND-EFE), producing the bias map and the eccentricity–triple coupling measurement.
-  - `figs_final.py` — regenerates all figures.
-  - `build_pdf.py` — regenerates the article PDF.
-- `data/` — `chae_colonnes_utiles.csv`, `chae_complement.csv` (columns extracted from the
-  public Chae 2024 sample, 81,088 pairs, Gaia DR3 / El-Badry et al. 2021),
-  `vtilde_reduit_v1.csv` (independent reduction), `phase_G_resultats.csv` (injection–recovery
-  results grid), `etape_E_seuil_resultats.csv` (threshold scan results).
-- `figures/` — all article figures, including the master figure (six synthetic universes).
-- `protocole/PREREGISTRATION_DR4.md` — the frozen, pre-registered protocol for Gaia DR4:
-  estimators, cuts, decision criteria and STOP rule, written in advance of the DR4 release.
+- `paperI.tex`, `manuscript_content.tex` — corrected arXiv/preprint source.
+- `paperI_mnras.tex` — MNRAS wrapper using the same manuscript body.
+- `code/data_source.py` — verified real-catalogue loader.
+- `code/audit_catalog_provenance.py` — independently reproduces the provenance finding.
+- `code/corrected_dr3_analysis.py` — corrected observational analysis and figures.
+- `code/phase_G.py` — corrected synthetic injection–recovery grid.
+- `code/moteur_population.py` — population and hierarchical-triple engine.
+- `results/` — machine-readable audit and corrected numerical results.
+- `data/legacy_*`, `code/legacy/`, `figures/legacy/`, and `legacy/` —
+  quarantined v1/v2 inputs, scripts, figures, and manuscript; retained only to
+  reproduce the error, never to measure the sky.
+- `protocole/PREREGISTRATION_DR4.md` — original frozen DR4 protocol.
+- `protocole/PREREGISTRATION_DR4_AMENDMENT_2026-09-02.md` — transparent amendment.
 
-## Reproduction
+## Version history
 
-Python 3 with numpy/scipy/matplotlib. Run, in order:
-`etape_AB_reduction.py` → `etape_C_robustesse.py` → `etape_E_seuil.py` → `phase_G.py` → `phase_H.py` →
-`etape_D_verdict.py` → `figs_final.py` → `build_pdf.py`.
-Each script prints its numbers; figures and the PDF are written alongside.
+- **v3.0-correction (prepared 2026-09-02)** — provenance audit, corrected real
+  Gaia input, reanalysis, withdrawal of affected observational conclusions.
+- **v2.0 (2026-08-26)** — archived at
+  [10.5281/zenodo.22114321](https://doi.org/10.5281/zenodo.22114321); affected by
+  the catalogue error described above.
+- **v1.0 (2026-07-15)** — archived at
+  [10.5281/zenodo.22073431](https://doi.org/10.5281/zenodo.22073431); affected by
+  the same error.
 
-## Data provenance
+The Zenodo concept DOI is
+[10.5281/zenodo.22073430](https://doi.org/10.5281/zenodo.22073430). The v3 DOI
+must be inserted here after the new Zenodo version is published.
 
-The parent sample is the public wide-binary catalogue of Chae (2024, ApJ 960, 114),
-drawn from El-Badry et al. (2021, MNRAS 506, 2269), Gaia DR3. Only derived columns
-required for the analysis are redistributed here.
+## Computational tools and responsibility
 
-## Acknowledgments
+Large language models were used as computational and analytical assistants to
+write, debug, and audit code and text. Numerical claims are tied to committed
+scripts and machine-readable outputs. The author remains responsible for the
+scientific assumptions, interpretation, and publication decisions.
 
-The author thanks Andrei Tokovinin for a careful reading of an early version and for pointing to the Makarov (2026) analysis, and the researchers who responded to the arXiv endorsement request. This work received no external funding.
+## Licence
 
-## Declaration on computational tools
-
-This work was carried out by the author alone, without institutional affiliation. Large language models were used as computational and analytical assistants throughout: to write and debug the numerical scripts, to run the scans and minimisations, to produce the figures, to check algebra and dimensional consistency, to search and summarise the literature, and to audit drafts for internal contradictions. Several distinct systems were used and cross-checked against one another; no single system's output was accepted without an independent numerical or analytical verification.
-
-The author is solely responsible for the physical hypotheses, the interpretation of every result, the epistemic labels attached to each claim, and the decision of what to publish and what to withdraw. All quantitative statements in this paper are reproduced by the scripts of the reproducibility package; a reader who runs them obtains the numbers printed here without needing any language model.
+See [LICENSE](LICENSE).

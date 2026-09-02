@@ -29,13 +29,16 @@ import numpy as np, pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from data_source import REPO_ROOT, load_catalog
 from moteur_population import (orbit_plane, orient_matrix, to_sky,
-                               sample_e, triples, KMS)
+                               sample_e, triple_vtilde, triples, KMS)
 
 rng = np.random.default_rng(2026)
 
 # ---------- données réelles : masses et bruit ----------
-dat = pd.read_csv("/mnt/user-data/uploads/chae_colonnes_utiles.csv")
+# v1/v2 accidentally loaded Chae's Newtonian mock here.  The authoritative
+# loader now downloads and verifies the corrected-RUWE Gaia catalogue.
+dat = load_catalog()
 Mtot_pool = (dat["M1[Msun]"] + dat["M2[Msun]"]).values
 d = 0.5*(dat["d1[pc]"] + dat["d2[pc]"]).values
 dra  = (dat["mu1ra[mas/yr]"] - dat["mu2ra[mas/yr]"]).values
@@ -66,14 +69,16 @@ def add_noise_and_select(r_kau, vt, M, rng, elbadry=True):
     keep = vt_obs <= (2.23/np.sqrt(M) if elbadry else np.inf)
     return vt_obs[keep], keep
 
-# ---------- pools de triples (gamma=1 et 1.4), cuts « échantillon » ----------
-print("generation des pools de triples (gamma=1 et 1.4)...")
-TR = {}
-for g in (1.0, 1.4):
-    t = triples(1500000, rng, cutset="sample", d_max=200.0, gamma_g=g)
-    ok = t["survive"] & (t["r_p_kau"] > 0.05) & (t["r_p_kau"] < 40)
-    TR[g] = dict(r=t["r_p_kau"][ok], vt=t["vt"][ok], M=t["Mapp"][ok])
-    print(f"  gamma={g}: pool = {ok.sum()} triples post-cuts")
+# ---------- pool de triples a nombres aleatoires communs ----------
+print("generation du pool de triples (orbites de reference gamma=1)...")
+t = triples(1500000, rng, cutset="sample", d_max=200.0, gamma_g=1.0)
+ok = t["survive"] & (t["r_p_kau"] > 0.05) & (t["r_p_kau"] < 40)
+TR = dict(
+    r=t["r_p_kau"][ok], vt=t["vt"][ok], M=t["Mapp"][ok],
+    vt_outer_x=t["vt_outer_x"][ok], vt_outer_y=t["vt_outer_y"][ok],
+    vt_inner_x=t["vt_inner_x"][ok], vt_inner_y=t["vt_inner_y"][ok],
+)
+print(f"  pool = {ok.sum()} triples post-cuts")
 
 # ---------- construction d'un catalogue synthetique ----------
 ZV, ZT = (0.2, 2.0), (2.0, 30.0)
@@ -93,16 +98,17 @@ def make_mock(n, f_trip, gamma, fe_truth, rng):
     M_b = rng.choice(Mtot_pool, nb)
     vtb, kb = add_noise_and_select(r_b, vt, M_b, rng)
     r_b = r_b[kb]
-    # triples : pool gamma=1 pour r_p<2 kau, pool gamma pour r_p>=2 kau
-    ii1 = rng.choice(len(TR[1.0]["r"]), nt)
-    r1, v1, m1 = (TR[1.0][k][ii1] for k in ("r", "vt", "M"))
-    if gamma != 1.0:
-        wide = r1 >= 2.0
-        pool_w = np.where(TR[gamma]["r"] >= 2.0)[0]
-        jj = rng.choice(pool_w, wide.sum())
-        r1[wide] = TR[gamma]["r"][jj]
-        v1[wide] = TR[gamma]["vt"][jj]
-        m1[wide] = TR[gamma]["M"][jj]
+    # triples : meme realisation orbitale pour toutes les gravites ; seul le
+    # terme d'orbite externe a basse acceleration est multiplie par sqrt(gamma).
+    ii1 = rng.choice(len(TR["r"]), nt)
+    r1 = TR["r"][ii1]
+    m1 = TR["M"][ii1]
+    v1 = TR["vt"][ii1].copy()
+    wide = r1 >= 2.0
+    if gamma != 1.0 and wide.any():
+        sampled = {key: value[ii1[wide]] for key, value in TR.items()
+                   if key.startswith("vt_")}
+        v1[wide] = triple_vtilde(sampled, gamma)
     vtt, kt = add_noise_and_select(r1, v1, m1, rng)
     r_t = r1[kt]
     return np.concatenate([r_b, r_t]), np.concatenate([vtb, vtt])
@@ -144,19 +150,52 @@ def E2_notre(vV, vT, feV, feT):
                      for g in GGRID])/medB(feV, Tcut=SQ2, zone=ZV)
     return np.interp(r_obs, pred, GGRID)
 
-def E3_ps(vT, feT, rng):
+E3_TEMPLATES = {}
+
+def _e3_templates(feT):
+    """Return cached binary/triple histogram templates on the gamma grid."""
+    if feT in E3_TEMPLATES:
+        return E3_TEMPLATES[feT]
     bins = np.linspace(0, 3.2, 41)
-    hd, _ = np.histogram(vT, bins)
     # gabarit binaire par gamma (boost exact) + gabarit triple (zone test)
-    base = template(feT, np.random.default_rng(7), n=800000, zone=ZT)
-    mtr = (TR[1.0]["r"] >= ZT[0]) & (TR[1.0]["r"] < ZT[1])
-    trt, _ = add_noise_and_select(TR[1.0]["r"][mtr], TR[1.0]["vt"][mtr],
-                                  TR[1.0]["M"][mtr], np.random.default_rng(8))
-    ht = np.histogram(trt, bins)[0].astype(float); ht /= ht.sum()
-    best, gbest = -np.inf, 1.0
+    rb = np.random.default_rng(7)
+    _, binary_signal = binaries_sv(800000, feT, rb)
+    binary_mass = rb.choice(Mtot_pool, len(binary_signal))
+    binary_radius = 10**rb.uniform(np.log10(ZT[0]), np.log10(ZT[1]), len(binary_signal))
+    binary_sigma = rb.choice(sigv_pool, len(binary_signal))/vc_kms(binary_mass, binary_radius)
+    binary_nx = rb.normal(size=len(binary_signal)); binary_ny = rb.normal(size=len(binary_signal))
+
+    mtr = (TR["r"] >= ZT[0]) & (TR["r"] < ZT[1])
+    rt = np.random.default_rng(8)
+    triple_sigma = rt.choice(sigv_pool, mtr.sum())/vc_kms(TR["M"][mtr], TR["r"][mtr])
+    triple_nx = rt.normal(size=mtr.sum()); triple_ny = rt.normal(size=mtr.sum())
+    binary_histograms, triple_histograms = [], []
     for g in GGRID:
-        hb = np.histogram(np.sqrt(g)*base, bins)[0].astype(float)
+        # Apply gamma before noise and catalogue selection.  The v1/v2 code
+        # scaled an already-noised binary template here.  For triples, scale
+        # only the wide outer orbit; compact inner photocentre motion remains
+        # Newtonian/high-acceleration.
+        base = np.hypot(np.sqrt(g)*binary_signal + binary_sigma*binary_nx,
+                        binary_sigma*binary_ny)
+        base = base[base <= 2.23/np.sqrt(binary_mass)]
+        hb = np.histogram(base, bins)[0].astype(float)
         hb /= max(hb.sum(), 1)
+        tr_signal = triple_vtilde(TR, g)[mtr]
+        trt = np.hypot(tr_signal + triple_sigma*triple_nx,
+                       triple_sigma*triple_ny)
+        trt = trt[trt <= 2.23/np.sqrt(TR["M"][mtr])]
+        ht = np.histogram(trt, bins)[0].astype(float); ht /= ht.sum()
+        binary_histograms.append(hb)
+        triple_histograms.append(ht)
+    E3_TEMPLATES[feT] = (bins, np.asarray(binary_histograms),
+                          np.asarray(triple_histograms))
+    return E3_TEMPLATES[feT]
+
+def E3_ps(vT, feT, rng):
+    bins, binary_histograms, triple_histograms = _e3_templates(feT)
+    hd, _ = np.histogram(vT, bins)
+    best, gbest = -np.inf, 1.0
+    for g, hb, ht in zip(GGRID, binary_histograms, triple_histograms):
         for f in np.linspace(0, 0.5, 26):
             model = hd.sum()*((1-f)*hb + f*ht) + 1e-9
             ll = np.sum(hd*np.log(model) - model)
@@ -181,31 +220,34 @@ for fe_truth, (feV, feT) in FE.items():
             print(f"  fe={fe_truth:8s} verite gamma={gamma:.1f} f_trip={ft:.1f} -> "
                   f"E1(Chae)={g1:5.3f}  E2(notre)={g2:5.3f}  E3(PS)={g3:5.3f}")
 res = pd.DataFrame(rows)
-res.to_csv("phase_G_resultats.csv", index=False)
+results_dir = REPO_ROOT / "results"
+results_dir.mkdir(exist_ok=True)
+res.to_csv(results_dir / "corrected_phase_G_results.csv", index=False)
 
 # ---------- figure maitresse ----------
 fig, axes = plt.subplots(2, 3, figsize=(13, 7), sharex=True, sharey="row")
-titles = {"thermal": "f(e) thermique (les 2 zones)",
-          "super": "f(e) superthermique (les 2 zones)",
-          "sdep": "f(e) dépendant de s (therm.→super)"}
+titles = {"thermal": "thermal f(e) (both zones)",
+          "super": "superthermal f(e) (both zones)",
+          "sdep": "separation-dependent f(e) (thermal to superthermal)"}
 for j, fe in enumerate(["thermal", "super", "sdep"]):
     for i, gamma in enumerate([1.0, 1.4]):
         ax = axes[i, j]
         sub = res[(res.fe == fe) & (res.gamma == gamma)]
-        for est, lab, c, mk in [("E1", "E1 médiane pleine (type Chae)", "#c0392b", "o"),
-                                ("E2", "E2 tronqué √2 (le nôtre)", "#2471a3", "s"),
-                                ("E3", "E3 fit de mélange (type PS)", "#1e8449", "^")]:
+        for est, lab, c, mk in [("E1", "E1 full median", "#c0392b", "o"),
+                                ("E2", "E2 truncated at √2", "#2471a3", "s"),
+                                ("E3", "E3 mixture fit", "#1e8449", "^")]:
             ax.plot(sub.f_trip, sub[est], mk+"-", color=c, label=lab)
-        ax.axhline(gamma, color="k", ls="--", lw=1, label=f"vérité γ={gamma}")
+        ax.axhline(gamma, color="k", ls="--", lw=1, label=f"truth γ={gamma}")
         ax.axhline(1.35, color="gray", ls=":", lw=1)
         if i == 0: ax.set_title(titles[fe], fontsize=10)
-        if j == 0: ax.set_ylabel(f"γ récupéré (vérité {gamma})")
-        if i == 1: ax.set_xlabel("fraction de triples résiduelle")
+        if j == 0: ax.set_ylabel(f"recovered γ (truth {gamma})")
+        if i == 1: ax.set_xlabel("residual triple fraction")
         ax.grid(alpha=0.3)
 axes[0, 0].legend(fontsize=7, loc="upper left")
-fig.suptitle("Carte du pseudo-signal : trois estimateurs face au même univers synthétique "
-             "(sélection El-Badry + bruit Gaia réel)", fontsize=11)
+fig.suptitle("Estimator-bias map: three estimators on the same synthetic universes "
+             "(El-Badry selection + real Gaia noise)", fontsize=11)
 fig.tight_layout()
-fig.savefig("figure_maitresse_G.png", dpi=160)
-fig.savefig("figure_maitresse_G.pdf")
-print("\nfigure sauvee : figure_maitresse_G.png/pdf ; table : phase_G_resultats.csv")
+figures_dir = REPO_ROOT / "figures"
+fig.savefig(figures_dir / "figure_maitresse_G_corrected.png", dpi=160)
+fig.savefig(figures_dir / "figure_maitresse_G_corrected.pdf")
+print("\nfigures saved in figures/; table: results/corrected_phase_G_results.csv")

@@ -139,11 +139,15 @@ def triples(n, rng, cutset="ps25", d_max=300.0, gamma_g=1.0):
     fpb = np.where(theta_in < 1.0, fpb_unres, M3/(M2+M3))
     M2est = np.where(theta_in < 1.0, (L2+L3)**0.25, M2)
 
-    vx_obs = uxo - fpb*vinx
-    vy_obs = uyo - fpb*viny
-    v2d = np.hypot(vx_obs, vy_obs)*KMS                             # km/s
     vc  = 29.784*np.sqrt((M1+M2est)/r_p)
-    vt  = v2d/vc
+    # Keep the wide-orbit and inner-photocentre terms separately.  This lets
+    # likelihood templates vary gamma consistently: only the low-acceleration
+    # outer orbit scales as sqrt(gamma); the compact inner orbit does not.
+    vt_outer_x = uxo*KMS/vc
+    vt_outer_y = uyo*KMS/vc
+    vt_inner_x = -fpb*vinx*KMS/vc
+    vt_inner_y = -fpb*viny*KMS/vc
+    vt = np.hypot(vt_outer_x + vt_inner_x, vt_outer_y + vt_inner_y)
 
     # ---- cuts simules ----
     G2app = mag_G(M2, d)
@@ -164,7 +168,23 @@ def triples(n, rng, cutset="ps25", d_max=300.0, gamma_g=1.0):
     else:            # variante "notre echantillon" (El-Badry/Chae) : ruwe seul
         survive = cut_ruwe
     return dict(r_p_kau=r_p/1000, vt=vt, survive=survive, Mapp=M1+M2est,
+                vt_outer_x=vt_outer_x, vt_outer_y=vt_outer_y,
+                vt_inner_x=vt_inner_x, vt_inner_y=vt_inner_y,
                 cut_ruwe=cut_ruwe, cut_ipd=cut_ipd, cut_lob=cut_lob)
+
+
+def triple_vtilde(triple_sample, gamma_g=1.0):
+    """Re-evaluate a gamma=1 triple sample at a new outer-orbit gravity.
+
+    The input must be produced by :func:`triples` with ``gamma_g=1``.  Quality
+    cuts and apparent masses do not depend on gamma in this model, so common
+    random numbers can be used across the full likelihood grid.
+    """
+    scale = np.sqrt(gamma_g)
+    return np.hypot(
+        scale*triple_sample["vt_outer_x"] + triple_sample["vt_inner_x"],
+        scale*triple_sample["vt_outer_y"] + triple_sample["vt_inner_y"],
+    )
 
 # ================= VALIDATION =================
 if __name__ == "__main__":
