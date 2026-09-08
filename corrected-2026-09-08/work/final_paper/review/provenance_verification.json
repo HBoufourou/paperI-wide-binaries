@@ -1,0 +1,207 @@
+{
+  "passed": true,
+  "official_rows": 81088,
+  "repository_rows": 81088,
+  "checked_non_id_columns": 36,
+  "rtol": 1e-09,
+  "atol": 0,
+  "equal_nan": true,
+  "numerical_catalogue_identity": true,
+  "csv_byte_identity_claimed": false,
+  "mock_md5": "997069b5635200853896d005a238dde9",
+  "mock_sha256": "4ed46795d71b507d1e6a4de9e7030b56240a8c29952f2b222bf4e2bae61e05cd",
+  "observed_rows": 81880,
+  "observed_md5": "1b6c5063163a4e6c07043d13aeb70f55",
+  "observed_sha256": "f8de60c31865beddcf6b3be0f5d1a3a8d8b705f1a3df9318bce21d7e46dcb4f7",
+  "source_sha256": "33d2806ddc1884e129b8033444fadf78b2d24d80d77f0f206bb756ee59f78162",
+  "inputs": {
+    "work/sources/10652994_Newton_dr3_MSMS_d200pc_5.csv": "4ed46795d71b507d1e6a4de9e7030b56240a8c29952f2b222bf4e2bae61e05cd",
+    "work/sources/zenodo_10652994.json": "2b5401733bbee800bd53abac3a568cff6520965471b48007c75f2c9870a6e6da",
+    "work/github/paperI-wide-binaries-af8ddf07/data/chae_colonnes_utiles.csv": "4ebd6ad87f839d322ad24a6da366e75b3d697b54f81472ab1d71b514eb77bb13",
+    "work/github/paperI-wide-binaries-af8ddf07/data/chae_complement.csv": "af0be12c34f9896d84a07cc84fdd142f238052cef94e8e113f705ec8332693ab",
+    "work/sources/10986733_gaia_dr3_MSMS_d200pc_ruwe.csv": "f8de60c31865beddcf6b3be0f5d1a3a8d8b705f1a3df9318bce21d7e46dcb4f7",
+    "work/sources/zenodo_10986733.json": "bfa05efd29788388557eda35bedda62d82ebf18f89e6a0429978d7473e80300e"
+  },
+  "columns": [
+    {
+      "column": "R_chance",
+      "n_not_close": 0,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "column": "s[kau]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "d1[pc]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "d1_err[pc]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "d2[pc]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "d2_err[pc]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "M1[Msun]",
+      "n_not_close": 0,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "column": "M2[Msun]",
+      "n_not_close": 0,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "column": "mu1ra[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "mu1ra_err[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "mu1dec[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "mu1dec_err[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "mu2ra[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "mu2ra_err[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "mu2dec[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "mu2dec_err[mas/yr]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "ruwe1",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "ruwe2",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "e",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "RV1[km/s]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "RV1_err[km/s]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "RV2[km/s]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "RV2_err[km/s]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "MagG1",
+      "n_not_close": 0,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "column": "MagG2",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "bp_rp1",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "bp_rp2",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "RA1[deg]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "DEC1[deg]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "RA2[deg]",
+      "n_not_close": 0,
+      "max_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "column": "DEC2[deg]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "e0",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "e1",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "gal_b[deg]",
+      "n_not_close": 0,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "column": "A_G1[mag]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "column": "A_G2[mag]",
+      "n_not_close": 0,
+      "max_absolute_difference": 0.0
+    }
+  ]
+}

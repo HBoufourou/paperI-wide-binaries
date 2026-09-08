@@ -1,0 +1,122 @@
+{
+  "source_sha256": "645a2b44543a4134c75a15b9a72facc4be4c0155074fa2eef92242c1aaac9a99",
+  "independent_population_source_sha256": "cf3d40fa2b480dab28acd695b11f5f9c65265a5ae3e812c5a25957e721b1eb93",
+  "independent_model_source_sha256": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406",
+  "generation_protocol_sha256": "8e263ce8fc8ec2d1ef13f1a62d957e6e370e0cebaa2467e4e4ce2b17ad21dd2a",
+  "stage": "generation_schedule_only",
+  "complete_schedule": true,
+  "passed": true,
+  "checks": [
+    {
+      "name": "schedule/exact32_case_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/64_unique_seeds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/reserved_physical_namespace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/disjoint_upstream_streams",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/disjoint_reserved_old_and_new_stats_ranges",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/scenarios",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/protocol_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/producer_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/population.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/orbits.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/joint_observer.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/generate_banks.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/physics/interaction_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/POPULATION_PROTOCOL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/AMENDMENT_01_PHOTOMETRIC_ANCHOR.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/TRAJECTORY_PROTOCOL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/unchanged_upstream/../dr4_chain/OBSERVER_PROTOCOL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/physical_validation_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/old_manifest_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/empirical_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schedule/physical_scope",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "production_complete": false
+}

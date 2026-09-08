@@ -1,0 +1,58 @@
+{
+  "draft": false,
+  "abstract_words": 191,
+  "references": {
+    "keys": [
+      "banik2024",
+      "banikzhao2015",
+      "chae2024",
+      "chae2024data",
+      "chae2024mock",
+      "clarke2020",
+      "codex2026",
+      "cookson2026",
+      "dufour2006",
+      "hunterqian1993",
+      "manchanda2023",
+      "milgrom2010",
+      "morris2019",
+      "penoyre2022",
+      "pflamm2025",
+      "phipsonsmyth2010",
+      "pittordis2025"
+    ],
+    "labels": {
+      "milgrom2010": "Milgrom (2010)",
+      "banikzhao2015": "Banik & Zhao (2018)",
+      "pittordis2025": "Pittordis et al. (2025)",
+      "dufour2006": "Dufour (2006)",
+      "morris2019": "Morris et al. (2019)",
+      "phipsonsmyth2010": "Phipson & Smyth (2010)",
+      "codex2026": "OpenAI (2026)",
+      "clarke2020": "Clarke (2020)",
+      "chae2024": "Chae (2024a)",
+      "chae2024data": "Chae (2024b)",
+      "chae2024mock": "Chae (2024c)",
+      "hunterqian1993": "Hunter & Qian (1993)",
+      "banik2024": "Banik et al. (2024)",
+      "pflamm2025": "Pflamm-Altenburg (2025)",
+      "cookson2026": "Cookson et al. (2026)",
+      "manchanda2023": "Manchanda et al. (2023)",
+      "penoyre2022": "Penoyre et al. (2022)"
+    },
+    "count": 17
+  },
+  "metrics_sha256": "160619d0bb1769249d97fda28bb39f9d57432ea638f61f5999db353654f1ff5b",
+  "pairs_sha256": "d07d7ba6aad16333537c27ff699230ba5e85474ed78694250643054dee0fb0b6",
+  "body_sha256": "28f24cbfd524343c735c13621dab2fdcc67d5ca49c584212922d8649071e2314",
+  "manuscript_sha256": "94c578c0a2de402af947d4a723b871cd77331f617effd3de062dd12401e42e50",
+  "physical_verification_sha256": "006f16b21c9685858652b5d4af0e8d7a9279838c9439f607e5fadefd62b5ac8a",
+  "statistical_verification_sha256": "cbf56b41536a143826773469fbaedfae9b5b492346acb3a65c7431046c7f73fb",
+  "stated_primary_counts": {
+    "classification_count": 540,
+    "classification_wilson": 531,
+    "retention_count": 537,
+    "retention_wilson": 501
+  },
+  "notes": "Prose preserves prespecified primary method, all gate failures and nonuniform ablation results. No outcome-based fitting or threshold changes."
+}

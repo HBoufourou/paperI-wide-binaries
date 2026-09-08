@@ -1,0 +1,324 @@
+{
+  "status": "passed_for_declared_domain",
+  "passed": true,
+  "checks": [
+    {
+      "name": "newton/uniform_white/energy",
+      "value": 3.5250532418760816e-14,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "newton/uniform_white/Lz",
+      "value": 4.884981308350689e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/uniform_white/position_refinement_AU",
+      "value": 1.2505396643935734e-10,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "newton/uniform_white/joint_decomposition34",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/uniform_white/joint_decomposition66",
+      "value": 4.3021142204224816e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/uniform_white/shared_covariance",
+      "value": 1.2102569648650403e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/energy",
+      "value": 1.7483792500676353e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/Lz",
+      "value": 5.551115123125783e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/position_refinement_AU",
+      "value": 1.372801232088434e-10,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/joint_decomposition34",
+      "value": 8.049116928532385e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/joint_decomposition66",
+      "value": 3.469446951953614e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/clustered_correlated/shared_covariance",
+      "value": 7.120835971630809e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/energy",
+      "value": 4.257179684419576e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/Lz",
+      "value": 3.9968028886505635e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/position_refinement_AU",
+      "value": 1.187790984556928e-10,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/joint_decomposition34",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/joint_decomposition66",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "newton/sparse_floor/shared_covariance",
+      "value": 3.315372169559415e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "newton/long_energy",
+      "value": 1.0811594128785196e-06,
+      "threshold": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "newton/long_Lz",
+      "value": 1.2212453270876722e-14,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "newton/long_refinement",
+      "value": 0.25000099425218575,
+      "threshold": 0.4,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/energy",
+      "value": 2.789976204813073e-14,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/Lz",
+      "value": 3.3306690738754696e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/position_refinement_AU",
+      "value": 9.955493021078096e-11,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/joint_decomposition34",
+      "value": 8.881784197001252e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/joint_decomposition66",
+      "value": 1.6653345369377348e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/uniform_white/shared_covariance",
+      "value": 1.2390321205624493e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/energy",
+      "value": 8.421120838380744e-14,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/Lz",
+      "value": 4.773959005888173e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/position_refinement_AU",
+      "value": 2.663429382610272e-10,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/joint_decomposition34",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/joint_decomposition66",
+      "value": 1.0547118733938987e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/clustered_correlated/shared_covariance",
+      "value": 6.264808526469521e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/energy",
+      "value": 2.0400101240697423e-13,
+      "threshold": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/Lz",
+      "value": 4.107825191113079e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/position_refinement_AU",
+      "value": 1.8588330118215731e-10,
+      "threshold": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/joint_decomposition34",
+      "value": 7.771561172376096e-16,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/joint_decomposition66",
+      "value": 1.3877787807814457e-15,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "qumond/sparse_floor/shared_covariance",
+      "value": 3.848626549190711e-15,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "qumond/long_energy",
+      "value": 1.5255622873366055e-05,
+      "threshold": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "qumond/long_Lz",
+      "value": 1.509903313490213e-14,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "qumond/long_refinement",
+      "value": 0.25000201257142707,
+      "threshold": 0.4,
+      "passed": true
+    }
+  ],
+  "scalar_model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+  "physics_validation_sha256": "12147406cc268781152bfb36a06d40d369a2ab61047a14ba18accb9fe3562590",
+  "common_cmax": 1.63417323970216,
+  "implementation_proof_sha256": {
+    "OBSERVER_VALIDATION.json": "2751a047d9860d4af42f3fcc6795ea4794d4c83fe8026d07979a8325adccfb8b",
+    "ORBIT_IMPLEMENTATION_VALIDATION.json": "4989c86e00cda26d219f89259a8b3e3892fe912558320a5cf9327139aec201c0",
+    "POPULATION_IMPLEMENTATION_VALIDATION.json": "532741bed997f73de01126e1da62d99f99fffec4879ba045bd3ddccb044cf1b4"
+  },
+  "files": [
+    {
+      "path": "trajectory_validation/newton_initial.npz",
+      "sha256": "ad80e4e5c92338a27236c4f29d9cde4fe124351dd9a519be6fdf715de2668bb5"
+    },
+    {
+      "path": "trajectory_validation/newton_uniform_white.npz",
+      "sha256": "94b8d7452a64d526e0f9ba60bf2d64e7e5a6191044c342995524c025627f13aa"
+    },
+    {
+      "path": "trajectory_validation/newton_clustered_correlated.npz",
+      "sha256": "d8d7cc05d824a5d143e6de2ece3645bee20dab679e5e46df27f05ae70e65903b"
+    },
+    {
+      "path": "trajectory_validation/newton_sparse_floor.npz",
+      "sha256": "94b677f8cce131d2ea3aac57a59ea886fef20e47c31d0aa768e47cc74056ae1b"
+    },
+    {
+      "path": "trajectory_validation/newton_long.npz",
+      "sha256": "c0a221d2d012830f5abe8f238a721879f4cbb7c7117d71771cdf9da216e1fa3b"
+    },
+    {
+      "path": "trajectory_validation/qumond_initial.npz",
+      "sha256": "7d7e0c0b0dc3d6d0070fb3a3bf1dc522680ae6c5dc23d723cf5ede8b9fb04a89"
+    },
+    {
+      "path": "trajectory_validation/qumond_uniform_white.npz",
+      "sha256": "dd1442b4e7de9892759e1727035ad17a4112e1cc6899d2bbb1dbad9f60e77135"
+    },
+    {
+      "path": "trajectory_validation/qumond_clustered_correlated.npz",
+      "sha256": "79e6c3b1dbc3a54b7e64d1b3abd6733df6d490515633602181b86c571e104510"
+    },
+    {
+      "path": "trajectory_validation/qumond_sparse_floor.npz",
+      "sha256": "955fcb5c64c2aecc2caeb99344675e1e4e08228666bfd5f7f7af5b9d2b6607a0"
+    },
+    {
+      "path": "trajectory_validation/qumond_long.npz",
+      "sha256": "975a690a179ce6c7e4e6b7d0d52c7dae2fd08114aa0055a031a4ae29e737285d"
+    }
+  ],
+  "source_sha256": {
+    "population.py": "ab6cdb6a40afcf88f1f28593363f9f1a664e0ac7b83ac2bbb1a1565a33a7a7f9",
+    "orbits.py": "efbfa94ff5cc169594e7b9eccaf9446b89cf7f720735665698a68d50b1853050",
+    "joint_observer.py": "278ee60927b4cb905456cbee07b82d6be2e87b4a0337d00f2ce49767c3f75f22",
+    "interaction_model.py": "3551de4294b95d32c1c0b90d2d29b463a6432e821948ad8c07f57cdcbc20cef7",
+    "POPULATION_PROTOCOL.md": "643fd94adfd3099e46534f0024cc00095bb5923530914c0c501c5de6b9d4e929",
+    "AMENDMENT_01_PHOTOMETRIC_ANCHOR.md": "50254880bfdb2930f0ad370a903a99fc83f36f60de990b1baad66336db209710",
+    "TRAJECTORY_PROTOCOL.md": "c55b72f3b0ccc4a25463856ff5453dd1cf29679ac562a1e9d2d0945464847e9d",
+    "validate_physical_chain.py": "faf03a7dd85dacbb2865ffe627c94785a0e360fbf54624a3cf3b955cafdeb808"
+  },
+  "orbit_parent": "f(E) times invariant E,Lz restrictions in a validated scalar interpolant",
+  "selected_catalogue_stationary": false,
+  "astrophysical_population_validated": false,
+  "continuum_qumond_error_bound": false,
+  "real_gaia_data": false,
+  "sky_ready": false
+}

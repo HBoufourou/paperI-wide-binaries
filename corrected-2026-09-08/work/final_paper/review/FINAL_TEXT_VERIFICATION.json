@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "reviewed_manuscript_sha256": "78d7c4f10c9069c6d69f508204644e67d399bd3c7f8b42456cc3893bd38e5377",
+  "final_manuscript_sha256": "94c578c0a2de402af947d4a723b871cd77331f617effd3de062dd12401e42e50",
+  "final_statistical_verification_sha256": "cbf56b41536a143826773469fbaedfae9b5b492346acb3a65c7431046c7f73fb",
+  "numerical_editorial_checks_carried_forward": 204,
+  "replacement": "One pending-verification paragraph replaced by the actual completed independent result; all other reviewed text unchanged.",
+  "independent_checks_inserted": 28842,
+  "statistical_probabilities_and_decisions_reproduced": true
+}

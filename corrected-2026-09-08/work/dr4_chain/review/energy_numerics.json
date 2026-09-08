@@ -1,0 +1,165 @@
+{
+  "source_sha256": "b7c073c16d1dcae0bd4e5086fbbac74ed985f6d8b1b491e56c36f79c341054de",
+  "energy_source_sha256": "111ef7e61102e7756eac9d0195405faa433617ff39aa6901d4d67892fc13578e",
+  "predeclared_tolerance_relative": 1e-06,
+  "cases": [
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11308244228733623,
+      "U": -0.3630822469720251,
+      "Psi": -1.4523289878881005,
+      "nodes": 5898240,
+      "seconds": 6.957804441452026
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 135.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11308244228751747,
+      "U": -0.36308224697220637,
+      "Psi": -1.4523289878888255,
+      "nodes": 5898240,
+      "seconds": 4.912228584289551
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 135.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.08296934715151866,
+      "U": -0.26048400136610506,
+      "Psi": -1.4673932076957255,
+      "nodes": 5898240,
+      "seconds": 5.173744201660156
+    },
+    {
+      "q": 3.3333333333333335,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.23076923076923073,
+        0.7692307692307692
+      ],
+      "softenings": [
+        0.0006004805767690768,
+        0.0010963225241337866
+      ],
+      "newton_energy": -0.1775146542145864,
+      "phantom_energy": -0.08296934715133891,
+      "U": -0.2604840013659253,
+      "Psi": -1.467393207694713,
+      "nodes": 5898240,
+      "seconds": 9.637545824050903
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.0005,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07872381195476823,
+      "U": -0.2562384661693546,
+      "Psi": -1.4434766927540312,
+      "nodes": 5898240,
+      "seconds": 6.831891298294067
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 100.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07872381052123632,
+      "U": -0.2562384647358227,
+      "Psi": -1.4434766846784681,
+      "nodes": 5898240,
+      "seconds": 6.194700241088867
+    }
+  ],
+  "complete": true,
+  "checks": {
+    "equal_mass_reflection_relative": 4.99181412149907e-13,
+    "unequal_mass_label_exchange_relative": 6.900427924330934e-13,
+    "mixed_hessian_switch_relative": 9.590592317162937e-13,
+    "infinite_tail_breakpoint_relative": 5.595481715110728e-09
+  },
+  "passed": true
+}

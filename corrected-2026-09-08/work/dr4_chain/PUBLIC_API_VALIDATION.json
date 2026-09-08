@@ -1,0 +1,337 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "validated_model/newton",
+      "passed": true
+    },
+    {
+      "name": "validated_model/qumond",
+      "passed": true
+    },
+    {
+      "name": "test_hash/case012.npz",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case012.npz/pure",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case012.npz/pure/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case012.npz/pure/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case012.npz/pure/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "public_api/case012.npz/uniform_white",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        1.0,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case012.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case012.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "public_api/case012.npz/clustered_correlated",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        0.5434565434565435,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case012.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case012.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "public_api/case012.npz/sparse_floor",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        1.0,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case012.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case012.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "test_hash/case015.npz",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case015.npz/pure",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/pure/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/pure/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/pure/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case015.npz/comp160",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/comp160/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/comp160/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case015.npz/comp160/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "public_api/case015.npz/uniform_white",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        0.9230769230769231,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case015.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case015.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "public_api/case015.npz/clustered_correlated",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        0.40559440559440557,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case015.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case015.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "public_api/case015.npz/sparse_floor",
+      "passed": true,
+      "decision": "Newton",
+      "p_values": [
+        1.0,
+        0.001998001998001998
+      ]
+    },
+    {
+      "name": "saved_counts/case015.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case015.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "test_hash/case048.npz",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case048.npz/pure",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case048.npz/pure/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case048.npz/pure/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case048.npz/pure/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "public_api/case048.npz/uniform_white",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case048.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case048.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "public_api/case048.npz/clustered_correlated",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case048.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case048.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "public_api/case048.npz/sparse_floor",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case048.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case048.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "test_hash/case051.npz",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case051.npz/pure",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/pure/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/pure/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/pure/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "population_hash/case051.npz/comp160",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/comp160/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/comp160/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "observation_hash/case051.npz/comp160/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "public_api/case051.npz/uniform_white",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case051.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case051.npz/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "public_api/case051.npz/clustered_correlated",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case051.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case051.npz/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "public_api/case051.npz/sparse_floor",
+      "passed": true,
+      "decision": "QUMOND",
+      "p_values": [
+        0.001998001998001998,
+        1.0
+      ]
+    },
+    {
+      "name": "saved_counts/case051.npz/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "scope_refusal/case051.npz/sparse_floor",
+      "passed": true
+    }
+  ],
+  "checks_count": 66,
+  "saved_parent_catalogues": 4,
+  "paired_views": 12,
+  "scope": "Bounded replay through the relocated production public API; independent decision reconstruction is a separate review.",
+  "full_banks_regenerated": false,
+  "full_calibration_rerun": false,
+  "sky_ready": false,
+  "source_sha256": "b9e53ddf692877c033fa725b4bde05abf8aa68fe22b98ca146fa766a23e97566"
+}

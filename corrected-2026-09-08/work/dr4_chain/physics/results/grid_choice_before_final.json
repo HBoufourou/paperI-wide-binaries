@@ -1,0 +1,8 @@
+{
+  "selected_model": "model_refined.npz",
+  "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+  "initial_development_max_error": 0.006873240282847567,
+  "refinement_trigger": 0.005,
+  "fixed_before_final": true,
+  "protocol_sha256": "48276e4ae092a508b095c73693f12cd5c85b9da173e51500c5aa4f041befd6ee"
+}

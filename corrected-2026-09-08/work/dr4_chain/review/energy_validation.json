@@ -1,0 +1,1006 @@
+{
+  "implementation_sha256": "111ef7e61102e7756eac9d0195405faa433617ff39aa6901d4d67892fc13578e",
+  "driver_sha256": "88c75f8dd891375fe3036a6291043bc9c163da580d587cee7043efe38739598a",
+  "analytic": {
+    "qphantom_derivative_relative_error": 9.390399569042529e-11,
+    "mixed_integral_vs_direct_at_002_absolute_normalized": 9.296682904746383e-10,
+    "external_tail_hessian_limit_relative_error": 8.64014328890013e-09,
+    "passed": true
+  },
+  "integrals": [
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11308244179504114,
+      "U": -0.36308224647973003,
+      "Psi": -1.4523289859189201,
+      "nodes": 19906560,
+      "seconds": 12.51869821548462
+    },
+    {
+      "q": 1.0,
+      "d": 0.996,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.2510038183862651,
+      "phantom_energy": -0.11341908648576539,
+      "U": -0.3644229048720305,
+      "Psi": -1.457691619488122,
+      "nodes": 5898240,
+      "seconds": 3.4346418380737305
+    },
+    {
+      "q": 1.0,
+      "d": 1.004,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.2490037910736119,
+      "phantom_energy": -0.11274720476244501,
+      "U": -0.3617509958360569,
+      "Psi": -1.4470039833442276,
+      "nodes": 5898240,
+      "seconds": 4.563096284866333
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 44.770816881947674,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11315322441014866,
+      "U": -0.36315302909483754,
+      "Psi": -1.4526121163793502,
+      "nodes": 5898240,
+      "seconds": 3.7721621990203857
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 45.229183118052326,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11301157603080916,
+      "U": -0.36301138071549804,
+      "Psi": -1.4520455228619922,
+      "nodes": 5898240,
+      "seconds": 4.070447683334351
+    },
+    {
+      "q": 1.0,
+      "d": 0.996,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.2510038183862651,
+      "phantom_energy": -0.11341908476615188,
+      "U": -0.364422903152417,
+      "Psi": -1.457691612609668,
+      "nodes": 19906560,
+      "seconds": 17.986225605010986
+    },
+    {
+      "q": 1.0,
+      "d": 1.004,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.2490037910736119,
+      "phantom_energy": -0.11274720546399936,
+      "U": -0.3617509965376112,
+      "Psi": -1.447003986150445,
+      "nodes": 19906560,
+      "seconds": 13.113821029663086
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 44.770816881947674,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11315322440337208,
+      "U": -0.36315302908806096,
+      "Psi": -1.4526121163522439,
+      "nodes": 19906560,
+      "seconds": 13.335767984390259
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 45.229183118052326,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11301157504632761,
+      "U": -0.3630113797310165,
+      "Psi": -1.452045518924066,
+      "nodes": 19906560,
+      "seconds": 13.300539493560791
+    },
+    {
+      "q": 1.0,
+      "d": 0.998,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.25050080551209136,
+      "phantom_energy": -0.11325058721465996,
+      "U": -0.36375139272675133,
+      "Psi": -1.4550055709070053,
+      "nodes": 19906560,
+      "seconds": 10.119526624679565
+    },
+    {
+      "q": 1.0,
+      "d": 1.002,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24950080385591103,
+      "phantom_energy": -0.11291464803578333,
+      "U": -0.36241545189169433,
+      "Psi": -1.4496618075667773,
+      "nodes": 19906560,
+      "seconds": 11.56087875366211
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 44.88540844097383,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11311784386837571,
+      "U": -0.3631176485530646,
+      "Psi": -1.4524705942122584,
+      "nodes": 19906560,
+      "seconds": 20.228989601135254
+    },
+    {
+      "q": 1.0,
+      "d": 1.0,
+      "theta_deg": 45.11459155902617,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.5,
+        0.5
+      ],
+      "softenings": [
+        0.0008838834764831845,
+        0.0008838834764831845
+      ],
+      "newton_energy": -0.24999980468468888,
+      "phantom_energy": -0.11304701868673024,
+      "U": -0.36304682337141914,
+      "Psi": -1.4521872934856765,
+      "nodes": 19906560,
+      "seconds": 14.754185438156128
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07872381787477553,
+      "U": -0.2562384720893619,
+      "Psi": -1.4434767261034056,
+      "nodes": 19906560,
+      "seconds": 12.428328275680542
+    },
+    {
+      "q": 0.3,
+      "d": 0.996,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17822756335181217,
+      "phantom_energy": -0.078982504124338,
+      "U": -0.25721006747615016,
+      "Psi": -1.4489500467823129,
+      "nodes": 5898240,
+      "seconds": 3.3072328567504883
+    },
+    {
+      "q": 0.3,
+      "d": 1.004,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.1768074256149935,
+      "phantom_energy": -0.07846632702379289,
+      "U": -0.2552737526387864,
+      "Psi": -1.4380421398651635,
+      "nodes": 5898240,
+      "seconds": 2.7512431144714355
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 44.770816881947674,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.0787811603566654,
+      "U": -0.2562958145712518,
+      "Psi": -1.443799755418052,
+      "nodes": 5898240,
+      "seconds": 3.1832711696624756
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.229183118052326,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 8,
+      "nphi": 32,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07866654020677655,
+      "U": -0.2561811944213629,
+      "Psi": -1.4431540619070113,
+      "nodes": 5898240,
+      "seconds": 3.9790239334106445
+    },
+    {
+      "q": 0.3,
+      "d": 0.996,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17822756335181217,
+      "phantom_energy": -0.07898251099381291,
+      "U": -0.2572100743456251,
+      "Psi": -1.448950085480355,
+      "nodes": 19906560,
+      "seconds": 20.13390326499939
+    },
+    {
+      "q": 0.3,
+      "d": 1.004,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.1768074256149935,
+      "phantom_energy": -0.07846633208576272,
+      "U": -0.2552737577007562,
+      "Psi": -1.438042168380927,
+      "nodes": 19906560,
+      "seconds": 14.116117477416992
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 44.770816881947674,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07878116575102706,
+      "U": -0.25629581996561346,
+      "Psi": -1.4437997858062894,
+      "nodes": 19906560,
+      "seconds": 10.713539123535156
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.229183118052326,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07866654667063148,
+      "U": -0.25618120088521784,
+      "Psi": -1.4431540983200608,
+      "nodes": 19906560,
+      "seconds": 15.687312602996826
+    },
+    {
+      "q": 0.3,
+      "d": 0.998,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17787039444706737,
+      "phantom_energy": -0.07885301340107782,
+      "U": -0.2567234078481452,
+      "Psi": -1.446208530877885,
+      "nodes": 19906560,
+      "seconds": 9.962192058563232
+    },
+    {
+      "q": 0.3,
+      "d": 1.002,
+      "theta_deg": 45.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17716033409947196,
+      "phantom_energy": -0.07859492418181817,
+      "U": -0.25575525828129014,
+      "Psi": -1.440754621651268,
+      "nodes": 19906560,
+      "seconds": 12.808107852935791
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 44.88540844097383,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07875248255345148,
+      "U": -0.25626713676803786,
+      "Psi": -1.4436382037932802,
+      "nodes": 19906560,
+      "seconds": 18.65922212600708
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 45.11459155902617,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.07869517236425785,
+      "U": -0.2562098265788442,
+      "Psi": -1.443315356394156,
+      "nodes": 19906560,
+      "seconds": 13.112525463104248
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 135.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.082969338681579,
+      "U": -0.26048399289616536,
+      "Psi": -1.4673931599817318,
+      "nodes": 19906560,
+      "seconds": 16.763651847839355
+    },
+    {
+      "q": 0.3,
+      "d": 0.996,
+      "theta_deg": 135.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17822756335181217,
+      "phantom_energy": -0.08320979859374397,
+      "U": -0.2614373619455561,
+      "Psi": -1.472763805626633,
+      "nodes": 19906560,
+      "seconds": 11.230282068252563
+    },
+    {
+      "q": 0.3,
+      "d": 1.004,
+      "theta_deg": 135.0,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.1768074256149935,
+      "phantom_energy": -0.08272988171373659,
+      "U": -0.2595373073287301,
+      "Psi": -1.4620601646185132,
+      "nodes": 19906560,
+      "seconds": 10.81633472442627
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 134.77081688194767,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.0829214296008779,
+      "U": -0.26043608381546424,
+      "Psi": -1.4671232721604488,
+      "nodes": 19906560,
+      "seconds": 14.05087161064148
+    },
+    {
+      "q": 0.3,
+      "d": 1.0,
+      "theta_deg": 135.22918311805233,
+      "ext_newtonian": 1.0,
+      "epsilon": 0.00125,
+      "order": 12,
+      "nphi": 48,
+      "radial_max": 1000.0,
+      "threshold": 0.002,
+      "masses": [
+        0.7692307692307692,
+        0.23076923076923075
+      ],
+      "softenings": [
+        0.0010963225241337866,
+        0.0006004805767690768
+      ],
+      "newton_energy": -0.17751465421458637,
+      "phantom_energy": -0.08301713948027195,
+      "U": -0.26053179369485835,
+      "Psi": -1.467662437814369,
+      "nodes": 19906560,
+      "seconds": 36.524455547332764
+    }
+  ],
+  "gradients": [
+    {
+      "q": 1.0,
+      "theta": 45.0,
+      "order": 8,
+      "step_r": 0.004,
+      "step_theta_radians": 0.004,
+      "U_centre": -0.36308224647973003,
+      "radial_derivative": 0.33398862949669816,
+      "angular_derivative": 0.01770604741743731,
+      "force1_lab": [
+        0.24868569095319715,
+        0.0,
+        0.22364555855943619
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q1_d1_t45_reference.json",
+        "sha256": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e",
+        "force": [
+          0.2486826333962669,
+          3.902508585190382e-19,
+          0.22364208135936922
+        ]
+      },
+      "force_reference_relative_error": 1.3844361831929461e-05,
+      "force_reference_component_difference": [
+        3.0575569302526695e-06,
+        -3.902508585190382e-19,
+        3.477200066964725e-06
+      ]
+    },
+    {
+      "q": 1.0,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.004,
+      "step_theta_radians": 0.004,
+      "U_centre": -0.36308224647973003,
+      "radial_derivative": 0.33398832685072044,
+      "angular_derivative": 0.017706169630558877,
+      "force1_lab": [
+        0.24868556336790099,
+        0.0,
+        0.22364525813868602
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q1_d1_t45_reference.json",
+        "sha256": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e",
+        "force": [
+          0.2486826333962669,
+          3.902508585190382e-19,
+          0.22364208135936922
+        ]
+      },
+      "force_reference_relative_error": 1.2921545818920032e-05,
+      "force_reference_component_difference": [
+        2.929971634091366e-06,
+        -3.902508585190382e-19,
+        3.176779316799161e-06
+      ]
+    },
+    {
+      "q": 1.0,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.002,
+      "step_theta_radians": 0.002,
+      "U_centre": -0.36308224647973003,
+      "radial_derivative": 0.33398520876425086,
+      "angular_derivative": 0.017706295411368256,
+      "force1_lab": [
+        0.2486834474882773,
+        0.0,
+        0.2236429643781358
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q1_d1_t45_reference.json",
+        "sha256": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e",
+        "force": [
+          0.2486826333962669,
+          3.902508585190382e-19,
+          0.22364208135936922
+        ]
+      },
+      "force_reference_relative_error": 3.591020990828981e-06,
+      "force_reference_component_difference": [
+        8.140920104149352e-07,
+        -3.902508585190382e-19,
+        8.830187665787026e-07
+      ]
+    },
+    {
+      "q": 0.3,
+      "theta": 45.0,
+      "order": 8,
+      "step_r": 0.004,
+      "step_theta_radians": 0.004,
+      "U_centre": -0.2562384720893619,
+      "radial_derivative": 0.242039354670473,
+      "angular_derivative": 0.0143275187361111,
+      "force1_lab": [
+        0.1812787546573888,
+        0.0,
+        0.16101658334562585
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q0.3_d1_t45_reference.json",
+        "sha256": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+        "force": [
+          0.181276738575915,
+          3.9558276726175826e-20,
+          0.16101414636761427
+        ]
+      },
+      "force_reference_relative_error": 1.3044723301812935e-05,
+      "force_reference_component_difference": [
+        2.0160814737935073e-06,
+        -3.9558276726175826e-20,
+        2.4369780115829354e-06
+      ]
+    },
+    {
+      "q": 0.3,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.004,
+      "step_theta_radians": 0.004,
+      "U_centre": -0.2562384720893619,
+      "radial_derivative": 0.24203958060860925,
+      "angular_derivative": 0.014327385049452135,
+      "force1_lab": [
+        0.181278819889034,
+        0.0,
+        0.16101683763875724
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q0.3_d1_t45_reference.json",
+        "sha256": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+        "force": [
+          0.181276738575915,
+          3.9558276726175826e-20,
+          0.16101414636761427
+        ]
+      },
+      "force_reference_relative_error": 1.4031913002715414e-05,
+      "force_reference_component_difference": [
+        2.081313118990069e-06,
+        -3.9558276726175826e-20,
+        2.691271142968299e-06
+      ]
+    },
+    {
+      "q": 0.3,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.002,
+      "step_theta_radians": 0.002,
+      "U_centre": -0.2562384720893619,
+      "radial_derivative": 0.24203739171375915,
+      "angular_derivative": 0.01432754729840946,
+      "force1_lab": [
+        0.18127738683398015,
+        0.0,
+        0.16101517512902747
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q0.3_d1_t45_reference.json",
+        "sha256": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+        "force": [
+          0.181276738575915,
+          3.9558276726175826e-20,
+          0.16101414636761427
+        ]
+      },
+      "force_reference_relative_error": 5.015147604545412e-06,
+      "force_reference_component_difference": [
+        6.482580651445691e-07,
+        -3.9558276726175826e-20,
+        1.0287614131965217e-06
+      ]
+    },
+    {
+      "q": 0.3,
+      "theta": 135.0,
+      "order": 12,
+      "step_r": 0.004,
+      "step_theta_radians": 0.004,
+      "U_centre": -0.26048399289616536,
+      "radial_derivative": 0.23750682710325238,
+      "angular_derivative": -0.011963734924264058,
+      "force1_lab": [
+        0.17640232611607612,
+        0.0,
+        -0.1594830499295452
+      ],
+      "reference": null
+    }
+  ],
+  "scope": "Independent prolate potential: finite Plummer q=1,.3; E_N=1. No population/sky conclusion.",
+  "predeclared_tolerances": {
+    "last_order_force_relative": 0.0001,
+    "last_step_force_relative": 0.0001,
+    "force_reference_relative": 0.0001
+  },
+  "complete": true,
+  "convergence": [
+    {
+      "q": 1.0,
+      "order_relative_change": 9.758802503851198e-07,
+      "step_relative_change": 9.330491566413993e-06
+    },
+    {
+      "q": 0.3,
+      "order_relative_change": 1.0827475540014395e-06,
+      "step_relative_change": 9.052586154758116e-06
+    }
+  ],
+  "numerical_checks_passed": true,
+  "seconds": 373.1398460865021
+}

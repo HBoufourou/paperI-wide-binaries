@@ -1,0 +1,12 @@
+{
+  "cubic_max_error": 1.3322676295501878e-15,
+  "bernstein_contains_samples": true,
+  "efe_exact_max_error": 0.0,
+  "newton_exact_max_error": 2.2737367544323206e-13,
+  "domain_refusal": [
+    true,
+    true,
+    true
+  ],
+  "passed": true
+}

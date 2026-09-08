@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "evidence_verified": true,
+  "sky_ready": false,
+  "prespecified_protocol_completed": true,
+  "all_scientific_targets_passed": false,
+  "all_classification_count_primary_passed": true,
+  "primary_method": "full66",
+  "primary_rule": "envelope",
+  "test_cells": 540,
+  "primary_classification_wilson_passed": 531,
+  "primary_retention_wilson_passed": 501,
+  "primary_both_wilson_passed": 501,
+  "diagnostics_uniform_advantage_demonstrated": false,
+  "all_calibration_transfer_targets_met": false,
+  "external_human_peer_review_claimed": false,
+  "external_submission_performed": false,
+  "protocols": {
+    "PROTOCOL.md": "a61aeba7919eab1fc10501f8554ccb45d870481063ecf977fdfd7ecf8ebc34be",
+    "GENERATION_PROTOCOL.json": "8e263ce8fc8ec2d1ef13f1a62d957e6e370e0cebaa2467e4e4ce2b17ad21dd2a",
+    "stats/STATISTICAL_DECLARATION.json": "24bdfece1e55386406ede8ed11facb7febe8c9189e4730428b2ed2b36784694d"
+  },
+  "evidence": {
+    "work/final_paper/review/physical_banks_verification.json": "006f16b21c9685858652b5d4af0e8d7a9279838c9439f607e5fadefd62b5ac8a",
+    "work/final_paper/review/statistics_verification.json": "cbf56b41536a143826773469fbaedfae9b5b492346acb3a65c7431046c7f73fb",
+    "work/final_paper/review/provenance_verification.json": "4d5441b0dbe6112a820b6e593b734872a6e9279f21cb10addeaec24b2c869da4",
+    "work/final_paper/review/delivery_api_verification.json": "848be529d6729a2084f65e086d039e1ea00189ee3ae50ae83bc29fa05e3a774b",
+    "work/final_paper/review/relocation_verification.json": "a2d05424818826ca9dfe81881cefe0c74bc9d3a856daa95adb094cb0e2918b57",
+    "work/final_paper/review/PDF_QA.json": "734018246f8fec4391732a33bdc0059117e5213b6bc59acbfd5cb0c1dee64916",
+    "work/final_paper/review/MANUSCRIPT_NUMBERS_CHECK.md": "dc7e8506890fe238d73f7ddb6f2727f65c436ee59379fcf2cc081868f6e002a6",
+    "work/final_paper/review/FINAL_MANUSCRIPT_REVIEW.md": "78d8c4d2eb66915ef8816b14785ec39574572fad4fd0b695a046662bfceca46c",
+    "work/final_paper/review/FINAL_TEXT_VERIFICATION.json": "0b7fa09c671b1c34e51ad5b4bc8f3c1448471ac46154049370dd5bbe9bfad589"
+  },
+  "outputs": {
+    "ARTICLE_FINAL.md": "94c578c0a2de402af947d4a723b871cd77331f617effd3de062dd12401e42e50",
+    "ARTICLE_FINAL.pdf": "ae25b9065b44b3c719fdda74eb01110fed3b992a29c94538693bebfe9eab22c4",
+    "comparaisons_appariees.csv": "d07d7ba6aad16333537c27ff699230ba5e85474ed78694250643054dee0fb0b6",
+    "CONTROLES_ET_LIMITES.md": "fc7848998ee790b1a4c2297dd37218a5311494b0c77f3b22429806c875231642",
+    "COURRIERS_ET_ARXIV.md": "55318356ff2100a7ea9cf6cf751ba76e918ed1c78c08695637a4d720acfa87bc",
+    "LIRE_EN_PREMIER.md": "7dad86bd8249a7b6c9d5952eb5cd11f5a2a90bbc7efe027346c90256041e38cd",
+    "NOTE_DE_CORRECTION.md": "3f09b0da5e820b6c86e00fcf051c8141ec9ec0c0fcf202ad5a8f0f8bc4110073",
+    "POSITIONNEMENT_SCIENTIFIQUE.md": "549c029dc4b99d05ca6c7de89ddd4d023a0eedd99a4cb2493766bc0bb7503ef0",
+    "REPRODUIRE.md": "b87d821d218e8c2cf6fc4ba96427a41167361cdea2e7facad873f21cec86cc06",
+    "resultats_par_condition.csv": "160619d0bb1769249d97fda28bb39f9d57432ea638f61f5999db353654f1ff5b"
+  },
+  "numerical_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  }
+}

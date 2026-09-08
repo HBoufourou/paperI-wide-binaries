@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "scope": "Minimal external-file closure for the entire new dr4_chain subtree, including independent controls; this is an inventory, not a frozen completion certificate.",
+  "path_base": "Package/project root containing work/",
+  "new_subtree": {
+    "path": "work/dr4_chain",
+    "include": "Preserve the entire new subtree, including protocols, sources, saved libraries, manifests, controls and disclosed software history.",
+    "exclude": [
+      "**/__pycache__/**",
+      "**/*.pyc"
+    ]
+  },
+  "external_files": [
+    {
+      "path": "work/dr4_binary/physics/binary_qumond.py",
+      "bytes": 9370,
+      "sha256": "e08bbda0dc2966fd52df4b42d4191b4c115ede5b53f821fd1658f3a4e65bf82f",
+      "consumers": [
+        "work/dr4_chain/physics/interaction_energy.py",
+        "work/dr4_chain/physics/validate_model.py"
+      ],
+      "purpose": "Shared quadrature/source-field helpers and independent force-reference evaluator; NumPy and standard library only."
+    },
+    {
+      "path": "work/dr4_binary/physics/results/jobs/reference_E1_q0.1_d1_t45_reference.json",
+      "bytes": 2098,
+      "sha256": "b437b86d40ff7d86164aba326026ef53e98d385ed96c353a844c2d81d35accc5",
+      "consumers": [
+        "work/dr4_chain/physics/validate_model.py"
+      ],
+      "purpose": "Frozen earlier direct two-source force reference; numeric payload is read without importing an earlier experiment."
+    },
+    {
+      "path": "work/dr4_binary/physics/results/jobs/reference_E1_q0.3_d1_t45_reference.json",
+      "bytes": 2110,
+      "sha256": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+      "consumers": [
+        "work/dr4_chain/physics/validate_model.py",
+        "work/dr4_chain/review/check_energy.py"
+      ],
+      "purpose": "Frozen earlier direct two-source force reference; numeric payload is read without importing an earlier experiment."
+    },
+    {
+      "path": "work/dr4_binary/physics/results/jobs/reference_E1_q1_d1_t45_reference.json",
+      "bytes": 2052,
+      "sha256": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e",
+      "consumers": [
+        "work/dr4_chain/physics/validate_model.py",
+        "work/dr4_chain/review/check_energy.py"
+      ],
+      "purpose": "Frozen earlier direct two-source force reference; numeric payload is read without importing an earlier experiment."
+    },
+    {
+      "path": "work/dr4_binary/companions/epoch_operator_extended.py",
+      "bytes": 11154,
+      "sha256": "57d6b2f1ba761fae481650cb3cb483508f73cd644804ff527703fa4fdaa78ed2",
+      "consumers": [
+        "work/dr4_chain/build_observer.py",
+        "work/dr4_chain/verify_observer.py"
+      ],
+      "purpose": "Exact source for the derived observer and frozen comparator; the builder checks its SHA256. Standalone NumPy and standard library."
+    },
+    {
+      "path": "work/originality/dr4/run_comparison.py",
+      "bytes": 11414,
+      "sha256": "3e61444637df120ccfbcb4f20eca944e442881c0e2d2013ee2224a3d8852d40e",
+      "consumers": [
+        "work/dr4_chain/population.py",
+        "work/dr4_chain/generate_banks.py"
+      ],
+      "purpose": "Only source_data() supplies the inherited, already selected empirical covariates. Import also requires pandas and epoch_operator.py; the old experiment main is not executed."
+    },
+    {
+      "path": "work/originality/dr4/epoch_operator.py",
+      "bytes": 9571,
+      "sha256": "ce972bfab0e133c452b7fa67cc03ad38ce6069c5d1db7b90d78a97011d3d73b8",
+      "consumers": [
+        "work/originality/dr4/run_comparison.py"
+      ],
+      "purpose": "Required by the old selection-provider module import. Its old orbit/observation experiment is not executed."
+    },
+    {
+      "path": "work/reanalysis/data/observation_arrays.npz",
+      "bytes": 40078099,
+      "sha256": "d16096a9461609023af77adc4d4e7f503b28a45c366e86fdb6e62ab98d0c0534",
+      "consumers": [
+        "work/originality/dr4/run_comparison.py",
+        "work/dr4_chain/generate_banks.py",
+        "work/dr4_chain/review/verify_populations.py"
+      ],
+      "purpose": "Frozen reduced empirical observed catalogue used as covariates, not as the new synthetic decision truth."
+    }
+  ],
+  "external_file_count": 8,
+  "external_total_bytes": 40125868,
+  "runtime": {
+    "executed_python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "required": [
+      "Python standard library",
+      "NumPy",
+      "pandas (inherited source_data module import)"
+    ],
+    "independent_review": [
+      "Python standard library",
+      "NumPy"
+    ],
+    "network_required": false,
+    "optional_plotting_dependencies": []
+  },
+  "source_snapshot": [
+    {
+      "path": "work/dr4_chain/AMENDMENT_01_PHOTOMETRIC_ANCHOR.md",
+      "bytes": 1678,
+      "sha256": "50254880bfdb2930f0ad370a903a99fc83f36f60de990b1baad66336db209710"
+    },
+    {
+      "path": "work/dr4_chain/assemble_status.py",
+      "bytes": 8721,
+      "sha256": "a903049376956c0265c966f5396081e6201714725f7c2ccaf38c5134638a2686"
+    },
+    {
+      "path": "work/dr4_chain/build_observer.py",
+      "bytes": 3468,
+      "sha256": "25ebcd6ae3cd739e518fccb106ccd383d3bb91a1d7fa5858d12567e43da2da69"
+    },
+    {
+      "path": "work/dr4_chain/decision/AMENDMENT_01_TEST_SEEDS.md",
+      "bytes": 2482,
+      "sha256": "8750d0dbf7517898071c526cee6d532b0c94445e1810d422e3e01de025536f29"
+    },
+    {
+      "path": "work/dr4_chain/decision/audit_history/prefreeze_executed_source/seed_audit.py",
+      "bytes": 8719,
+      "sha256": "9eb8760389be48d27a512fd272708c09e6bdccfb0db9bcb63b920f5fe4aa09cd"
+    },
+    {
+      "path": "work/dr4_chain/decision/BANK_CONTRACT.md",
+      "bytes": 4124,
+      "sha256": "2a9de73d22503086bf71e8335de16a07c512d62c69c8bf548bde55f157d61602"
+    },
+    {
+      "path": "work/dr4_chain/decision/engine.py",
+      "bytes": 23004,
+      "sha256": "17ea561738cf9d9b75fa350529358c0bf444fa19ced5a6a870cb03d8b98589c6"
+    },
+    {
+      "path": "work/dr4_chain/decision/PROTOCOL.md",
+      "bytes": 11590,
+      "sha256": "4c9ce8eb07dfebd01938d5cdb91a95ca623a0e3c14a285929bcd177a21531006"
+    },
+    {
+      "path": "work/dr4_chain/decision/report_results.py",
+      "bytes": 11771,
+      "sha256": "4f8c239a8f70335805cb0285ae0e4c47ed5dd5ea60ef28a203a731d8962feb65"
+    },
+    {
+      "path": "work/dr4_chain/decision/seed_audit.py",
+      "bytes": 10051,
+      "sha256": "9ca386d52167238bb273d386dad32872d2574ed885ed55f9d977c4c901e42aa1"
+    },
+    {
+      "path": "work/dr4_chain/decision/software_smoke.py",
+      "bytes": 4158,
+      "sha256": "1b47c191d9ac7a68d461d9d689ddec4042433ad264c7d18333b935c36b44c539"
+    },
+    {
+      "path": "work/dr4_chain/decision/test_engine.py",
+      "bytes": 5298,
+      "sha256": "735b298a7987c7a88e5bf1bd4d3ce6a313e25ab20e549579564272510a3f06f6"
+    },
+    {
+      "path": "work/dr4_chain/generate_banks.py",
+      "bytes": 9126,
+      "sha256": "3a4fda62507dc4b2716b360e47d5f266f740df3f960c09c64cd8b07251d59f1d"
+    },
+    {
+      "path": "work/dr4_chain/inventory_dependencies.py",
+      "bytes": 6864,
+      "sha256": "8ae2b6ed137979b0ad42b9c66a5f41b0ceae61c64da361afac588a08ea5c7caf"
+    },
+    {
+      "path": "work/dr4_chain/joint_observer.py",
+      "bytes": 12625,
+      "sha256": "278ee60927b4cb905456cbee07b82d6be2e87b4a0337d00f2ce49767c3f75f22"
+    },
+    {
+      "path": "work/dr4_chain/OBSERVER_PROTOCOL.md",
+      "bytes": 3590,
+      "sha256": "7f239ec1fafd1fc31af508004378aa0df1235f4fde38ecc83a70d74e861912bc"
+    },
+    {
+      "path": "work/dr4_chain/orbits.py",
+      "bytes": 3080,
+      "sha256": "efbfa94ff5cc169594e7b9eccaf9446b89cf7f720735665698a68d50b1853050"
+    },
+    {
+      "path": "work/dr4_chain/physics/API.md",
+      "bytes": 2765,
+      "sha256": "fbf1f4976288215d1722ca3fd859e64387439638632e6a544056c3a47a5e3c66"
+    },
+    {
+      "path": "work/dr4_chain/physics/build_grid.py",
+      "bytes": 3083,
+      "sha256": "567a91501a9b55e5c820d2e17d4d7282e88b5d5e52b30593d14eff3348d71a6d"
+    },
+    {
+      "path": "work/dr4_chain/physics/DERIVATION.md",
+      "bytes": 2987,
+      "sha256": "b9811b80fbd12026c1705e4e6941ac493a5adaa036637da8451d7f1c6b13c9ed"
+    },
+    {
+      "path": "work/dr4_chain/physics/interaction_energy.py",
+      "bytes": 5323,
+      "sha256": "631b6c8d77ffa51d9e05bbfd328625209a4d1a2575a7252571d93617195c8e33"
+    },
+    {
+      "path": "work/dr4_chain/physics/interaction_model.py",
+      "bytes": 7799,
+      "sha256": "3551de4294b95d32c1c0b90d2d29b463a6432e821948ad8c07f57cdcbc20cef7"
+    },
+    {
+      "path": "work/dr4_chain/physics/PROTOCOL.md",
+      "bytes": 6155,
+      "sha256": "48276e4ae092a508b095c73693f12cd5c85b9da173e51500c5aa4f041befd6ee"
+    },
+    {
+      "path": "work/dr4_chain/physics/run_pipeline.py",
+      "bytes": 1233,
+      "sha256": "dd6200a95ee8d2a0bd84ed702dc48acf1796104e2bc9838cac7c1abefc64b8ef"
+    },
+    {
+      "path": "work/dr4_chain/physics/test_interpolant.py",
+      "bytes": 2288,
+      "sha256": "f5ab69fb561ef9a13cb49d82135908c5d217245a4883ae0187c80eadb769ad68"
+    },
+    {
+      "path": "work/dr4_chain/physics/validate_model.py",
+      "bytes": 6477,
+      "sha256": "f7bfe5b421034c511161122923912b1f9ff64cff4d93d16bf528fe78070c0f76"
+    },
+    {
+      "path": "work/dr4_chain/physics/write_report.py",
+      "bytes": 7988,
+      "sha256": "f7fa50a8c95bd8967b1eac9eefefea71c9185ea5b3a179f52bb80822dfdf3b53"
+    },
+    {
+      "path": "work/dr4_chain/population.py",
+      "bytes": 7191,
+      "sha256": "ab6cdb6a40afcf88f1f28593363f9f1a664e0ac7b83ac2bbb1a1565a33a7a7f9"
+    },
+    {
+      "path": "work/dr4_chain/POPULATION_PROTOCOL.md",
+      "bytes": 8496,
+      "sha256": "643fd94adfd3099e46534f0024cc00095bb5923530914c0c501c5de6b9d4e929"
+    },
+    {
+      "path": "work/dr4_chain/review/check_available_populations.py",
+      "bytes": 1723,
+      "sha256": "c51658e9884061234b37b9d2b225ab9b25723ae011b465462a18dec7651b4825"
+    },
+    {
+      "path": "work/dr4_chain/review/check_energy.py",
+      "bytes": 5430,
+      "sha256": "88c75f8dd891375fe3036a6291043bc9c163da580d587cee7043efe38739598a"
+    },
+    {
+      "path": "work/dr4_chain/review/check_energy_numerics.py",
+      "bytes": 1695,
+      "sha256": "b7c073c16d1dcae0bd4e5086fbbac74ed985f6d8b1b491e56c36f79c341054de"
+    },
+    {
+      "path": "work/dr4_chain/review/export_model_probes.py",
+      "bytes": 3018,
+      "sha256": "761edd8462fc280a69498d8ccba1d2156f1b5022c8e30a154a038ba81bc903d1"
+    },
+    {
+      "path": "work/dr4_chain/review/independent_energy.py",
+      "bytes": 5752,
+      "sha256": "111ef7e61102e7756eac9d0195405faa433617ff39aa6901d4d67892fc13578e"
+    },
+    {
+      "path": "work/dr4_chain/review/report_energy.py",
+      "bytes": 5507,
+      "sha256": "77b446130caeb493b1842cb8944576b3da5c4698c08634920339dafce6b8ebda"
+    },
+    {
+      "path": "work/dr4_chain/review/REVIEW_PROTOCOL.md",
+      "bytes": 7268,
+      "sha256": "3b3d195a0e018fe667879a5d479532fde78df6af84b5c8b8b4067b77e63c83ac"
+    },
+    {
+      "path": "work/dr4_chain/review/verify_decisions.py",
+      "bytes": 17258,
+      "sha256": "d95e68577ebc34f8090c5dec118193cc7b02a339a97420080d28eb6c24f70193"
+    },
+    {
+      "path": "work/dr4_chain/review/verify_energy_grid.py",
+      "bytes": 2273,
+      "sha256": "dd2bd410c64aa32ca73eb0d599e8649d0c483c3f0a4f645b7fc1494928b3d7af"
+    },
+    {
+      "path": "work/dr4_chain/review/verify_interpolant.py",
+      "bytes": 10247,
+      "sha256": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406"
+    },
+    {
+      "path": "work/dr4_chain/review/verify_physics_report.py",
+      "bytes": 5596,
+      "sha256": "93f1b6019cf87242645c67603b9482e74c3a9b2110efc061c3c79044515442e7"
+    },
+    {
+      "path": "work/dr4_chain/review/verify_populations.py",
+      "bytes": 16265,
+      "sha256": "cf3d40fa2b480dab28acd695b11f5f9c65265a5ae3e812c5a25957e721b1eb93"
+    },
+    {
+      "path": "work/dr4_chain/review/write_review.py",
+      "bytes": 6917,
+      "sha256": "a69840882bf2c52dbdc490905feb47a582e56abd9b49b2c369b15ee23fb4ff9c"
+    },
+    {
+      "path": "work/dr4_chain/TRAJECTORY_PROTOCOL.md",
+      "bytes": 2820,
+      "sha256": "c55b72f3b0ccc4a25463856ff5453dd1cf29679ac562a1e9d2d0945464847e9d"
+    },
+    {
+      "path": "work/dr4_chain/validate_physical_chain.py",
+      "bytes": 6380,
+      "sha256": "faf03a7dd85dacbb2865ffe627c94785a0e360fbf54624a3cf3b955cafdeb808"
+    },
+    {
+      "path": "work/dr4_chain/verify_delivery_api.py",
+      "bytes": 4973,
+      "sha256": "b9e53ddf692877c033fa725b4bde05abf8aa68fe22b98ca146fa766a23e97566"
+    },
+    {
+      "path": "work/dr4_chain/verify_observer.py",
+      "bytes": 4912,
+      "sha256": "b6a204d340adf640d9fc0567f1c87ba319f2f17c6866969b92cd8a37151f15fc"
+    },
+    {
+      "path": "work/dr4_chain/verify_orbits.py",
+      "bytes": 3292,
+      "sha256": "6d7bed9c8f49b94181cf1a66dbcd17c61eace82fbaa79438f06f5433e70b3c7b"
+    },
+    {
+      "path": "work/dr4_chain/verify_population.py",
+      "bytes": 3032,
+      "sha256": "036651704a974a32e9bc9f7fc9dc9538a5e77a918cfac6e5aada3b184b0e52f5"
+    }
+  ],
+  "execution_status_snapshot": {
+    "proofs": {
+      "physics/validation.json": {
+        "present": true,
+        "sha256": "12147406cc268781152bfb36a06d40d369a2ab61047a14ba18accb9fe3562590",
+        "passed": true,
+        "status": null
+      },
+      "physical_validation.json": {
+        "present": true,
+        "sha256": "397361ce51f3fb97116565395411dd0c339c22f3a92ba061d54bb783c4fc477f",
+        "passed": true,
+        "status": "passed_for_declared_domain"
+      },
+      "POPULATION_IMPLEMENTATION_VALIDATION.json": {
+        "present": true,
+        "sha256": "532741bed997f73de01126e1da62d99f99fffec4879ba045bd3ddccb044cf1b4",
+        "passed": true,
+        "status": null
+      }
+    },
+    "bank_manifest_present": true,
+    "bank_record_count": 22,
+    "production_authorized": true,
+    "decision_frozen": true,
+    "decision_calibration_complete": true,
+    "decision_test_complete": true,
+    "warning": "Status is a read-only point-in-time snapshot while upstream work may continue; final manifests and reviews control completion."
+  },
+  "unnecessary_old_trees": [
+    "Earlier physical/paired/decision libraries",
+    "Earlier companion regression models and calibration/test catalogues",
+    "Earlier whole ZIP archives",
+    "Earlier axisymmetric solver tree",
+    "Earlier manuscript and plotting outputs"
+  ],
+  "raw_catalogue_note": "The frozen observation_arrays.npz is sufficient for this chain. Regenerating that earlier reduction from the official CSV is a separate upstream task with its own dependencies; it is not silently required here.",
+  "path_portability": {
+    "runtime": "New scientific bank population/observation paths are relative to work/dr4_chain; code locates dependencies from __file__. Run documented commands from the project root.",
+    "metadata": "Some archived proof/model/manifest path strings are execution metadata. Decision bank_manifest_path in EXECUTION_PROTOCOL.json is descriptive; runtime uses the explicit --manifest path and its bytes hash.",
+    "resume": "Existing GENERATION_PROTOCOL.json and decision execution protocol are intentionally immutable. Do not edit paths or hashes to bypass a mismatch. New generation in a clean source copy produces its own provenance; preserve original evidence separately.",
+    "hashing": "Elapsed times and compressed-container details can differ between independent regeneration runs. Compare scientific arrays/numerics with declared tolerances and retain each run's own hashes; never claim identical old-file hashes without verifying bytes."
+  },
+  "inventory_source_sha256": "8ae2b6ed137979b0ad42b9c66a5f41b0ceae61c64da361afac588a08ea5c7caf"
+}

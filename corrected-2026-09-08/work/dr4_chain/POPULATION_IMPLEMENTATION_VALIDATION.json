@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "checks": 47,
+  "records": [
+    {
+      "component": "pure",
+      "name": "finite arrays",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "Newton baseline importance weight",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "energy identity",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "Lz identity",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "binding band",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "inner barrier",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "outer barrier",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "projected selection",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "beta reweight",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "true mass ratio",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "photometric anchor",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "true mass flux conversion",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "photocentre separation identity",
+      "passed": true
+    },
+    {
+      "component": "pure",
+      "name": "roles not science",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "finite arrays",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "Newton baseline importance weight",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "energy identity",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "Lz identity",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "binding band",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "inner barrier",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "outer barrier",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "projected selection",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "beta reweight",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "true mass ratio",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "photometric anchor",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "true mass flux conversion",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "photocentre separation identity",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "hierarchy",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "flux mass",
+      "passed": true
+    },
+    {
+      "component": "comp40",
+      "name": "roles not science",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "finite arrays",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "Newton baseline importance weight",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "energy identity",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "Lz identity",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "binding band",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "inner barrier",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "outer barrier",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "projected selection",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "beta reweight",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "true mass ratio",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "photometric anchor",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "true mass flux conversion",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "photocentre separation identity",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "hierarchy",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "flux mass",
+      "passed": true
+    },
+    {
+      "component": "comp160",
+      "name": "roles not science",
+      "passed": true
+    },
+    {
+      "name": "empty companion proposal",
+      "passed": true
+    }
+  ],
+  "software_fixture_only": true,
+  "scientific_libraries_generated": false,
+  "physical_potential_validated": false,
+  "source_sha256": {
+    "population.py": "ab6cdb6a40afcf88f1f28593363f9f1a664e0ac7b83ac2bbb1a1565a33a7a7f9",
+    "POPULATION_PROTOCOL.md": "643fd94adfd3099e46534f0024cc00095bb5923530914c0c501c5de6b9d4e929",
+    "verify_population.py": "036651704a974a32e9bc9f7fc9dc9538a5e77a918cfac6e5aada3b184b0e52f5"
+  }
+}

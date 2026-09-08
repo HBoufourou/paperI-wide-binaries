@@ -1,0 +1,1246 @@
+{
+  "source_sha256": "f8f88e71a2c709410b00b16bf2be16bf2a595af9f4dcbd9f1481e4b6aa95d58a",
+  "independent_model_source_sha256": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406",
+  "scope": "All saved accepted rows and saved trajectory invariant statistics; no production import; rejected proposals/RNG stream not replayed.",
+  "stage": "trajectory",
+  "complete": true,
+  "passed": true,
+  "checks": [
+    {
+      "name": "physical/model_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/newton_initial.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/newton_uniform_white.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/newton_clustered_correlated.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/newton_sparse_floor.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/newton_long.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/qumond_initial.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/qumond_uniform_white.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/qumond_clustered_correlated.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/qumond_sparse_floor.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical/file_hash/trajectory_validation/qumond_long.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_row_selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_photometric_anchor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_distance_pc",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_ra_deg",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_dec_deg",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/empirical_PM_errors",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 2048
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.4988010832439613e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/admissible_energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/barrier",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.1102230246251565e-16,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/invariant_radius_domain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/barrier_at_inner_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/weight_beta1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 9.992007221626409e-16,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/weight_beta1p6",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/weight_beta1p3",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.2212453270876722e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/units_rM",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/source_fractions",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/source_masses",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/projected_barycentres",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.329070518200751e-15,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/inner_parameter_domain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/inner_hierarchy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/rotation_orthogonality",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3322676295501878e-15,
+        "elements": 4608
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/rotation_determinants",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.5543122344752192e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/unresolved_initial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/inner_monopole_mass",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/photometric_masses",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/photometric_anchor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 6.661338147750939e-16,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/anchored_true_mass",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/true_mass_flux_factor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/photocentre_offset",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.5768636396629176e-15,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/observed_projected_separation",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.329070518200751e-15,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/newton/projected_selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/newton/positive_empirical_covariates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/uniform_white/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/uniform_white/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.886316116054073e-15,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/clustered_correlated/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/clustered_correlated/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/sparse_floor/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/sparse_floor/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_radius/newton/coarse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_initial_position/newton/coarse",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_initial_velocity/newton/coarse",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_radius/newton/fine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_initial_position/newton/fine",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_initial_velocity/newton/fine",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/recount/newton/long_energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/long_energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/long_Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/long_Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/newton/long_refinement",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.897349275585384e-11,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/newton/long_refinement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_row_selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_photometric_anchor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_distance_pc",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_ra_deg",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_dec_deg",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/empirical_PM_errors",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 2048
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.6645352591003757e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/admissible_energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/barrier",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.220446049250313e-16,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/invariant_radius_domain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/barrier_at_inner_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/weight_beta1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 7.105427357601002e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/weight_beta1p6",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 7.549516567451064e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/weight_beta1p3",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 6.661338147750939e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/units_rM",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/source_fractions",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/source_masses",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/projected_barycentres",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.552713678800501e-15,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/inner_parameter_domain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/inner_hierarchy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/rotation_orthogonality",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "elements": 4608
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/rotation_determinants",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/unresolved_initial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/inner_monopole_mass",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/photometric_masses",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/photometric_anchor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 8.881784197001252e-16,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/anchored_true_mass",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/true_mass_flux_factor",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 512
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/photocentre_offset",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.645453300864631e-16,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/observed_projected_separation",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.552713678800501e-15,
+        "elements": 1024
+      }
+    },
+    {
+      "name": "trajectory_initial/qumond/projected_selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory_initial/qumond/positive_empirical_covariates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.0238444788304858e-15,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/uniform_white/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/uniform_white/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.0238444788304858e-15,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/clustered_correlated/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/clustered_correlated/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/position_refinement_AU",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/position_refinement_AU",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/joint_decomposition34",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/joint_decomposition34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/joint_decomposition66",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/joint_decomposition66",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/sparse_floor/shared_covariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/sparse_floor/shared_covariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_radius/qumond/coarse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_initial_position/qumond/coarse",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_initial_velocity/qumond/coarse",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_radius/qumond/fine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/long_initial_position/qumond/fine",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/long_initial_velocity/qumond/fine",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 72
+      }
+    },
+    {
+      "name": "trajectory/recount/qumond/long_energy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/long_energy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/long_Lz",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/long_Lz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trajectory/recount/qumond/long_refinement",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.092631540799971e-11,
+        "elements": 1
+      }
+    },
+    {
+      "name": "trajectory/criterion/qumond/long_refinement",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "checks_count": 173,
+  "populations": [
+    {
+      "label": "trajectory_initial/newton",
+      "rows": 512,
+      "companion_rows": 512,
+      "minimum_rlo": 0.03518408918224689,
+      "weights": {
+        "weight_beta1": {
+          "ess": 511.99999998267157,
+          "maximum_normalized_weight": 0.0019531312547519737,
+          "q_fractions": {
+            "0.1": 0.33593769058254336,
+            "0.3": 0.33984386917118625,
+            "1.0": 0.32421844024627045
+          }
+        },
+        "weight_beta1p6": {
+          "ess": 421.5267944376892,
+          "maximum_normalized_weight": 0.005059857349516116,
+          "q_fractions": {
+            "0.1": 0.31657325346572035,
+            "0.3": 0.3364493716555621,
+            "1.0": 0.34697737487871766
+          }
+        },
+        "weight_beta1p3": {
+          "ess": 487.6192044762641,
+          "maximum_normalized_weight": 0.003221258307219819,
+          "q_fractions": {
+            "0.1": 0.32675478185725443,
+            "0.3": 0.3382683368580939,
+            "1.0": 0.33497688128465153
+          }
+        }
+      }
+    },
+    {
+      "label": "trajectory_initial/qumond",
+      "rows": 512,
+      "companion_rows": 512,
+      "minimum_rlo": 0.03529973074952298,
+      "weights": {
+        "weight_beta1": {
+          "ess": 501.56221838061253,
+          "maximum_normalized_weight": 0.0027759750788704514,
+          "q_fractions": {
+            "0.1": 0.31063122152037587,
+            "0.3": 0.34372707721518536,
+            "1.0": 0.3456417012644389
+          }
+        },
+        "weight_beta1p6": {
+          "ess": 444.61859228067897,
+          "maximum_normalized_weight": 0.0038141535882540694,
+          "q_fractions": {
+            "0.1": 0.3205985384552464,
+            "0.3": 0.33344320152049456,
+            "1.0": 0.34595826002425906
+          }
+        },
+        "weight_beta1p3": {
+          "ess": 494.3132603886724,
+          "maximum_normalized_weight": 0.0028339222333539763,
+          "q_fractions": {
+            "0.1": 0.3145769533653673,
+            "0.3": 0.33909541231258994,
+            "1.0": 0.34632763432204267
+          }
+        }
+      }
+    }
+  ],
+  "total_accepted_rows": 1024,
+  "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+  "empirical_source_sha256": "d16096a9461609023af77adc4d4e7f503b28a45c366e86fdb6e62ab98d0c0534",
+  "seconds": 1.6299102306365967
+}

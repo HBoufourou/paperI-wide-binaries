@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": 11,
+  "records": [
+    {
+      "name": "Newton_point/relative_energy",
+      "value": 5.658588163360859e-07,
+      "threshold": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "Newton_point/refinement_ratio",
+      "value": 0.24973676441350728,
+      "threshold": 0.35,
+      "passed": true
+    },
+    {
+      "name": "Newton_point/Lz_conservation",
+      "value": 1.176836406102666e-14,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "Newton_point/reversibility_position",
+      "value": 9.314771176605063e-14,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Newton_point/reversibility_velocity",
+      "value": 1.2523315717771766e-13,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "homogeneous_anisotropic/relative_energy",
+      "value": 6.457195199412724e-05,
+      "threshold": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "homogeneous_anisotropic/refinement_ratio",
+      "value": 0.250280410443444,
+      "threshold": 0.35,
+      "passed": true
+    },
+    {
+      "name": "homogeneous_anisotropic/Lz_conservation",
+      "value": 1.3100631690576847e-14,
+      "threshold": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "homogeneous_anisotropic/reversibility_position",
+      "value": 1.219024881038422e-13,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "homogeneous_anisotropic/reversibility_velocity",
+      "value": 1.96787031114809e-13,
+      "threshold": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "barrier_root",
+      "value": 2.831068712794149e-15,
+      "threshold": 1e-10,
+      "passed": true
+    }
+  ],
+  "scope": "Analytical Newton point and homogeneous anisotropic Hamiltonians; does not validate two-mass QUMOND interpolant.",
+  "physical_model_validated": false,
+  "sky_ready": false,
+  "source_sha256": {
+    "orbits.py": "efbfa94ff5cc169594e7b9eccaf9446b89cf7f720735665698a68d50b1853050",
+    "verify_orbits.py": "6d7bed9c8f49b94181cf1a66dbcd17c61eace82fbaa79438f06f5433e70b3c7b"
+  }
+}

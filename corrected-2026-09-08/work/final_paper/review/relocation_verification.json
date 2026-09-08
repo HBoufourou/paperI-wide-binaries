@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "processes": [
+    {
+      "name": "unit",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "declaration",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "public_interface",
+      "passed": true,
+      "returncode": 0
+    }
+  ],
+  "files_copied": 22,
+  "bytes_copied": 135793513,
+  "public_interface_calls": 120,
+  "public_interface_checks": 497,
+  "complete_archive_extracted": false,
+  "entire_physics_regenerated": false,
+  "entire_statistics_reconstructed": false,
+  "scope": "Exact small relocation, unit suite, frozen declaration, four saved catalogues in all five modes, two rules and three scenarios."
+}

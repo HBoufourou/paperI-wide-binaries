@@ -1,0 +1,2004 @@
+{
+  "passed": true,
+  "checks_count": 497,
+  "checks": [
+    {
+      "name": "declaration",
+      "passed": true
+    },
+    {
+      "name": "bank_manifest",
+      "passed": true
+    },
+    {
+      "name": "templates",
+      "passed": true
+    },
+    {
+      "name": "calibration_reference",
+      "passed": true
+    },
+    {
+      "name": "calibration_manifest",
+      "passed": true
+    },
+    {
+      "name": "test_case",
+      "passed": true
+    },
+    {
+      "name": "pure/population",
+      "passed": true
+    },
+    {
+      "name": "pure/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "pure/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "pure/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "comp60/population",
+      "passed": true
+    },
+    {
+      "name": "comp60/uniform_white",
+      "passed": true
+    },
+    {
+      "name": "comp60/clustered_correlated",
+      "passed": true
+    },
+    {
+      "name": "comp60/sparse_floor",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/uniform_white/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/clustered_correlated/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "0/sparse_floor/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/uniform_white/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/clustered_correlated/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "1/sparse_floor/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/uniform_white/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/clustered_correlated/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "499/sparse_floor/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/uniform_white/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/clustered_correlated/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/no_diagnostics66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/full34/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/covariates_only66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/baseline/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/baseline/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/baseline/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/baseline/reason",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/envelope/supported",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/envelope/p_values",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/envelope/decision",
+      "passed": true
+    },
+    {
+      "name": "999/sparse_floor/conditional66/envelope/reason",
+      "passed": true
+    },
+    {
+      "name": "unsupported/494",
+      "passed": true
+    },
+    {
+      "name": "unsupported/495",
+      "passed": true
+    },
+    {
+      "name": "unsupported/496",
+      "passed": true
+    }
+  ],
+  "catalogues": 4,
+  "physical_case_index": 3,
+  "scenario_views": 12,
+  "method_rule_calls": 120,
+  "all_p_values_and_decisions_exact": true,
+  "source_sha256": "678e53bdd2b0788a02c40408b74b7b2f2ac954491c5d088ae0ced350b7227666",
+  "runtime_seconds": 8.739912600023672,
+  "physical_banks_regenerated": false,
+  "full_statistics_reconstructed": false,
+  "scope": "Bounded public-interface replay from saved measured fields; exact calibration values and classifications, including reduced-mode field isolation. No external Gaia validation."
+}

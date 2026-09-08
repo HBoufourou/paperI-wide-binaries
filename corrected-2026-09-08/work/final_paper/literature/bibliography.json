@@ -1,0 +1,375 @@
+[
+  {
+    "key": "milgrom2010",
+    "citation_text": "Mordehai Milgrom (2010). Quasi-linear formulation of MOND. Monthly Notices of the Royal Astronomical Society, 403, 886. https://doi.org/10.1111/j.1365-2966.2009.16184.x",
+    "authors": [
+      "Mordehai Milgrom"
+    ],
+    "title": "Quasi-linear formulation of MOND",
+    "year": 2010,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "403",
+    "pages": "886",
+    "doi": "10.1111/j.1365-2966.2009.16184.x",
+    "url": "https://arxiv.org/html/0911.5464",
+    "arxiv": "0911.5464",
+    "version_examined": "v2",
+    "metadata_url": "https://arxiv.org/abs/0911.5464",
+    "notes": null
+  },
+  {
+    "key": "banikzhao2015",
+    "citation_text": "Indranil Banik; Hongsheng Zhao (2018). The External Field Dominated Solution In QUMOND & AQUAL: Application To Tidal Streams. ScieFed Journal of Astrophysics, 1, 1000008.",
+    "authors": [
+      "Indranil Banik",
+      "Hongsheng Zhao"
+    ],
+    "title": "The External Field Dominated Solution In QUMOND & AQUAL: Application To Tidal Streams",
+    "year": 2018,
+    "journal": "ScieFed Journal of Astrophysics",
+    "volume": "1",
+    "pages": "1000008",
+    "doi": null,
+    "url": "https://arxiv.org/html/1509.08457v3",
+    "arxiv": "1509.08457",
+    "version_examined": "v3",
+    "metadata_url": "https://arxiv.org/abs/1509.08457",
+    "notes": "Stable key uses initial arXiv year 2015; journal year is 2018; arXiv version v3 examined is dated 2020. No unverified journal DOI."
+  },
+  {
+    "key": "clarke2020",
+    "citation_text": "C. J. Clarke (2020). The distribution of relative proper motions of wide binaries in Gaia DR2: MOND or multiplicity?. Monthly Notices of the Royal Astronomical Society: Letters, 491, L72–L75. https://doi.org/10.1093/mnrasl/slz161",
+    "authors": [
+      "C. J. Clarke"
+    ],
+    "title": "The distribution of relative proper motions of wide binaries in Gaia DR2: MOND or multiplicity?",
+    "year": 2020,
+    "journal": "Monthly Notices of the Royal Astronomical Society: Letters",
+    "volume": "491",
+    "pages": "L72--L75",
+    "doi": "10.1093/mnrasl/slz161",
+    "url": "https://academic.oup.com/mnrasl/article/491/1/L72/5613964",
+    "arxiv": "1910.10256",
+    "version_examined": null,
+    "metadata_url": "https://academic.oup.com/mnrasl/article/491/1/L72/5613964",
+    "notes": null
+  },
+  {
+    "key": "penoyre2020",
+    "citation_text": "Zephyr Penoyre; Vasily Belokurov; N. Wyn Evans; A. Everall; S. E. Koposov (2020). Binary deviations from single object astrometry. Monthly Notices of the Royal Astronomical Society, 495, 321. https://doi.org/10.1093/mnras/staa1148",
+    "authors": [
+      "Zephyr Penoyre",
+      "Vasily Belokurov",
+      "N. Wyn Evans",
+      "A. Everall",
+      "S. E. Koposov"
+    ],
+    "title": "Binary deviations from single object astrometry",
+    "year": 2020,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "495",
+    "pages": "321",
+    "doi": "10.1093/mnras/staa1148",
+    "url": "https://academic.oup.com/mnras/article/495/1/321/5828731",
+    "arxiv": "2003.05456",
+    "version_examined": null,
+    "metadata_url": "https://www.research.ed.ac.uk/en/publications/binary-deviations-from-single-object-astrometry/",
+    "notes": null
+  },
+  {
+    "key": "penoyre2022",
+    "citation_text": "Zephyr Penoyre; Vasily Belokurov; N. Wyn Evans (2022). Astrometric identification of nearby binary stars -- I. Predicted astrometric signals. Monthly Notices of the Royal Astronomical Society, 513, 2437–2456. https://doi.org/10.1093/mnras/stac959",
+    "authors": [
+      "Zephyr Penoyre",
+      "Vasily Belokurov",
+      "N. Wyn Evans"
+    ],
+    "title": "Astrometric identification of nearby binary stars -- I. Predicted astrometric signals",
+    "year": 2022,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "513",
+    "pages": "2437--2456",
+    "doi": "10.1093/mnras/stac959",
+    "url": "https://arxiv.org/html/2111.10380v3",
+    "arxiv": "2111.10380",
+    "version_examined": "v3",
+    "metadata_url": "https://arxiv.org/abs/2111.10380",
+    "notes": null
+  },
+  {
+    "key": "banik2024",
+    "citation_text": "Indranil Banik; Charalambos Pittordis; Will Sutherland; Benoit Famaey; Rodrigo Ibata; Steffen Mieske; Hongsheng Zhao (2024). Strong constraints on the gravitational law from Gaia DR3 wide binaries. Monthly Notices of the Royal Astronomical Society, 527, 4573–4615. https://doi.org/10.1093/mnras/stad3393",
+    "authors": [
+      "Indranil Banik",
+      "Charalambos Pittordis",
+      "Will Sutherland",
+      "Benoit Famaey",
+      "Rodrigo Ibata",
+      "Steffen Mieske",
+      "Hongsheng Zhao"
+    ],
+    "title": "Strong constraints on the gravitational law from Gaia DR3 wide binaries",
+    "year": 2024,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "527",
+    "pages": "4573--4615",
+    "doi": "10.1093/mnras/stad3393",
+    "url": "https://arxiv.org/html/2311.03436v2",
+    "arxiv": "2311.03436",
+    "version_examined": "v2",
+    "metadata_url": "https://research-repository.st-andrews.ac.uk/handle/10023/28927?show=full",
+    "notes": null
+  },
+  {
+    "key": "pittordis2025",
+    "citation_text": "Charalambos Pittordis; Will Sutherland; Paul Shepherd (2025). Wide Binaries from Gaia DR3: testing GR vs MOND with realistic triple modelling. The Open Journal of Astrophysics. https://doi.org/10.33232/001c.142887",
+    "authors": [
+      "Charalambos Pittordis",
+      "Will Sutherland",
+      "Paul Shepherd"
+    ],
+    "title": "Wide Binaries from Gaia DR3: testing GR vs MOND with realistic triple modelling",
+    "year": 2025,
+    "journal": "The Open Journal of Astrophysics",
+    "volume": null,
+    "pages": null,
+    "doi": "10.33232/001c.142887",
+    "url": "https://arxiv.org/html/2504.07569v2",
+    "arxiv": "2504.07569",
+    "version_examined": "v2",
+    "metadata_url": "https://arxiv.org/abs/2504.07569",
+    "notes": null
+  },
+  {
+    "key": "chae2024",
+    "citation_text": "Kyu-Hyun Chae (2024). Measurements of the Low-acceleration Gravitational Anomaly from the Normalized Velocity Profile of Gaia Wide Binary Stars and Statistical Testing of Newtonian and Milgromian Theories. The Astrophysical Journal, 972, 186. https://doi.org/10.3847/1538-4357/ad61e9",
+    "authors": [
+      "Kyu-Hyun Chae"
+    ],
+    "title": "Measurements of the Low-acceleration Gravitational Anomaly from the Normalized Velocity Profile of Gaia Wide Binary Stars and Statistical Testing of Newtonian and Milgromian Theories",
+    "year": 2024,
+    "journal": "The Astrophysical Journal",
+    "volume": "972",
+    "pages": "186",
+    "doi": "10.3847/1538-4357/ad61e9",
+    "url": "https://arxiv.org/html/2402.05720v4",
+    "arxiv": "2402.05720",
+    "version_examined": "v4",
+    "metadata_url": "https://sejong.elsevierpure.com/en/publications/measurements-of-the-low-acceleration-gravitational-anomaly-from-t/",
+    "notes": null
+  },
+  {
+    "key": "pflamm2025",
+    "citation_text": "J. Pflamm-Altenburg (2025). Numerical solutions of the complete two-body system in QUMOND. Astronomy & Astrophysics, 703, A68. https://doi.org/10.1051/0004-6361/202555656",
+    "authors": [
+      "J. Pflamm-Altenburg"
+    ],
+    "title": "Numerical solutions of the complete two-body system in QUMOND",
+    "year": 2025,
+    "journal": "Astronomy & Astrophysics",
+    "volume": "703",
+    "pages": "A68",
+    "doi": "10.1051/0004-6361/202555656",
+    "url": "https://arxiv.org/html/2509.01493v1",
+    "arxiv": "2509.01493",
+    "version_examined": "v1",
+    "metadata_url": "https://arxiv.org/abs/2509.01493",
+    "notes": null
+  },
+  {
+    "key": "cookson2026",
+    "citation_text": "Stephen A. Cookson; Indranil Banik; Kareem El-Badry; Will Sutherland; Zephyr Penoyre; Charalambos Pittordis; Cathie J. Clarke (2026). A quality framework for testing gravity with wide binaries: no evidence for MOND. Monthly Notices of the Royal Astronomical Society, 547, stag342. https://doi.org/10.1093/mnras/stag342",
+    "authors": [
+      "Stephen A. Cookson",
+      "Indranil Banik",
+      "Kareem El-Badry",
+      "Will Sutherland",
+      "Zephyr Penoyre",
+      "Charalambos Pittordis",
+      "Cathie J. Clarke"
+    ],
+    "title": "A quality framework for testing gravity with wide binaries: no evidence for MOND",
+    "year": 2026,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "547",
+    "pages": "stag342",
+    "doi": "10.1093/mnras/stag342",
+    "url": "https://arxiv.org/html/2602.24035v1",
+    "arxiv": "2602.24035",
+    "version_examined": "v1",
+    "metadata_url": "https://arxiv.org/abs/2602.24035",
+    "notes": null
+  },
+  {
+    "key": "manchanda2023",
+    "citation_text": "Dhruv Manchanda; Will Sutherland; Charalambos Pittordis (2023). Wide Binaries as a Modified Gravity test: prospects for detecting triple-system contamination. The Open Journal of Astrophysics. https://doi.org/10.21105/astro.2210.07781",
+    "authors": [
+      "Dhruv Manchanda",
+      "Will Sutherland",
+      "Charalambos Pittordis"
+    ],
+    "title": "Wide Binaries as a Modified Gravity test: prospects for detecting triple-system contamination",
+    "year": 2023,
+    "journal": "The Open Journal of Astrophysics",
+    "volume": null,
+    "pages": null,
+    "doi": "10.21105/astro.2210.07781",
+    "url": "https://arxiv.org/html/2210.07781v3",
+    "arxiv": "2210.07781",
+    "version_examined": "v3",
+    "metadata_url": "https://astro.theoj.org/article/67862",
+    "notes": null
+  },
+  {
+    "key": "hunterqian1993",
+    "citation_text": "C. Hunter; Edward Qian (1993). Two-integral distribution functions for axisymmetric galaxies. Monthly Notices of the Royal Astronomical Society, 262, 401–428. https://doi.org/10.1093/mnras/262.2.401",
+    "authors": [
+      "C. Hunter",
+      "Edward Qian"
+    ],
+    "title": "Two-integral distribution functions for axisymmetric galaxies",
+    "year": 1993,
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "262",
+    "pages": "401--428",
+    "doi": "10.1093/mnras/262.2.401",
+    "url": "https://academic.oup.com/mnras/article/262/2/401/1161204",
+    "arxiv": null,
+    "version_examined": null,
+    "metadata_url": "https://academic.oup.com/mnras/article/262/2/401/1161204",
+    "notes": null
+  },
+  {
+    "key": "dufour2006",
+    "citation_text": "Jean-Marie Dufour (2006). Monte Carlo tests with nuisance parameters: A general approach to finite-sample inference and nonstandard asymptotics. Journal of Econometrics, 133, 443–477. https://doi.org/10.1016/j.jeconom.2005.06.007",
+    "authors": [
+      "Jean-Marie Dufour"
+    ],
+    "title": "Monte Carlo tests with nuisance parameters: A general approach to finite-sample inference and nonstandard asymptotics",
+    "year": 2006,
+    "journal": "Journal of Econometrics",
+    "volume": "133",
+    "pages": "443--477",
+    "doi": "10.1016/j.jeconom.2005.06.007",
+    "url": "https://jeanmariedufour.research.mcgill.ca/Dufour_2006_JE_MCT.pdf",
+    "arxiv": null,
+    "version_examined": null,
+    "metadata_url": "https://jeanmariedufour.research.mcgill.ca/Dufour_2006_JE_MCT.pdf",
+    "notes": null
+  },
+  {
+    "key": "phipsonsmyth2010",
+    "citation_text": "Belinda Phipson; Gordon K. Smyth (2010). Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn. Statistical Applications in Genetics and Molecular Biology, 9. https://doi.org/10.2202/1544-6115.1585",
+    "authors": [
+      "Belinda Phipson",
+      "Gordon K. Smyth"
+    ],
+    "title": "Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn",
+    "year": 2010,
+    "journal": "Statistical Applications in Genetics and Molecular Biology",
+    "volume": "9",
+    "pages": null,
+    "doi": "10.2202/1544-6115.1585",
+    "url": "https://gksmyth.github.io/pubs/PermPValuesPreprint.pdf",
+    "arxiv": "1603.05766",
+    "version_examined": null,
+    "metadata_url": "https://gksmyth.github.io/pubs/PermPValuesPreprint.pdf",
+    "notes": null
+  },
+  {
+    "key": "morris2019",
+    "citation_text": "Tim P. Morris; Ian R. White; Michael J. Crowther (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine. https://doi.org/10.1002/sim.8086",
+    "authors": [
+      "Tim P. Morris",
+      "Ian R. White",
+      "Michael J. Crowther"
+    ],
+    "title": "Using simulation studies to evaluate statistical methods",
+    "year": 2019,
+    "journal": "Statistics in Medicine",
+    "volume": null,
+    "pages": null,
+    "doi": "10.1002/sim.8086",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8086",
+    "arxiv": "1712.03198",
+    "version_examined": null,
+    "metadata_url": "https://doi.org/10.1002/sim.8086",
+    "notes": null
+  },
+  {
+    "key": "masserano2023",
+    "citation_text": "Luca Masserano; Tommaso Dorigo; Rafael Izbicki; Mikael Kuusela; Ann B. Lee (2023). Simulator-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms and Posterior Estimators for Inverse Problems. Proceedings of the 26th International Conference on Artificial Intelligence and Statistics, 206, 2960–2974.",
+    "authors": [
+      "Luca Masserano",
+      "Tommaso Dorigo",
+      "Rafael Izbicki",
+      "Mikael Kuusela",
+      "Ann B. Lee"
+    ],
+    "title": "Simulator-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms and Posterior Estimators for Inverse Problems",
+    "year": 2023,
+    "journal": "Proceedings of Machine Learning Research",
+    "volume": "206",
+    "pages": "2960--2974",
+    "doi": null,
+    "url": "https://proceedings.mlr.press/v206/masserano23a.html",
+    "arxiv": "2205.15680",
+    "version_examined": null,
+    "metadata_url": "https://proceedings.mlr.press/v206/masserano23a.html",
+    "notes": null
+  },
+  {
+    "key": "chae2024data",
+    "citation_text": "Kyu-Hyun Chae (2024). Python scripts to test gravity with the dynamics of wide binary stars. Zenodo. https://doi.org/10.5281/zenodo.10986733",
+    "authors": [
+      "Kyu-Hyun Chae"
+    ],
+    "title": "Python scripts to test gravity with the dynamics of wide binary stars",
+    "year": 2024,
+    "journal": "Zenodo",
+    "volume": null,
+    "pages": null,
+    "doi": "10.5281/zenodo.10986733",
+    "url": "https://zenodo.org/records/10986733",
+    "arxiv": null,
+    "version_examined": "Record 10986733, published 2024-04-17",
+    "metadata_url": "https://zenodo.org/api/records/10986733",
+    "notes": "Official resource type: software. This record supplies the corrected-RUWE catalogue; no invented numerical release version. CC BY 4.0. Citation identifies the input release, not the new simulation outputs."
+  },
+  {
+    "key": "codex2026",
+    "citation_text": "OpenAI (2026). Codex [software; used 7–8 September 2026]. OpenAI. https://openai.com/codex/",
+    "authors": [
+      "OpenAI"
+    ],
+    "title": "Codex",
+    "year": 2026,
+    "journal": "OpenAI",
+    "volume": null,
+    "pages": null,
+    "doi": null,
+    "url": "https://openai.com/codex/",
+    "arxiv": null,
+    "version_examined": null,
+    "metadata_url": null,
+    "notes": "Software used in the Codex desktop environment on 7–8 September 2026; 2026 is the year of use, not an assertion about initial release. Exact application version was not recoverable from the available machine metadata. No underlying model name or model version is inferred."
+  },
+  {
+    "key": "chae2024mock",
+    "citation_text": "Kyu-Hyun Chae (2024). Python scripts to test gravity with the dynamics of wide binary stars. Zenodo record 10652994. https://doi.org/10.5281/zenodo.10652994",
+    "authors": [
+      "Kyu-Hyun Chae"
+    ],
+    "title": "Python scripts to test gravity with the dynamics of wide binary stars",
+    "year": 2024,
+    "journal": "Zenodo",
+    "volume": null,
+    "pages": null,
+    "doi": "10.5281/zenodo.10652994",
+    "url": "https://zenodo.org/records/10652994",
+    "arxiv": null,
+    "version_examined": "Record 10652994, published 2024-02-13",
+    "metadata_url": "https://zenodo.org/api/records/10652994",
+    "notes": "Official metadata supplies Newton_dr3_MSMS_d200pc_5.csv with MD5 997069b5635200853896d005a238dde9. CC BY 4.0. The mock identity is independently established by the accompanying local data comparison."
+  }
+]

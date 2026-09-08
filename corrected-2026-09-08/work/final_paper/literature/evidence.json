@@ -1,0 +1,370 @@
+{
+  "checked_on": "2026-09-08",
+  "scope": "Recherche primaire ciblée pour la nouvelle chaîne dr4_chain ; aucun nouveau résultat expérimental, aucune certification de priorité.",
+  "primary_sources_only": true,
+  "pagination_policy": "exact_page est renseigné seulement lorsque la pagination a été lue ; sinon null et exact_locator donne une section/équation HTML précise. Les pages arXiv peuvent différer de celles de la version publiée.",
+  "sources": [
+    {
+      "id": "milgrom2010",
+      "title": "Quasi-linear formulation of MOND",
+      "authors": [
+        "Mordehai Milgrom"
+      ],
+      "year": 2010,
+      "source_url": "https://arxiv.org/html/0911.5464",
+      "metadata_url": "https://arxiv.org/abs/0911.5464",
+      "doi": "10.1111/j.1365-2966.2009.16184.x",
+      "version": "v2",
+      "claim": "L’action QUMOND, ses lois de conservation et le traitement d’un champ externe uniforme sont établis.",
+      "exact_page": null,
+      "exact_locator": "Sections II, III.1, V.1–V.3; action and force relations",
+      "pdf_url": null,
+      "support": "Les équations de champ dérivent d’une action ; le texte traite explicitement les forces, l’asymptote externe et le centre de masse.",
+      "limitation": "Notre intégrale d’interaction soustraite et sa quadrature sont une application dérivée et vérifiée séparément, pas une nouvelle théorie."
+    },
+    {
+      "id": "banikzhao2015",
+      "title": "The External Field Dominated Solution In QUMOND & AQUAL: Application To Tidal Streams",
+      "authors": [
+        "Indranil Banik",
+        "Hongsheng Zhao"
+      ],
+      "year": 2018,
+      "source_url": "https://arxiv.org/html/1509.08457v3",
+      "metadata_url": "https://arxiv.org/abs/1509.08457",
+      "doi": null,
+      "version": "v3",
+      "claim": "L’asymptote externe possède déjà un potentiel anisotrope et une force non exclusivement radiale.",
+      "exact_page": null,
+      "exact_locator": "QUMOND solution, equations 36–38",
+      "pdf_url": null,
+      "support": "La solution analytique contient le facteur 1+K0 sin²θ/2 et ses composantes radiale et angulaire.",
+      "limitation": "Limite dominée par le champ externe ; elle ne constitue pas une solution exacte de toute la transition à deux masses."
+    },
+    {
+      "id": "clarke2020",
+      "title": "The distribution of relative proper motions of wide binaries in Gaia DR2: MOND or multiplicity?",
+      "authors": [
+        "C. J. Clarke"
+      ],
+      "year": 2020,
+      "source_url": "https://academic.oup.com/mnrasl/article/491/1/L72/5613964",
+      "metadata_url": "https://academic.oup.com/mnrasl/article/491/1/L72/5613964",
+      "doi": "10.1093/mnrasl/slz161",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "Les compagnons non résolus peuvent produire une queue de vitesses apparentes par le mouvement du photocentre.",
+      "exact_page": "L72–L75 (article entier ; section 2 dans le texte HTML)",
+      "exact_locator": "Section 2, synthetic population; abstract",
+      "pdf_url": null,
+      "support": "Une population synthétique de triples relie le décalage photocentre–barycentre aux mouvements propres de la paire large.",
+      "limitation": "L’existence du mécanisme et de son usage en simulation n’est pas un apport nouveau de notre chaîne."
+    },
+    {
+      "id": "penoyre2020",
+      "title": "Binary deviations from single object astrometry",
+      "authors": [
+        "Zephyr Penoyre",
+        "Vasily Belokurov",
+        "N. Wyn Evans",
+        "A. Everall",
+        "S. E. Koposov"
+      ],
+      "year": 2020,
+      "source_url": "https://academic.oup.com/mnras/article/495/1/321/5828731",
+      "metadata_url": "https://www.research.ed.ac.uk/en/publications/binary-deviations-from-single-object-astrometry/",
+      "doi": "10.1093/mnras/staa1148",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "Ajuster une source simple à un mouvement de photocentre peut déplacer les paramètres astrométriques.",
+      "exact_page": null,
+      "exact_locator": "Abstract; Sections 2–3, photocentre and single-body astrometric fit",
+      "pdf_url": null,
+      "support": "Les simulations étudient à la fois biais du mouvement propre/de la parallaxe et résidus de l’ajustement.",
+      "limitation": "Notre observateur reprend cette idée générale ; il doit préciser les paramètres réellement ajustés et ses approximations."
+    },
+    {
+      "id": "penoyre2022",
+      "title": "Astrometric identification of nearby binary stars -- I. Predicted astrometric signals",
+      "authors": [
+        "Zephyr Penoyre",
+        "Vasily Belokurov",
+        "N. Wyn Evans"
+      ],
+      "year": 2022,
+      "source_url": "https://arxiv.org/html/2111.10380v3",
+      "metadata_url": "https://arxiv.org/abs/2111.10380",
+      "doi": "10.1093/mnras/stac959",
+      "version": "v3",
+      "claim": "La simulation AL appariée entre durées et les diagnostics UWE/PMA sont des antécédents directs.",
+      "exact_page": null,
+      "exact_locator": "Sections 3, 4.1.2, 4.2, 6–7; Table 1; Data Availability",
+      "pdf_url": null,
+      "support": "Même système ajusté sur 22 et 34 mois, temps/angles issus d’une approximation de la loi Gaia ; comparaison UWE, variation UWE et anomalie de mouvement propre.",
+      "limitation": "Ce n’est pas notre couple 34/66 ni notre décision gravitationnelle. Notre cadence stylisée ne surpasse pas ici leur réalisme observatoire."
+    },
+    {
+      "id": "banik2024",
+      "title": "Strong constraints on the gravitational law from Gaia DR3 wide binaries",
+      "authors": [
+        "Indranil Banik",
+        "Charalambos Pittordis",
+        "Will Sutherland",
+        "Benoit Famaey",
+        "Rodrigo Ibata",
+        "Steffen Mieske",
+        "Hongsheng Zhao"
+      ],
+      "year": 2024,
+      "source_url": "https://arxiv.org/html/2311.03436v2",
+      "metadata_url": "https://research-repository.st-andrews.ac.uk/handle/10023/28927?show=full",
+      "doi": "10.1093/mnras/stad3393",
+      "version": "v2",
+      "claim": "Des bibliothèques d’orbites avec EFE, nuisances de population et ajustement conjoint séparation–vitesse existent déjà.",
+      "exact_page": "PDF arXiv v2 p.12 (masse-test), pp.18–19 (construction et comparaison conjointe)",
+      "exact_locator": "Sections 3.1.1–3.1.2, 3.2–3.5; Fig. 6",
+      "pdf_url": "https://arxiv.org/pdf/2311.03436v2",
+      "support": "Le modèle intègre des orbites et inclinations, ajoute compagnons et associations fortuites, puis compare les comptes par pixel. Il explicite l’approximation masse-test autour de la masse totale.",
+      "limitation": "Notre potentiel à rapport de masses fini change cette approximation. Notre chaîne simplifie d’autres aspects, notamment contaminants et sélection ; aucune supériorité globale ni réfutation de leur verdict n’en découle."
+    },
+    {
+      "id": "pittordis2025",
+      "title": "Wide Binaries from Gaia DR3: testing GR vs MOND with realistic triple modelling",
+      "authors": [
+        "Charalambos Pittordis",
+        "Will Sutherland",
+        "Paul Shepherd"
+      ],
+      "year": 2025,
+      "source_url": "https://arxiv.org/html/2504.07569v2",
+      "metadata_url": "https://arxiv.org/abs/2504.07569",
+      "doi": "10.33232/001c.142887",
+      "version": "v2",
+      "claim": "Moyenne temporelle des compagnons, coupes astrométriques et nuisances de population sont déjà combinées dans un test.",
+      "exact_page": "PDF arXiv v2 p.9 (moyenne 34 mois), p.10 (coupes), p.12 (§4.1)",
+      "exact_locator": "Section 3.2, equations 8–13; 3.3–3.3.1, equations 16–20; 4.1 and 4.4",
+      "pdf_url": "https://arxiv.org/pdf/2504.07569v2",
+      "support": "Le déplacement interne est moyenné sur 34 mois ; RUWE et autres coupes sont simulées. Huit normalisations binary+triple sont libres, avec fraction triple partagée.",
+      "limitation": "Notre AL ajustée diffère d’une différence à deux époques. Les comptes de séparation de notre modèle conjoint imposent des contraintes que leurs huit normalisations laissent libres ; comparer sans égaliser cette information serait trompeur."
+    },
+    {
+      "id": "chae2024",
+      "title": "Measurements of the Low-acceleration Gravitational Anomaly from the Normalized Velocity Profile of Gaia Wide Binary Stars and Statistical Testing of Newtonian and Milgromian Theories",
+      "authors": [
+        "Kyu-Hyun Chae"
+      ],
+      "year": 2024,
+      "source_url": "https://arxiv.org/html/2402.05720v4",
+      "metadata_url": "https://sejong.elsevierpure.com/en/publications/measurements-of-the-low-acceleration-gravitational-anomaly-from-t/",
+      "doi": "10.3847/1538-4357/ad61e9",
+      "version": "v4",
+      "claim": "Le contrôle Newtonien associé à chaque paire, les compagnons et les tests de profils normalisés ont un précédent.",
+      "exact_page": null,
+      "exact_locator": "Sections II.3.2–II.3.3, equation 17; II.5–II.6; III.1 and III.4",
+      "pdf_url": null,
+      "support": "Les simulations partagent masses et séparation projetée avec les paires observées ; un échantillon virtuel Newtonien sert de contrôle et des distributions sont comparées par bins.",
+      "limitation": "Cette construction conditionnelle ne coïncide pas avec notre parent f(E,Lz). Le gain obtenu par nos comptes marginaux ne mesure pas directement une amélioration de ce test."
+    },
+    {
+      "id": "pflamm2025",
+      "title": "Numerical solutions of the complete two-body system in QUMOND",
+      "authors": [
+        "J. Pflamm-Altenburg"
+      ],
+      "year": 2025,
+      "source_url": "https://arxiv.org/html/2509.01493v1",
+      "metadata_url": "https://arxiv.org/abs/2509.01493",
+      "doi": "10.1051/0004-6361/202555656",
+      "version": "v1",
+      "claim": "Le calcul QUMOND complet à deux masses et la dépendance à l’orientation ne sont pas nouveaux.",
+      "exact_page": null,
+      "exact_locator": "Sections 2–3 (Green integral and convergence), 5 (isolated), 6 (Galactic external field), 7 (3D); Figs.14–18",
+      "pdf_url": null,
+      "support": "Forces numériques de particules, comparaison à la masse-test, rapports de masses finis et champ externe réalisé par une troisième masse galactique ; configurations 3D explicites.",
+      "limitation": "Notre champ uniforme et nos profils Plummer finis diffèrent. Les courbes publiées n’ont pas été reproduites numériquement ici ; notre dérivée énergétique indépendante n’est pas une réplication de ces figures."
+    },
+    {
+      "id": "cookson2026",
+      "title": "A quality framework for testing gravity with wide binaries: no evidence for MOND",
+      "authors": [
+        "Stephen A. Cookson",
+        "Indranil Banik",
+        "Kareem El-Badry",
+        "Will Sutherland",
+        "Zephyr Penoyre",
+        "Charalambos Pittordis",
+        "Cathie J. Clarke"
+      ],
+      "year": 2026,
+      "source_url": "https://arxiv.org/html/2602.24035v1",
+      "metadata_url": "https://arxiv.org/abs/2602.24035",
+      "doi": "10.1093/mnras/stag342",
+      "version": "v1",
+      "claim": "La qualité astrométrique, les compagnons et les biais de sélection sont déjà des objets centraux des tests.",
+      "exact_page": null,
+      "exact_locator": "Sections 3.2.3–3.2.4 (RUWE, HR), 4 (uncertainties), 5 and Appendix A",
+      "pdf_url": null,
+      "support": "Le texte explicite les limites de RUWE pour les périodes extrêmes et les systèmes dont rapports de lumière et masse coïncident, et le rôle complémentaire de la photométrie.",
+      "limitation": "Son verdict observationnel reste celui des auteurs. Notre banc simulé ne le valide ni ne l’invalide ; un diagnostic astrométrique ne supprime pas tous les compagnons."
+    },
+    {
+      "id": "manchanda2023",
+      "title": "Wide Binaries as a Modified Gravity test: prospects for detecting triple-system contamination",
+      "authors": [
+        "Dhruv Manchanda",
+        "Will Sutherland",
+        "Charalambos Pittordis"
+      ],
+      "year": 2023,
+      "source_url": "https://arxiv.org/html/2210.07781v3",
+      "metadata_url": "https://astro.theoj.org/article/67862",
+      "doi": "10.21105/astro.2210.07781",
+      "version": "v3",
+      "claim": "Prévoir la détection des triples par astrométrie, RV et imagerie pour rendre le test de gravité utile est déjà proposé.",
+      "exact_page": null,
+      "exact_locator": "Sections 2, 3.2–3.3, 4.1–4.3; equations 5 and following acceleration criterion",
+      "pdf_url": null,
+      "support": "Simulations de triples et critères de détection avec une mission de dix ans et plusieurs techniques complémentaires.",
+      "limitation": "Une efficacité publiée pour dix ans plus imagerie ne se transfère ni à 66 mois seuls ni à nos diagnostics."
+    },
+    {
+      "id": "hunterqian1993",
+      "title": "Two-integral distribution functions for axisymmetric galaxies",
+      "authors": [
+        "C. Hunter",
+        "Edward Qian"
+      ],
+      "year": 1993,
+      "source_url": "https://academic.oup.com/mnras/article/262/2/401/1161204",
+      "metadata_url": "https://academic.oup.com/mnras/article/262/2/401/1161204",
+      "doi": "10.1093/mnras/262.2.401",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "Les distributions stationnaires dépendant de l’énergie et du moment axial ont un antécédent classique.",
+      "exact_page": "p.401 (abstract); seul cet antécédent général est utilisé",
+      "exact_locator": "Abstract and construction of two-integral DFs",
+      "pdf_url": null,
+      "support": "L’article construit des fonctions de distribution à deux intégrales dans des systèmes axisymétriques.",
+      "limitation": "Il traite l’inversion de densités galactiques, pas nos binaires. Notre stationnarité se vérifie par dE/dt=dLz/dt=0 ; notre DF tronquée n’est pas une population universelle ni une application de leur inversion."
+    },
+    {
+      "id": "dufour2006",
+      "title": "Monte Carlo tests with nuisance parameters: A general approach to finite-sample inference and nonstandard asymptotics",
+      "authors": [
+        "Jean-Marie Dufour"
+      ],
+      "year": 2006,
+      "source_url": "https://jeanmariedufour.research.mcgill.ca/Dufour_2006_JE_MCT.pdf",
+      "metadata_url": "https://jeanmariedufour.research.mcgill.ca/Dufour_2006_JE_MCT.pdf",
+      "doi": "10.1016/j.jeconom.2005.06.007",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "Maximiser des p-values Monte Carlo sur les nuisances est une méthode antérieure.",
+      "exact_page": "pp.455–459 ; propositions pp.457–459 (PDF pp.15–17)",
+      "exact_locator": "Sections 2 and 4; Propositions 4.1–4.2",
+      "pdf_url": null,
+      "support": "Les tests MMC et leurs conditions d’échangeabilité et de maximisation sont développés explicitement.",
+      "limitation": "Une grille protège seulement les lois qu’elle contient, sous les hypothèses requises. Des banques finies différentes pour calibration et test ne deviennent pas exactement échangeables par simple choix de graines indépendantes."
+    },
+    {
+      "id": "phipsonsmyth2010",
+      "title": "Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn",
+      "authors": [
+        "Belinda Phipson",
+        "Gordon K. Smyth"
+      ],
+      "year": 2010,
+      "source_url": "https://gksmyth.github.io/pubs/PermPValuesPreprint.pdf",
+      "metadata_url": "https://gksmyth.github.io/pubs/PermPValuesPreprint.pdf",
+      "doi": "10.2202/1544-6115.1585",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "La correction de rang +1 dans les p-values simulées est connue.",
+      "exact_page": "PDF auteur p.6 ; corrigé le 9 février 2011",
+      "exact_locator": "Monte Carlo derivation of (b+1)/(m+1), displayed formula on author PDF p.6",
+      "pdf_url": null,
+      "support": "Le texte dérive le calcul (b+1)/(m+1) et explique pourquoi b/m n’est pas un test exact de même niveau.",
+      "limitation": "Cette arithmétique ne corrige pas une mauvaise loi génératrice ni l’incertitude entre bibliothèques physiques."
+    },
+    {
+      "id": "morris2019",
+      "title": "Using simulation studies to evaluate statistical methods",
+      "authors": [
+        "Tim P. Morris",
+        "Ian R. White",
+        "Michael J. Crowther"
+      ],
+      "year": 2019,
+      "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8086",
+      "metadata_url": "https://doi.org/10.1002/sim.8086",
+      "doi": "10.1002/sim.8086",
+      "version": "version publiée/page primaire indiquée",
+      "claim": "Une étude de méthode doit définir ses cibles, mécanismes générateurs et incertitudes de performance.",
+      "exact_page": null,
+      "exact_locator": "Section 3 (ADEMP), 3.5 (performance), 8 (reporting and Monte Carlo uncertainty)",
+      "pdf_url": null,
+      "support": "ADEMP sépare objectif, données simulées, estimands/cibles, méthodes et mesures de performance ; le texte demande l’incertitude Monte Carlo.",
+      "limitation": "C’est un guide de conception et de rapport, pas une norme d’acceptation MNRAS ni une obligation de dominer toutes les méthodes."
+    },
+    {
+      "id": "masserano2023",
+      "title": "Simulator-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms and Posterior Estimators for Inverse Problems",
+      "authors": [
+        "Luca Masserano",
+        "Tommaso Dorigo",
+        "Rafael Izbicki",
+        "Mikael Kuusela",
+        "Ann B. Lee"
+      ],
+      "year": 2023,
+      "source_url": "https://proceedings.mlr.press/v206/masserano23a.html",
+      "metadata_url": "https://proceedings.mlr.press/v206/masserano23a.html",
+      "doi": null,
+      "version": "version publiée/page primaire indiquée",
+      "claim": "La calibration d’une décision/région par simulateur et sa validité conditionnelle ont des précédents.",
+      "exact_page": "pp.2960–2974 (article) ; aucun numéro de sous-section non vérifié n’est attribué",
+      "exact_locator": "Abstract and method for calibrated Neyman inversion; main paper linked on proceedings page",
+      "pdf_url": null,
+      "support": "WALDO utilise une statistique de type Wald et l’inversion de tests calibrés par simulation.",
+      "limitation": "Notre procédure n’est pas WALDO et n’hérite pas de ses garanties en citant cet article."
+    },
+    {
+      "id": "chae2024data",
+      "title": "Python scripts to test gravity with the dynamics of wide binary stars",
+      "authors": [
+        "Kyu-Hyun Chae"
+      ],
+      "year": 2024,
+      "source_url": "https://zenodo.org/records/10986733",
+      "metadata_url": "https://zenodo.org/api/records/10986733",
+      "doi": "10.5281/zenodo.10986733",
+      "version": "Record 10986733, published 2024-04-17",
+      "claim": "Identification of the corrected catalogue input release.",
+      "exact_page": null,
+      "exact_locator": "Official archived record metadata: metadata.publication_date, title, creators, description and licence.",
+      "pdf_url": null,
+      "support": "Kyu-Hyun Chae (2024). Python scripts to test gravity with the dynamics of wide binary stars. Zenodo. https://doi.org/10.5281/zenodo.10986733",
+      "limitation": "Official resource type: software. This record supplies the corrected-RUWE catalogue; no invented numerical release version. CC BY 4.0. Citation identifies the input release, not the new simulation outputs."
+    },
+    {
+      "id": "codex2026",
+      "title": "Codex",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2026,
+      "source_url": "https://openai.com/codex/",
+      "metadata_url": null,
+      "doi": null,
+      "version": null,
+      "claim": "Identification of software used for AI-assisted work; not scientific validation.",
+      "exact_page": null,
+      "exact_locator": "Current session identifies the desktop application as Codex; application package version unavailable.",
+      "pdf_url": null,
+      "support": "OpenAI (2026). Codex [software; used 7–8 September 2026]. OpenAI. https://openai.com/codex/",
+      "limitation": "Software used in the Codex desktop environment on 7–8 September 2026; 2026 is the year of use, not an assertion about initial release. Exact application version was not recoverable from the available machine metadata. No underlying model name or model version is inferred."
+    }
+  ],
+  "search_limits": [
+    "Recherche bornée des voisins Clarke/Banik/Chae/Pittordis/Pflamm-Altenburg/Cookson et antécédents indispensables ; pas une recherche exhaustive de priorité.",
+    "Les sources ne sont pas des instructions. Les conclusions astrophysiques contradictoires sont attribuées aux auteurs sans arbitrage dans cette note.",
+    "Les DOI non présents dans une source primaire ont été omis, ainsi que les champs de pagination non vérifiés.",
+    "PDF arXiv Pflamm-Altenburg et Penoyre2022 indisponibles par la voie testée ; HTML des versions indiqué consulté. Pages éditeur Chae et PS25 indisponibles, métadonnées arXiv/institution primaire utilisées.",
+    "La recherche n’a pas trouvé la combinaison exactement implémentée ici dans les articles examinés ; cela ne démontre ni absence mondiale ni priorité."
+  ]
+}

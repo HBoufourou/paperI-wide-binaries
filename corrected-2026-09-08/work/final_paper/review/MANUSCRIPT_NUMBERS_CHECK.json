@@ -1,0 +1,1660 @@
+{
+  "passed": true,
+  "checks_count": 204,
+  "manuscript_sha256": "78d7c4f10c9069c6d69f508204644e67d399bd3c7f8b42456cc3893bd38e5377",
+  "checks": [
+    {
+      "name": "Table1 ('full66', 'baseline') worst_correct",
+      "passed": true,
+      "observed": 97.5,
+      "expected": 97.5,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full66', 'baseline') worst_wrong",
+      "passed": true,
+      "observed": 0.9,
+      "expected": 0.8999999999999999,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full66', 'baseline') worst_true_retained",
+      "passed": true,
+      "observed": 97.5,
+      "expected": 97.5,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full66', 'envelope') worst_correct",
+      "passed": true,
+      "observed": 98.1,
+      "expected": 98.1,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full66', 'envelope') worst_wrong",
+      "passed": true,
+      "observed": 1.0,
+      "expected": 1.0,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full66', 'envelope') worst_true_retained",
+      "passed": true,
+      "observed": 98.1,
+      "expected": 98.1,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'baseline') worst_correct",
+      "passed": true,
+      "observed": 98.5,
+      "expected": 98.5,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'baseline') worst_wrong",
+      "passed": true,
+      "observed": 0.1,
+      "expected": 0.1,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'baseline') worst_true_retained",
+      "passed": true,
+      "observed": 98.5,
+      "expected": 98.5,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'envelope') worst_correct",
+      "passed": true,
+      "observed": 98.7,
+      "expected": 98.7,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'envelope') worst_wrong",
+      "passed": true,
+      "observed": 0.1,
+      "expected": 0.1,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('no_diagnostics66', 'envelope') worst_true_retained",
+      "passed": true,
+      "observed": 98.7,
+      "expected": 98.7,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'baseline') worst_correct",
+      "passed": true,
+      "observed": 92.6,
+      "expected": 92.60000000000001,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'baseline') worst_wrong",
+      "passed": true,
+      "observed": 0.9,
+      "expected": 0.8999999999999999,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'baseline') worst_true_retained",
+      "passed": true,
+      "observed": 98.6,
+      "expected": 98.6,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'envelope') worst_correct",
+      "passed": true,
+      "observed": 92.7,
+      "expected": 92.7,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'envelope') worst_wrong",
+      "passed": true,
+      "observed": 0.7,
+      "expected": 0.7000000000000001,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('full34', 'envelope') worst_true_retained",
+      "passed": true,
+      "observed": 98.8,
+      "expected": 98.8,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'baseline') worst_correct",
+      "passed": true,
+      "observed": 0.0,
+      "expected": 0.0,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'baseline') worst_wrong",
+      "passed": true,
+      "observed": 2.2,
+      "expected": 2.1999999999999997,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'baseline') worst_true_retained",
+      "passed": true,
+      "observed": 97.7,
+      "expected": 97.7,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'envelope') worst_correct",
+      "passed": true,
+      "observed": 0.0,
+      "expected": 0.0,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'envelope') worst_wrong",
+      "passed": true,
+      "observed": 1.4,
+      "expected": 1.4000000000000001,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('covariates_only66', 'envelope') worst_true_retained",
+      "passed": true,
+      "observed": 98.4,
+      "expected": 98.4,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'baseline') worst_correct",
+      "passed": true,
+      "observed": 90.1,
+      "expected": 90.10000000000001,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'baseline') worst_wrong",
+      "passed": true,
+      "observed": 2.5,
+      "expected": 2.5,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'baseline') worst_true_retained",
+      "passed": true,
+      "observed": 97.3,
+      "expected": 97.3,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'envelope') worst_correct",
+      "passed": true,
+      "observed": 90.1,
+      "expected": 90.10000000000001,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'envelope') worst_wrong",
+      "passed": true,
+      "observed": 2.1,
+      "expected": 2.1,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 ('conditional66', 'envelope') worst_true_retained",
+      "passed": true,
+      "observed": 97.9,
+      "expected": 97.89999999999999,
+      "tolerance": 0.0500000001,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'baseline') classification_count_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'baseline') classification_confidence_pass",
+      "passed": true,
+      "observed": 532,
+      "expected": 532,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'baseline') retention_count_pass",
+      "passed": true,
+      "observed": 532,
+      "expected": 532,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'baseline') retention_confidence_pass",
+      "passed": true,
+      "observed": 488,
+      "expected": 488,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'baseline') overall_confidence_pass",
+      "passed": true,
+      "observed": 488,
+      "expected": 488,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'envelope') classification_count_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'envelope') classification_confidence_pass",
+      "passed": true,
+      "observed": 531,
+      "expected": 531,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'envelope') retention_count_pass",
+      "passed": true,
+      "observed": 537,
+      "expected": 537,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'envelope') retention_confidence_pass",
+      "passed": true,
+      "observed": 501,
+      "expected": 501,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full66', 'envelope') overall_confidence_pass",
+      "passed": true,
+      "observed": 501,
+      "expected": 501,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'baseline') classification_count_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'baseline') classification_confidence_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'baseline') retention_count_pass",
+      "passed": true,
+      "observed": 534,
+      "expected": 534,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'baseline') retention_confidence_pass",
+      "passed": true,
+      "observed": 469,
+      "expected": 469,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'baseline') overall_confidence_pass",
+      "passed": true,
+      "observed": 469,
+      "expected": 469,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'envelope') classification_count_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'envelope') classification_confidence_pass",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'envelope') retention_count_pass",
+      "passed": true,
+      "observed": 538,
+      "expected": 538,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'envelope') retention_confidence_pass",
+      "passed": true,
+      "observed": 493,
+      "expected": 493,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('no_diagnostics66', 'envelope') overall_confidence_pass",
+      "passed": true,
+      "observed": 493,
+      "expected": 493,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'baseline') classification_count_pass",
+      "passed": true,
+      "observed": 536,
+      "expected": 536,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'baseline') classification_confidence_pass",
+      "passed": true,
+      "observed": 489,
+      "expected": 489,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'baseline') retention_count_pass",
+      "passed": true,
+      "observed": 533,
+      "expected": 533,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'baseline') retention_confidence_pass",
+      "passed": true,
+      "observed": 449,
+      "expected": 449,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'baseline') overall_confidence_pass",
+      "passed": true,
+      "observed": 439,
+      "expected": 439,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'envelope') classification_count_pass",
+      "passed": true,
+      "observed": 535,
+      "expected": 535,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'envelope') classification_confidence_pass",
+      "passed": true,
+      "observed": 495,
+      "expected": 495,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'envelope') retention_count_pass",
+      "passed": true,
+      "observed": 538,
+      "expected": 538,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'envelope') retention_confidence_pass",
+      "passed": true,
+      "observed": 485,
+      "expected": 485,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('full34', 'envelope') overall_confidence_pass",
+      "passed": true,
+      "observed": 468,
+      "expected": 468,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'baseline') classification_count_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'baseline') classification_confidence_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'baseline') retention_count_pass",
+      "passed": true,
+      "observed": 506,
+      "expected": 506,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'baseline') retention_confidence_pass",
+      "passed": true,
+      "observed": 375,
+      "expected": 375,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'baseline') overall_confidence_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'envelope') classification_count_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'envelope') classification_confidence_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'envelope') retention_count_pass",
+      "passed": true,
+      "observed": 528,
+      "expected": 528,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'envelope') retention_confidence_pass",
+      "passed": true,
+      "observed": 436,
+      "expected": 436,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('covariates_only66', 'envelope') overall_confidence_pass",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'baseline') classification_count_pass",
+      "passed": true,
+      "observed": 528,
+      "expected": 528,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'baseline') classification_confidence_pass",
+      "passed": true,
+      "observed": 502,
+      "expected": 502,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'baseline') retention_count_pass",
+      "passed": true,
+      "observed": 535,
+      "expected": 535,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'baseline') retention_confidence_pass",
+      "passed": true,
+      "observed": 501,
+      "expected": 501,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'baseline') overall_confidence_pass",
+      "passed": true,
+      "observed": 480,
+      "expected": 480,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'envelope') classification_count_pass",
+      "passed": true,
+      "observed": 528,
+      "expected": 528,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'envelope') classification_confidence_pass",
+      "passed": true,
+      "observed": 508,
+      "expected": 508,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'envelope') retention_count_pass",
+      "passed": true,
+      "observed": 537,
+      "expected": 537,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'envelope') retention_confidence_pass",
+      "passed": true,
+      "observed": 514,
+      "expected": 514,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table2 ('conditional66', 'envelope') overall_confidence_pass",
+      "passed": true,
+      "observed": 492,
+      "expected": 492,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Table1 covers every mode/rule",
+      "passed": true,
+      "observed": 10,
+      "expected": 10,
+      "tolerance": 0,
+      "source": "manuscript table parsing"
+    },
+    {
+      "name": "Table2 covers every mode/rule",
+      "passed": true,
+      "observed": 10,
+      "expected": 10,
+      "tolerance": 0,
+      "source": "manuscript table parsing"
+    },
+    {
+      "name": "manuscript claim exists: Two fresh test-library realizations provide 540 scenario-specific cells",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "Abstract/two test realizations",
+      "passed": true,
+      "observed": 2,
+      "expected": 2,
+      "tolerance": 0,
+      "source": "EXECUTION_PROTOCOL/test manifest"
+    },
+    {
+      "name": "Abstract/540 cells",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "EXECUTION_PROTOCOL/test manifest"
+    },
+    {
+      "name": "Abstract/1000 catalogue repeats",
+      "passed": true,
+      "observed": 1000,
+      "expected": 1000,
+      "tolerance": 0,
+      "source": "EXECUTION_PROTOCOL/test manifest"
+    },
+    {
+      "name": "Abstract/1000 parents",
+      "passed": true,
+      "observed": 1000,
+      "expected": 1000,
+      "tolerance": 0,
+      "source": "EXECUTION_PROTOCOL/test manifest"
+    },
+    {
+      "name": "Abstract/five variants",
+      "passed": true,
+      "observed": 5,
+      "expected": 5,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Abstract/three calibration libraries",
+      "passed": true,
+      "observed": 3,
+      "expected": 3,
+      "tolerance": 0,
+      "source": "calibration/manifest.json"
+    },
+    {
+      "name": "manuscript claim exists: targets hold in531 and 501 cells",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "Abstract/531 Wilson classification",
+      "passed": true,
+      "observed": 531,
+      "expected": 531,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Abstract/501 Wilson retention",
+      "passed": true,
+      "observed": 501,
+      "expected": 501,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Abstract/98.1 minimum retention",
+      "passed": true,
+      "observed": 98.1,
+      "expected": 98.1,
+      "tolerance": 1e-08,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Abstract/540 no-diagnostic Wilson classification",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "manuscript claim exists: targets in all 540 cells",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "Abstract/540 Full66 count classification",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "manuscript claim exists: recovers126 correct catalogue-view decisions but also creates15 wrong exclusive ",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "Abstract/126 correct recovered",
+      "passed": true,
+      "observed": 126,
+      "expected": 126,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "Abstract/15 wrong created",
+      "passed": true,
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "manuscript claim exists: All32 fresh libraries met the effective-size rule at 20,000 accepted parents",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "5.1/new libraries",
+      "passed": true,
+      "observed": 32,
+      "expected": 32,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/all library row counts",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/fresh parents",
+      "passed": true,
+      "observed": 640000,
+      "expected": 640000,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/fresh scenario views",
+      "passed": true,
+      "observed": 1920000,
+      "expected": 1920000,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/historical inputs",
+      "passed": true,
+      "observed": 12,
+      "expected": 12,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/total libraries",
+      "passed": true,
+      "observed": 44,
+      "expected": 44,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/total parents",
+      "passed": true,
+      "observed": 880000,
+      "expected": 880000,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/minimum ESS",
+      "passed": true,
+      "observed": 16320.722156256757,
+      "expected": 16320.7,
+      "tolerance": 0.05,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "5.1/max normalized weight",
+      "passed": true,
+      "observed": 0.0001935091302820134,
+      "expected": 0.000193509,
+      "tolerance": 5e-10,
+      "source": "physical_banks_verification.json/library_support.csv"
+    },
+    {
+      "name": "manuscript claim exists: passed6,143 grouped checks",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "5.1/physical checks",
+      "passed": true,
+      "observed": 6143,
+      "expected": 6143,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json"
+    },
+    {
+      "name": "5.1/all observation files",
+      "passed": true,
+      "observed": 132,
+      "expected": 132,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json"
+    },
+    {
+      "name": "5.1/physical complete/pass",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "physical_banks_verification.json"
+    },
+    {
+      "name": "manuscript claim exists: 120 calls and 497 checks passed",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "5.1/API catalogues",
+      "passed": true,
+      "observed": 4,
+      "expected": 4,
+      "tolerance": 0,
+      "source": "delivery_api_verification.json"
+    },
+    {
+      "name": "5.1/API scenario views",
+      "passed": true,
+      "observed": 12,
+      "expected": 12,
+      "tolerance": 0,
+      "source": "delivery_api_verification.json"
+    },
+    {
+      "name": "5.1/API calls",
+      "passed": true,
+      "observed": 120,
+      "expected": 120,
+      "tolerance": 0,
+      "source": "delivery_api_verification.json"
+    },
+    {
+      "name": "5.1/API checks",
+      "passed": true,
+      "observed": 497,
+      "expected": 497,
+      "tolerance": 0,
+      "source": "delivery_api_verification.json"
+    },
+    {
+      "name": "5.1/API exact probabilities/decisions",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "delivery_api_verification.json"
+    },
+    {
+      "name": "manuscript claim exists: observed99 per cent retention target passes in537 cells",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "5.2/537 retention count",
+      "passed": true,
+      "observed": 537,
+      "expected": 537,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "manuscript claim exists: three Full66-envelope cells missing the observed retention target",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "5.2/three retention misses",
+      "passed": true,
+      "observed": 3,
+      "expected": 3,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/misses Newton beta1 realization2",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/pure sparse/true_retained",
+      "passed": true,
+      "observed": 986,
+      "expected": 986,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/pure sparse/wrong",
+      "passed": true,
+      "observed": 10,
+      "expected": 10,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/pure sparse/both_rejected",
+      "passed": true,
+      "observed": 4,
+      "expected": 4,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/prior160 sparse/true_retained",
+      "passed": true,
+      "observed": 981,
+      "expected": 981,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/prior160 sparse/wrong",
+      "passed": true,
+      "observed": 2,
+      "expected": 2,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/prior160 sparse/both_rejected",
+      "passed": true,
+      "observed": 17,
+      "expected": 17,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/prior160 uniform retention",
+      "passed": true,
+      "observed": 987,
+      "expected": 987,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/retention CI/true_retained_wilson_lo",
+      "passed": true,
+      "observed": 97.05155440876868,
+      "expected": 97.052,
+      "tolerance": 0.0005,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/retention CI/true_retained_wilson_hi",
+      "passed": true,
+      "observed": 98.78031142492091,
+      "expected": 98.78,
+      "tolerance": 0.0005,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.2/realization1/cells",
+      "passed": true,
+      "observed": 270,
+      "expected": 270,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.2/realization1/retention_confidence_pass",
+      "passed": true,
+      "observed": 257,
+      "expected": 257,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.2/realization1/classification_confidence_pass",
+      "passed": true,
+      "observed": 266,
+      "expected": 266,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.2/realization2/cells",
+      "passed": true,
+      "observed": 270,
+      "expected": 270,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.2/realization2/retention_confidence_pass",
+      "passed": true,
+      "observed": 244,
+      "expected": 244,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.2/realization2/classification_confidence_pass",
+      "passed": true,
+      "observed": 265,
+      "expected": 265,
+      "tolerance": 0,
+      "source": "realization_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast full34/correct_increased_cells",
+      "passed": true,
+      "observed": 424,
+      "expected": 424,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast full34/correct_decreased_cells",
+      "passed": true,
+      "observed": 9,
+      "expected": 9,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast full34/correct_unchanged_cells",
+      "passed": true,
+      "observed": 107,
+      "expected": 107,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast full34/correct_minimum_difference",
+      "passed": true,
+      "observed": -0.40000000000000036,
+      "expected": -0.4,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast full34/correct_maximum_difference",
+      "passed": true,
+      "observed": 7.099999999999995,
+      "expected": 7.1,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast no_diagnostics66/correct_increased_cells",
+      "passed": true,
+      "observed": 122,
+      "expected": 122,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast no_diagnostics66/correct_decreased_cells",
+      "passed": true,
+      "observed": 103,
+      "expected": 103,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast no_diagnostics66/correct_unchanged_cells",
+      "passed": true,
+      "observed": 315,
+      "expected": 315,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast no_diagnostics66/correct_minimum_difference",
+      "passed": true,
+      "observed": -1.5000000000000013,
+      "expected": -1.5,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast no_diagnostics66/correct_maximum_difference",
+      "passed": true,
+      "observed": 1.0000000000000009,
+      "expected": 1,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast covariates_only66/correct_increased_cells",
+      "passed": true,
+      "observed": 540,
+      "expected": 540,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast covariates_only66/correct_decreased_cells",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast covariates_only66/correct_unchanged_cells",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast covariates_only66/correct_minimum_difference",
+      "passed": true,
+      "observed": 42.800000000000004,
+      "expected": 42.8,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast covariates_only66/correct_maximum_difference",
+      "passed": true,
+      "observed": 100.0,
+      "expected": 100,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast conditional66/correct_increased_cells",
+      "passed": true,
+      "observed": 318,
+      "expected": 318,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast conditional66/correct_decreased_cells",
+      "passed": true,
+      "observed": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast conditional66/correct_unchanged_cells",
+      "passed": true,
+      "observed": 211,
+      "expected": 211,
+      "tolerance": 0,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast conditional66/correct_minimum_difference",
+      "passed": true,
+      "observed": -0.30000000000000027,
+      "expected": -0.3,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/5.4 contrast conditional66/correct_maximum_difference",
+      "passed": true,
+      "observed": 9.599999999999998,
+      "expected": 9.6,
+      "tolerance": 1e-10,
+      "source": "information_summary.csv"
+    },
+    {
+      "name": "5.3/full66-full34 mean pp",
+      "passed": true,
+      "observed": 1.0127777777777787,
+      "expected": 1.0128,
+      "tolerance": 5e-05,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/full66-full34 means positive in both realizations",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostics/correct_first_only",
+      "passed": true,
+      "observed": 451,
+      "expected": 451,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostics/correct_second_only",
+      "passed": true,
+      "observed": 440,
+      "expected": 440,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostics/wrong_first_only",
+      "passed": true,
+      "observed": 148,
+      "expected": 148,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostics/wrong_second_only",
+      "passed": true,
+      "observed": 2,
+      "expected": 2,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostic net correct",
+      "passed": true,
+      "observed": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/diagnostic mean opposite signs",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "5.3/no-diagnostic Wilson retention",
+      "passed": true,
+      "observed": 493,
+      "expected": 493,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "5.4/covariate count pass neither rule",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "5.4/conditional classification_count_pass",
+      "passed": true,
+      "observed": 528,
+      "expected": 528,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "5.4/conditional classification_confidence_pass",
+      "passed": true,
+      "observed": 508,
+      "expected": 508,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "5.4/conditional correct worst cell",
+      "passed": true,
+      "observed": 0.901,
+      "expected": 0.901,
+      "tolerance": 1e-12,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.4/conditional wrong worst cell",
+      "passed": true,
+      "observed": 0.021,
+      "expected": 0.021,
+      "tolerance": 1e-12,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.4/conditional wrong CI wrong_wilson_lo",
+      "passed": true,
+      "observed": 1.3775739567924286,
+      "expected": 1.378,
+      "tolerance": 0.0005,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.4/conditional wrong CI wrong_wilson_hi",
+      "passed": true,
+      "observed": 3.189029506123752,
+      "expected": 3.189,
+      "tolerance": 0.0005,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.5/full66 envelope correct_increased_cells",
+      "passed": true,
+      "observed": 61,
+      "expected": 61,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope correct_decreased_cells",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope correct_paired_gained",
+      "passed": true,
+      "observed": 126,
+      "expected": 126,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope correct_paired_lost",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope wrong_paired_gained",
+      "passed": true,
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope wrong_paired_lost",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope wrong_increased_cells",
+      "passed": true,
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full66 envelope double_rejected_to_wrong_total",
+      "passed": true,
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/one extra wrong in each15 cells",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "envelope_effects.csv"
+    },
+    {
+      "name": "5.5/full34 net correct lost",
+      "passed": true,
+      "observed": 850,
+      "expected": 850,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/full34 net wrong removed",
+      "passed": true,
+      "observed": 100,
+      "expected": 100,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/conditional66 net correct lost",
+      "passed": true,
+      "observed": 41,
+      "expected": 41,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/conditional66 net wrong removed",
+      "passed": true,
+      "observed": 57,
+      "expected": 57,
+      "tolerance": 0,
+      "source": "envelope_summary.csv"
+    },
+    {
+      "name": "5.5/all individual true retention losses zero",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "envelope_effects.csv"
+    },
+    {
+      "name": "5.5/5400 metric rows",
+      "passed": true,
+      "observed": 5400,
+      "expected": 5400,
+      "tolerance": 0,
+      "source": "metrics.csv"
+    },
+    {
+      "name": "5.5/7020 paired rows",
+      "passed": true,
+      "observed": 7020,
+      "expected": 7020,
+      "tolerance": 0,
+      "source": "paired.csv"
+    },
+    {
+      "name": "manuscript claim exists: meets both stronger classification and retention targets in501",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "MANUSCRIPT_REVIEW_VERSION.md; whitespace normalized"
+    },
+    {
+      "name": "Conclusion/501 combined gates",
+      "passed": true,
+      "observed": 501,
+      "expected": 501,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Conclusion/no rule passes all combined gates",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "method_summary.csv"
+    },
+    {
+      "name": "Historical441024 includes1024 validation fixtures",
+      "passed": true,
+      "observed": 1024,
+      "expected": 1024,
+      "tolerance": 0,
+      "source": "old population_verification.json"
+    },
+    {
+      "name": "Historical scientific parents440000",
+      "passed": true,
+      "observed": 440000,
+      "expected": 440000,
+      "tolerance": 0,
+      "source": "old population_verification.json"
+    },
+    {
+      "name": "Current880000 =640000new+240000oldsubset",
+      "passed": true,
+      "observed": 880000,
+      "expected": 880000,
+      "tolerance": 0,
+      "source": "new physical_banks_verification.json"
+    },
+    {
+      "name": "4.1/old216 cells",
+      "passed": true,
+      "observed": 216,
+      "expected": 216,
+      "tolerance": 0,
+      "source": "old metrics.csv"
+    },
+    {
+      "name": "4.1/old208 Wilson classification",
+      "passed": true,
+      "observed": 208,
+      "expected": 208,
+      "tolerance": 0,
+      "source": "old metrics.csv"
+    },
+    {
+      "name": "4.1/old8 exceptions Newton beta1.3",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "old metrics.csv"
+    },
+    {
+      "name": "4.1/old fitted-family minimum retention",
+      "passed": true,
+      "observed": 0.983,
+      "expected": 0.983,
+      "tolerance": 1e-12,
+      "source": "old metrics.csv"
+    },
+    {
+      "name": "4.1/old22 scientific libraries",
+      "passed": true,
+      "observed": 22,
+      "expected": 22,
+      "tolerance": 0,
+      "source": "old population_verification.json"
+    },
+    {
+      "name": "Current statistical count arithmetic",
+      "passed": true,
+      "observed": true,
+      "expected": true,
+      "tolerance": 0,
+      "source": "stage manifests"
+    },
+    {
+      "name": "Manuscript unchanged during check",
+      "passed": true,
+      "observed": "78d7c4f10c9069c6d69f508204644e67d399bd3c7f8b42456cc3893bd38e5377",
+      "expected": "78d7c4f10c9069c6d69f508204644e67d399bd3c7f8b42456cc3893bd38e5377",
+      "tolerance": 0,
+      "source": "SHA256 before/after"
+    }
+  ],
+  "input_sha256": {
+    "MANUSCRIPT_REVIEW_VERSION.md": "78d7c4f10c9069c6d69f508204644e67d399bd3c7f8b42456cc3893bd38e5377",
+    "stats\\results\\metrics.csv": "160619d0bb1769249d97fda28bb39f9d57432ea638f61f5999db353654f1ff5b",
+    "stats\\results\\paired.csv": "d07d7ba6aad16333537c27ff699230ba5e85474ed78694250643054dee0fb0b6",
+    "stats\\results\\method_summary.csv": "9efbc6e10dcd2f6a902055b3edacadecf3997a77645320fb15e0515f1b222b66",
+    "stats\\results\\information_summary.csv": "66869743f2ebddbd2f63593e505d2a69047e95852ab51c227f3211addb55e177",
+    "stats\\results\\envelope_summary.csv": "74fbdc30258f6a7d4329352f3a84a247fba3c65751d9680ca1882a3c206bd4ac",
+    "stats\\results\\envelope_effects.csv": "dfd458d642b17fe313bf6ac508cf6621d69c48f1bec235ac78b21ed0b1cc6c6a",
+    "stats\\results\\realization_summary.csv": "4f0f74b4f7d43e4f526bbab3b9ef011e5b363e229d5264d3db4dbe569c383256",
+    "stats\\results\\library_support.csv": "c9c6b09b8c38abb5c8778bb472685727383619427a46115e1159550d478b1cd5",
+    "stats\\results\\calibration\\manifest.json": "3fa529bdaaca7e03ea9d0f62fef383c8280bc08fa89db109d08b76f8ae785235",
+    "stats\\results\\test\\manifest.json": "688fe86ac232adc9335737ef37b3562e94694ed44fe88892a3a7192a0e96fdf5",
+    "stats\\results\\EXECUTION_PROTOCOL.json": "a31ae2e50feb7af250d9a8d9f8c61713005fabde04d096d1f570417c4db53685",
+    "review/physical_banks_verification.json": "006f16b21c9685858652b5d4af0e8d7a9279838c9439f607e5fadefd62b5ac8a",
+    "review/delivery_api_verification.json": "848be529d6729a2084f65e086d039e1ea00189ee3ae50ae83bc29fa05e3a774b",
+    "../dr4_chain/review/population_verification.json": "41db1f71cd144fd28022e03fff1adeba6cc65f8f1eb754235b9565d60a76c56c",
+    "dr4_chain\\decision\\results\\metrics.csv": "e54fb60b79ee37033fb1d3742c50c6f97c613f8e8bf6cf084caa5bb24fa3075c"
+  },
+  "source_sha256": "2eebe477f2f8d7e7ffc654548eff6bb63d760d5746611d27690905ab9eb2d3c2",
+  "scope": "Editorial agreement of the abstract, all numerical results in section5, conclusion, and relevant design/old-new-count accounting with saved CSV/JSON. No production import or scientific reconstruction.",
+  "limitations": "This checks recorded numerical claims and rounding, not grammar, publication suitability, bibliography, physical adequacy or the independent recalculation still owned by the separate verifier."
+}

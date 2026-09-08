@@ -1,0 +1,1682 @@
+{
+  "source_sha256": "93f1b6019cf87242645c67603b9482e74c3a9b2110efc061c3c79044515442e7",
+  "independent_model_source_sha256": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406",
+  "complete": true,
+  "scope": "Recounts saved pointwise evidence; direct force integrations are not rerun.",
+  "report_reconstruction_passed": true,
+  "physics_criteria_passed": true,
+  "checks": [
+    {
+      "name": "model_hash",
+      "passed": true,
+      "absolute_error": null
+    },
+    {
+      "name": "newton/q0.1/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 3.330032370673742e-13
+    },
+    {
+      "name": "qumond/q0.1/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 1.1368683772161603e-13
+    },
+    {
+      "name": "qumond/q0.1/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 2.5069422381648714e-16
+    },
+    {
+      "name": "qumond/q0.1/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 3.6764245706010555e-11
+    },
+    {
+      "name": "qumond/q0.1/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 3.3275861681292857e-12
+    },
+    {
+      "name": "newton/q0.1/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "newton/q0.1/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 2.0528361622643672e-16
+    },
+    {
+      "name": "newton/q0.1/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 3.0783835993553045e-12
+    },
+    {
+      "name": "newton/q0.1/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 5.90913693642279e-13
+    },
+    {
+      "name": "qumond/q0.1/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 2.842170943040401e-14
+    },
+    {
+      "name": "qumond/q0.1/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 4.1043479091063635e-16
+    },
+    {
+      "name": "qumond/q0.1/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 3.23105431526195e-12
+    },
+    {
+      "name": "qumond/q0.1/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 7.363910614166415e-14
+    },
+    {
+      "name": "newton/q0.1/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 1.264099316067063e-11
+    },
+    {
+      "name": "newton/q0.1/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 2.1544985020754051e-13
+    },
+    {
+      "name": "qumond/q0.1/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "qumond/q0.1/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 2.9963959915710325e-16
+    },
+    {
+      "name": "qumond/q0.1/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 4.8792671563752284e-12
+    },
+    {
+      "name": "qumond/q0.1/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 8.201575943940587e-13
+    },
+    {
+      "name": "newton/q0.1/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "newton/q0.1/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 6.332767714763892e-17
+    },
+    {
+      "name": "newton/q0.1/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 1.4097298303387647e-11
+    },
+    {
+      "name": "newton/q0.1/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 1.5871528003361219e-23
+    },
+    {
+      "name": "qumond/q0.1/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "qumond/q0.1/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 3.8468848332501304e-16
+    },
+    {
+      "name": "qumond/q0.1/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 1.2811919634550483e-12
+    },
+    {
+      "name": "qumond/q0.1/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 1.2672459123984833e-12
+    },
+    {
+      "name": "newton/q0.1/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "name": "newton/q0.1/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 5.167978565176016e-18
+    },
+    {
+      "name": "newton/q0.1/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 2.1226489911925676e-12
+    },
+    {
+      "name": "newton/q0.1/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 7.853357158528101e-14
+    },
+    {
+      "name": "qumond/q0.1/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "qumond/q0.1/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 1.4037030001898265e-17
+    },
+    {
+      "name": "qumond/q0.1/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 1.7959372399165124e-11
+    },
+    {
+      "name": "qumond/q0.1/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 8.048894927549657e-13
+    },
+    {
+      "name": "newton/q0.1/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 8.673617379884035e-19
+    },
+    {
+      "name": "newton/q0.1/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 1.2823485288442496e-16
+    },
+    {
+      "name": "newton/q0.1/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 1.663010531537755e-11
+    },
+    {
+      "name": "newton/q0.1/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 3.312055509738695e-13
+    },
+    {
+      "name": "qumond/q0.1/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 1.753768854240792e-11
+    },
+    {
+      "name": "qumond/q0.1/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 1.4736858121236219e-12
+    },
+    {
+      "name": "newton/q0.1/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.1/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 4.347411227484641e-12
+    },
+    {
+      "name": "newton/q0.1/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.1/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 4.336808689942018e-19
+    },
+    {
+      "name": "qumond/q0.1/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 1.5868654047040964e-16
+    },
+    {
+      "name": "qumond/q0.1/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 1.2341713232000903e-11
+    },
+    {
+      "name": "qumond/q0.1/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 2.0242749384830713e-12
+    },
+    {
+      "name": "newton/q0.3/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 5.684341886080802e-14
+    },
+    {
+      "name": "newton/q0.3/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 9.131777501053887e-17
+    },
+    {
+      "name": "newton/q0.3/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 5.122914855441121e-13
+    },
+    {
+      "name": "newton/q0.3/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 3.32909351488823e-13
+    },
+    {
+      "name": "qumond/q0.3/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 5.684341886080802e-14
+    },
+    {
+      "name": "qumond/q0.3/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 6.955961617794403e-17
+    },
+    {
+      "name": "qumond/q0.3/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 1.010605357252607e-11
+    },
+    {
+      "name": "qumond/q0.3/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 1.6639696777981344e-12
+    },
+    {
+      "name": "newton/q0.3/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "newton/q0.3/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 2.0528362946132652e-16
+    },
+    {
+      "name": "newton/q0.3/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 1.8981947292992376e-16
+    },
+    {
+      "name": "newton/q0.3/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 5.836586402174163e-21
+    },
+    {
+      "name": "qumond/q0.3/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "qumond/q0.3/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 1.6857755595373492e-16
+    },
+    {
+      "name": "qumond/q0.3/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 3.712205451998156e-12
+    },
+    {
+      "name": "qumond/q0.3/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 7.360648596318821e-14
+    },
+    {
+      "name": "newton/q0.3/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 7.239906947784363e-12
+    },
+    {
+      "name": "newton/q0.3/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 2.155912147819645e-13
+    },
+    {
+      "name": "qumond/q0.3/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "qumond/q0.3/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 3.315625768732233e-17
+    },
+    {
+      "name": "qumond/q0.3/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 1.6544998329447716e-11
+    },
+    {
+      "name": "qumond/q0.3/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 7.189853884310917e-21
+    },
+    {
+      "name": "newton/q0.3/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "newton/q0.3/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 1.2717678827391595e-16
+    },
+    {
+      "name": "newton/q0.3/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 1.170532317669025e-16
+    },
+    {
+      "name": "newton/q0.3/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 2.5962198358471303e-13
+    },
+    {
+      "name": "qumond/q0.3/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "qumond/q0.3/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 1.0567583049944651e-16
+    },
+    {
+      "name": "qumond/q0.3/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 2.808589059554823e-11
+    },
+    {
+      "name": "qumond/q0.3/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 8.568120378275694e-13
+    },
+    {
+      "name": "newton/q0.3/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 7.853358393012447e-14
+    },
+    {
+      "name": "qumond/q0.3/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "qumond/q0.3/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 9.582314325698449e-17
+    },
+    {
+      "name": "qumond/q0.3/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 2.0538100261530447e-12
+    },
+    {
+      "name": "qumond/q0.3/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 4.896909226313924e-22
+    },
+    {
+      "name": "newton/q0.3/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 4.336808689942018e-19
+    },
+    {
+      "name": "newton/q0.3/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 2.6384173262426063e-17
+    },
+    {
+      "name": "newton/q0.3/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 5.870317598775867e-12
+    },
+    {
+      "name": "newton/q0.3/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 4.967607243291711e-13
+    },
+    {
+      "name": "qumond/q0.3/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "name": "qumond/q0.3/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 1.4479265903659735e-16
+    },
+    {
+      "name": "qumond/q0.3/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 8.150949274762882e-12
+    },
+    {
+      "name": "qumond/q0.3/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 4.565366894189884e-13
+    },
+    {
+      "name": "newton/q0.3/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q0.3/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 2.168404344971009e-19
+    },
+    {
+      "name": "newton/q0.3/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 1.7524815662900425e-16
+    },
+    {
+      "name": "newton/q0.3/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 1.1993773446020752e-12
+    },
+    {
+      "name": "newton/q0.3/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 3.605194529544697e-13
+    },
+    {
+      "name": "qumond/q0.3/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q0.3/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 6.505213034913027e-19
+    },
+    {
+      "name": "qumond/q0.3/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 1.8658441762117728e-16
+    },
+    {
+      "name": "qumond/q0.3/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 1.080317130362337e-11
+    },
+    {
+      "name": "qumond/q0.3/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 2.238569667006268e-13
+    },
+    {
+      "name": "newton/q1.0/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 5.684341886080802e-14
+    },
+    {
+      "name": "newton/q1.0/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 9.131777501053887e-17
+    },
+    {
+      "name": "newton/q1.0/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 2.2697362989176425e-13
+    },
+    {
+      "name": "newton/q1.0/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 3.329108086998209e-13
+    },
+    {
+      "name": "qumond/q1.0/r0.045/mu0.61/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.045/mu0.61/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.045/mu0.61/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.045/mu0.61/finite_difference",
+      "passed": true,
+      "absolute_error": 6.9014697143952904e-12
+    },
+    {
+      "name": "qumond/q1.0/r0.045/mu0.61/jacobian",
+      "passed": true,
+      "absolute_error": 9.98389551563015e-13
+    },
+    {
+      "name": "newton/q1.0/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "newton/q1.0/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 1.996552212582748e-16
+    },
+    {
+      "name": "newton/q1.0/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 1.961909029165919e-16
+    },
+    {
+      "name": "newton/q1.0/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 7.385713459942677e-14
+    },
+    {
+      "name": "qumond/q1.0/r0.12/mu-0.22/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.12/mu-0.22/acceleration",
+      "passed": true,
+      "absolute_error": 2.842170943040401e-14
+    },
+    {
+      "name": "qumond/q1.0/r0.12/mu-0.22/relative_error",
+      "passed": true,
+      "absolute_error": 5.680687341254049e-17
+    },
+    {
+      "name": "qumond/q1.0/r0.12/mu-0.22/finite_difference",
+      "passed": true,
+      "absolute_error": 3.8193758216669374e-16
+    },
+    {
+      "name": "qumond/q1.0/r0.12/mu-0.22/jacobian",
+      "passed": true,
+      "absolute_error": 1.2515705930627892e-12
+    },
+    {
+      "name": "newton/q1.0/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "name": "newton/q1.0/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 1.6670275357692532e-16
+    },
+    {
+      "name": "newton/q1.0/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 1.2665783398982402e-11
+    },
+    {
+      "name": "newton/q1.0/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 2.1544984724623392e-13
+    },
+    {
+      "name": "qumond/q1.0/r0.41/mu0.87/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.41/mu0.87/acceleration",
+      "passed": true,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "name": "qumond/q1.0/r0.41/mu0.87/relative_error",
+      "passed": true,
+      "absolute_error": 1.12469034736426e-16
+    },
+    {
+      "name": "qumond/q1.0/r0.41/mu0.87/finite_difference",
+      "passed": true,
+      "absolute_error": 1.1244141725671862e-11
+    },
+    {
+      "name": "qumond/q1.0/r0.41/mu0.87/jacobian",
+      "passed": true,
+      "absolute_error": 1.353495717811369e-16
+    },
+    {
+      "name": "newton/q1.0/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "newton/q1.0/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 6.384910802434974e-17
+    },
+    {
+      "name": "newton/q1.0/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 6.448730636912261e-18
+    },
+    {
+      "name": "newton/q1.0/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 2.5962198383069586e-13
+    },
+    {
+      "name": "qumond/q1.0/r0.9/mu-0.71/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r0.9/mu-0.71/acceleration",
+      "passed": true,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "qumond/q1.0/r0.9/mu-0.71/relative_error",
+      "passed": true,
+      "absolute_error": 2.949436484975254e-16
+    },
+    {
+      "name": "qumond/q1.0/r0.9/mu-0.71/finite_difference",
+      "passed": true,
+      "absolute_error": 1.1172803890811838e-11
+    },
+    {
+      "name": "qumond/q1.0/r0.9/mu-0.71/jacobian",
+      "passed": true,
+      "absolute_error": 1.290317353548521e-12
+    },
+    {
+      "name": "newton/q1.0/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "name": "newton/q1.0/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 5.168046028863553e-18
+    },
+    {
+      "name": "newton/q1.0/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 7.222705161199555e-12
+    },
+    {
+      "name": "newton/q1.0/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 5.496471051828622e-13
+    },
+    {
+      "name": "qumond/q1.0/r2.8/mu0.19/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r2.8/mu0.19/acceleration",
+      "passed": true,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "qumond/q1.0/r2.8/mu0.19/relative_error",
+      "passed": true,
+      "absolute_error": 3.1525380450678903e-16
+    },
+    {
+      "name": "qumond/q1.0/r2.8/mu0.19/finite_difference",
+      "passed": true,
+      "absolute_error": 2.7170105886724767e-16
+    },
+    {
+      "name": "qumond/q1.0/r2.8/mu0.19/jacobian",
+      "passed": true,
+      "absolute_error": 9.659062985173334e-13
+    },
+    {
+      "name": "newton/q1.0/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 8.673617379884035e-19
+    },
+    {
+      "name": "newton/q1.0/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 1.2823487330585023e-16
+    },
+    {
+      "name": "newton/q1.0/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 1.589086883466911e-11
+    },
+    {
+      "name": "newton/q1.0/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 1.6565037866412418e-13
+    },
+    {
+      "name": "qumond/q1.0/r11.5/mu-0.46/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r11.5/mu-0.46/acceleration",
+      "passed": true,
+      "absolute_error": 8.673617379884035e-19
+    },
+    {
+      "name": "qumond/q1.0/r11.5/mu-0.46/relative_error",
+      "passed": true,
+      "absolute_error": 7.737815379757484e-17
+    },
+    {
+      "name": "qumond/q1.0/r11.5/mu-0.46/finite_difference",
+      "passed": true,
+      "absolute_error": 9.17033822690268e-12
+    },
+    {
+      "name": "qumond/q1.0/r11.5/mu-0.46/jacobian",
+      "passed": true,
+      "absolute_error": 1.0383253073907713e-12
+    },
+    {
+      "name": "newton/q1.0/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "newton/q1.0/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 7.980081822818355e-12
+    },
+    {
+      "name": "newton/q1.0/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 3.606276183438413e-13
+    },
+    {
+      "name": "qumond/q1.0/r24/mu0.79/reference_acceleration",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "qumond/q1.0/r24/mu0.79/acceleration",
+      "passed": true,
+      "absolute_error": 6.505213034913027e-19
+    },
+    {
+      "name": "qumond/q1.0/r24/mu0.79/relative_error",
+      "passed": true,
+      "absolute_error": 1.4135963450137567e-16
+    },
+    {
+      "name": "qumond/q1.0/r24/mu0.79/finite_difference",
+      "passed": true,
+      "absolute_error": 1.358636258500261e-11
+    },
+    {
+      "name": "qumond/q1.0/r24/mu0.79/jacobian",
+      "passed": true,
+      "absolute_error": 6.675783111781542e-13
+    },
+    {
+      "name": "energy/q0.3/r0.05/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q0.3/r0.05/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q0.3/r1.0/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q0.3/r1.0/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q0.3/r20.0/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q0.3/r20.0/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r0.05/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r0.05/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r1.0/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r1.0/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r20.0/mesh",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "energy/q1.0/r20.0/outer",
+      "passed": true,
+      "absolute_error": 0.0
+    },
+    {
+      "name": "old_reference/q0.1",
+      "passed": true,
+      "absolute_error": 1.0110185258427329e-16
+    },
+    {
+      "name": "old_reference/q0.3",
+      "passed": true,
+      "absolute_error": 2.730563171404743e-16
+    },
+    {
+      "name": "old_reference/q1.0",
+      "passed": true,
+      "absolute_error": 2.9905006422581426e-16
+    },
+    {
+      "name": "complete_final_point_set",
+      "passed": true,
+      "absolute_error": null
+    },
+    {
+      "name": "reported_final_status",
+      "passed": true,
+      "absolute_error": null
+    },
+    {
+      "name": "reported_max_force_error",
+      "passed": true,
+      "absolute_error": 1.5868654047040964e-16
+    }
+  ],
+  "checks_count": 229,
+  "force_metrics": [
+    {
+      "q": 0.1,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "force_error": 2.1041986499907763e-06,
+      "gradient_error": 2.7940475194943835e-11,
+      "jacobian_asymmetry": 1.2472173445699133e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "force_error": 3.6059894401183048e-06,
+      "gradient_error": 4.351464235445871e-11,
+      "jacobian_asymmetry": 1.246987621856227e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "force_error": 3.048970751516397e-08,
+      "gradient_error": 9.503984399972039e-11,
+      "jacobian_asymmetry": 1.9581366606014962e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "force_error": 3.625850803587903e-07,
+      "gradient_error": 1.0086678887365635e-10,
+      "jacobian_asymmetry": 1.954714364980304e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "force_error": 3.35931663033527e-09,
+      "gradient_error": 4.8448593735916806e-11,
+      "jacobian_asymmetry": 2.226748686544137e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "force_error": 3.3631169751079984e-05,
+      "gradient_error": 6.047669430647427e-11,
+      "jacobian_asymmetry": 2.1901551678696173e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "force_error": 1.3268948722309056e-09,
+      "gradient_error": 1.8708399978124475e-11,
+      "jacobian_asymmetry": 4.1380435851938423e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "force_error": 4.8068697696623194e-05,
+      "gradient_error": 2.2870816428285923e-11,
+      "jacobian_asymmetry": 6.538465832729687e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "force_error": 2.0124556474946148e-11,
+      "gradient_error": 8.845102564720774e-11,
+      "jacobian_asymmetry": 1.7486551485561417e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "force_error": 2.497938451352283e-05,
+      "gradient_error": 8.38062894562448e-11,
+      "jacobian_asymmetry": 1.6625042289603766e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "force_error": 1.8877250211980126e-12,
+      "gradient_error": 5.54324421060912e-11,
+      "jacobian_asymmetry": 2.3802493768861516e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "force_error": 6.127898530943706e-05,
+      "gradient_error": 5.021968286387887e-11,
+      "jacobian_asymmetry": 2.3404082366448994e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "force_error": 1.0285972200902106e-11,
+      "gradient_error": 3.7396835294631844e-11,
+      "jacobian_asymmetry": 1.214783605855072e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.1,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "force_error": 0.0001025240413751742,
+      "gradient_error": 3.3202912053417605e-11,
+      "jacobian_asymmetry": 5.500854730224059e-09,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "force_error": 2.149916098454931e-06,
+      "gradient_error": 2.5636500045435784e-11,
+      "jacobian_asymmetry": 1.2470916516895436e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "force_error": 3.1048587073911576e-06,
+      "gradient_error": 2.9113124850007816e-11,
+      "jacobian_asymmetry": 1.246981592483557e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "force_error": 3.062198333990444e-08,
+      "gradient_error": 9.830439957815152e-11,
+      "jacobian_asymmetry": 1.9580557224163484e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "force_error": 8.503429178942164e-07,
+      "gradient_error": 9.571087166621453e-11,
+      "jacobian_asymmetry": 1.954951786085884e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "force_error": 3.3600978056865658e-09,
+      "gradient_error": 6.685299257710912e-11,
+      "jacobian_asymmetry": 2.2267487040422685e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "force_error": 3.259421332967522e-05,
+      "gradient_error": 5.87182671998374e-11,
+      "jacobian_asymmetry": 2.1874656495789158e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "force_error": 1.327019126082658e-09,
+      "gradient_error": 2.2775214683917303e-11,
+      "jacobian_asymmetry": 4.135447365669478e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "force_error": 4.725866754802385e-05,
+      "gradient_error": 1.0926073171459373e-11,
+      "jacobian_asymmetry": 5.928664321277713e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "force_error": 2.0125228403132124e-11,
+      "gradient_error": 8.883107656452156e-11,
+      "jacobian_asymmetry": 1.748694406551866e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "force_error": 2.5683645702797526e-05,
+      "gradient_error": 9.718382064531586e-11,
+      "jacobian_asymmetry": 1.497709477502942e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "force_error": 1.8901878678835673e-12,
+      "gradient_error": 5.0018981326276454e-11,
+      "jacobian_asymmetry": 2.3803652845492642e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "force_error": 6.72940873207321e-06,
+      "gradient_error": 5.715229601253733e-11,
+      "jacobian_asymmetry": 2.3155223123028428e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "force_error": 1.0285271207990846e-11,
+      "gradient_error": 3.6197279489316444e-11,
+      "jacobian_asymmetry": 1.2147836166721212e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "force_error": 3.295716342373583e-05,
+      "gradient_error": 4.267026844614767e-11,
+      "jacobian_asymmetry": 5.492064997024353e-09,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "force_error": 2.1828916591373174e-06,
+      "gradient_error": 2.2959649582871208e-11,
+      "jacobian_asymmetry": 1.2471304331082116e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "force_error": 3.0520442297200195e-06,
+      "gradient_error": 3.794727276928826e-11,
+      "jacobian_asymmetry": 1.2469819273234158e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "force_error": 3.071897574172041e-08,
+      "gradient_error": 9.772511229098139e-11,
+      "jacobian_asymmetry": 1.9581150476484455e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "force_error": 1.4048710000703225e-07,
+      "gradient_error": 9.887267142756519e-11,
+      "jacobian_asymmetry": 1.9550268689385682e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "force_error": 3.3606811038336214e-09,
+      "gradient_error": 5.2669981280000146e-11,
+      "jacobian_asymmetry": 2.2266840574564526e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "force_error": 2.2766824968883203e-05,
+      "gradient_error": 4.880838373747861e-11,
+      "jacobian_asymmetry": 2.186757328643467e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "force_error": 1.3271129203004355e-09,
+      "gradient_error": 1.3758930546213024e-11,
+      "jacobian_asymmetry": 4.1380435857422196e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "force_error": 6.74426004425431e-05,
+      "gradient_error": 3.120010251104863e-11,
+      "jacobian_asymmetry": 5.333524382147849e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "force_error": 2.01250095950826e-11,
+      "gradient_error": 9.390599153083612e-11,
+      "jacobian_asymmetry": 1.748678704234818e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "force_error": 1.0583007840337732e-05,
+      "gradient_error": 8.908027219866475e-11,
+      "jacobian_asymmetry": 1.3270439130649765e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "force_error": 1.8928807998459634e-12,
+      "gradient_error": 6.126043732988666e-11,
+      "jacobian_asymmetry": 2.380365284549347e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "force_error": 2.0845098274640288e-05,
+      "gradient_error": 5.6768192578933776e-11,
+      "jacobian_asymmetry": 2.274061492944188e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "force_error": 1.0286246119918307e-11,
+      "gradient_error": 3.7396892922188733e-11,
+      "jacobian_asymmetry": 1.2148196686169226e-08,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "force_error": 4.7852449010524496e-05,
+      "gradient_error": 3.761056679545291e-11,
+      "jacobian_asymmetry": 5.489511141467663e-09,
+      "criteria_passed": true
+    }
+  ],
+  "energy_metrics": [
+    {
+      "q": 0.3,
+      "r": 0.05,
+      "mesh_relative": 5.554268822649533e-09,
+      "outer_relative": 7.15095538339483e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 1.0,
+      "mesh_relative": 3.7955456821947564e-07,
+      "outer_relative": 5.310845452299873e-07,
+      "criteria_passed": true
+    },
+    {
+      "q": 0.3,
+      "r": 20.0,
+      "mesh_relative": 3.7551154696835454e-07,
+      "outer_relative": 5.238759115400171e-07,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 0.05,
+      "mesh_relative": 3.836649997701613e-08,
+      "outer_relative": 3.9780312377502014e-10,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 1.0,
+      "mesh_relative": 4.02015951195267e-07,
+      "outer_relative": 5.369578763847471e-07,
+      "criteria_passed": true
+    },
+    {
+      "q": 1.0,
+      "r": 20.0,
+      "mesh_relative": 2.3428398443492426e-08,
+      "outer_relative": 5.25047111787913e-07,
+      "criteria_passed": true
+    }
+  ],
+  "old_reference_metrics": [
+    {
+      "q": 0.1,
+      "relative_error": 0.00030592395514183205
+    },
+    {
+      "q": 0.3,
+      "relative_error": 0.0002799999694627439
+    },
+    {
+      "q": 1.0,
+      "relative_error": 9.547100740538602e-05
+    }
+  ],
+  "input_sha256": {
+    "physics\\validation.json": "b2a6cd5427d39d978dc7c6d61b77e03b618ed65e91f14ea998023cf11418c912",
+    "physics\\results\\forces\\final_q0.1_r0.045_mu0.61.json": "038e148cbb435ded257a089cf6d913eae436894a61f3ce40425134004e3b5689",
+    "physics\\results\\forces\\final_q0.1_r0.12_mu-0.22.json": "2905109f3f7d44006735d7cb6367a57e33a83433d1e69c470a630ec17f487ff3",
+    "physics\\results\\forces\\final_q0.1_r0.41_mu0.87.json": "fbf80fb5cf349dead14c70bde0c4725fa8940d1b4f18936943ff244be896092b",
+    "physics\\results\\forces\\final_q0.1_r0.9_mu-0.71.json": "8a3a26f50f748cf2547b69f606922510917f7dbae8c7794a64d4ff6451d3afe2",
+    "physics\\results\\forces\\final_q0.1_r2.8_mu0.19.json": "e1b1edc0209debf5cdbfce25c3f259d75d597db353dc6dd3ea9c9a0ade892fe4",
+    "physics\\results\\forces\\final_q0.1_r11.5_mu-0.46.json": "5f38ee89d06bdd131d174b6fa3a1d279cfb5017739eb2748d429c0885c9d9824",
+    "physics\\results\\forces\\final_q0.1_r24_mu0.79.json": "36a0623baabb7664205bc559f69c83279b7e02f82fdacd92f705b52f2cd6a351",
+    "physics\\results\\forces\\final_q0.3_r0.045_mu0.61.json": "280c9e90da93a375b2013ec35641384a6f646e156c91478a7acf786dbbf87795",
+    "physics\\results\\forces\\final_q0.3_r0.12_mu-0.22.json": "b0f4ede9ed03e1a439ce99483ba22fa7acdd4512340c3652b9165c4c2258c791",
+    "physics\\results\\forces\\final_q0.3_r0.41_mu0.87.json": "40cc514b185125f2ec90d7252e71ee26829362760ac911d23d2f06cab9302f02",
+    "physics\\results\\forces\\final_q0.3_r0.9_mu-0.71.json": "dfa9144b00feefbbb43b0f0bf45fb5d2cdc3fe31749624ace2924896824d3c32",
+    "physics\\results\\forces\\final_q0.3_r2.8_mu0.19.json": "78ef835adb80fa213faa374cc5d35865fe164d72e09584371d549f7d0a3da1ad",
+    "physics\\results\\forces\\final_q0.3_r11.5_mu-0.46.json": "9624c4ba6d4b85601a6ee483b3cc721d91f2884829d50d37d6f161857e0bfb1a",
+    "physics\\results\\forces\\final_q0.3_r24_mu0.79.json": "5e08ae786d86160432c8888810a18f147b88ce79598dae5c7ce19cdaf1ab3609",
+    "physics\\results\\forces\\final_q1_r0.045_mu0.61.json": "813897cffc312ae9418a0e03fa2e26227fed63e51af475c23e867f3872f89d6d",
+    "physics\\results\\forces\\final_q1_r0.12_mu-0.22.json": "f317b8c1995a76b6853abb7a1238ec6ef1f192f1deda19da60e6eed8c616d24c",
+    "physics\\results\\forces\\final_q1_r0.41_mu0.87.json": "a12cde88d433a60d380589d2aef66e739b1d7dbb6d3a0f4c96a0500d8ee24073",
+    "physics\\results\\forces\\final_q1_r0.9_mu-0.71.json": "2f1459b0f1364f2a2e2280fdb7b4647b6e71230af2fc564bc9ee145746f0dacf",
+    "physics\\results\\forces\\final_q1_r2.8_mu0.19.json": "42e31deb4f0b768163b288e9ca0d9fabfc73024e02860e3fc0ef49110608dab0",
+    "physics\\results\\forces\\final_q1_r11.5_mu-0.46.json": "ad005f9e0352ccec109fa14b9463f1f8231046e95c0e110c366ddb36d549d611",
+    "physics\\results\\forces\\final_q1_r24_mu0.79.json": "dc863e2dfda9bed5a9131425900aadd7e7e997eaf5820bd57e5d072ff0f820b9",
+    "physics\\results\\energy_controls\\q0.3_r0.05_base.json": "d472e39787a37e1afa52a5edf25ab315fae858a7372c481a3574d26960b12432",
+    "physics\\results\\energy_controls\\q0.3_r0.05_reference.json": "c7f442acea4ac4903176b00219d03fe34423914c0b71ddb0aaf0e41b33d1ede9",
+    "physics\\results\\energy_controls\\q0.3_r0.05_outer.json": "265f1a8c087f91a734c8edaa4313539067ac2d8ff165838d2d457b3d9ba9b48c",
+    "physics\\results\\energy_controls\\q0.3_r1_base.json": "1d3d529e0104992129b5a036386a4232dc8d624517886694e7c1d0513589c2fe",
+    "physics\\results\\energy_controls\\q0.3_r1_reference.json": "d899a20cf335e01f7871ad2034b32de760712daf805b67275590dc414fce8c9c",
+    "physics\\results\\energy_controls\\q0.3_r1_outer.json": "e7bc2572312617f7dbbee8239566d2cf5e4928d3be9258893176e5204bfc3d7e",
+    "physics\\results\\energy_controls\\q0.3_r20_base.json": "5994af3202b71737f6e59fc8ddca67c97c21d8195f613fe1fd2267b492af8ead",
+    "physics\\results\\energy_controls\\q0.3_r20_reference.json": "9dfe962e7a75245bbcb3eeedb59582e695b20b5fb298491cb1f58c29fa64e659",
+    "physics\\results\\energy_controls\\q0.3_r20_outer.json": "38f1b3e390005d20421b178aea0b095cc54d3e576f6b7937f1257e0660590d13",
+    "physics\\results\\energy_controls\\q1_r0.05_base.json": "909ae39f7b6233a44cf113e89473bcf45103c8b81b9e641a4236b44b3d3229ac",
+    "physics\\results\\energy_controls\\q1_r0.05_reference.json": "45d3e9011557ea94b119e6b2308c765681fdc10c10d4def43457ce2356169d6d",
+    "physics\\results\\energy_controls\\q1_r0.05_outer.json": "9f9b44f313d37e631fe9da6a3bb73ecf49ac8eaf65b6b3b33c37a129e391c82b",
+    "physics\\results\\energy_controls\\q1_r1_base.json": "f5bdb47489640c1d196a2af4a4331f70384b219b43993a358675b8d9b0971d1b",
+    "physics\\results\\energy_controls\\q1_r1_reference.json": "2580266320bd64240fe04e668bc1104f7537b556927833ba47b948df601a8b95",
+    "physics\\results\\energy_controls\\q1_r1_outer.json": "6b733d3b3a596a6d2ff855cc3b7f97539d4e9911cd851dc9114620806f838e98",
+    "physics\\results\\energy_controls\\q1_r20_base.json": "6480808663df7ca8ef34d6c8c005bed3099b699cc41b06675f3e9fe0fb75a5b0",
+    "physics\\results\\energy_controls\\q1_r20_reference.json": "636d1a67eb8ab46bf2829ad9bb7fcbb57856e3984b7ab547bb454b30e3f6b6be",
+    "physics\\results\\energy_controls\\q1_r20_outer.json": "545d1c9faec8ee10ef8ab10c243ce096fbc0ae899468bbd2856a0d151d1ec949",
+    "dr4_binary\\physics\\results\\jobs\\reference_E1_q0.1_d1_t45_reference.json": "b437b86d40ff7d86164aba326026ef53e98d385ed96c353a844c2d81d35accc5",
+    "dr4_binary\\physics\\results\\jobs\\reference_E1_q0.3_d1_t45_reference.json": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+    "dr4_binary\\physics\\results\\jobs\\reference_E1_q1_d1_t45_reference.json": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e"
+  },
+  "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f"
+}

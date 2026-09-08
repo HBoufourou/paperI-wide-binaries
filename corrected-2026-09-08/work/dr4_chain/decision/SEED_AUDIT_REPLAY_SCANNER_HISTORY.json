@@ -1,0 +1,2381 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "name": "independent_enumeration_matches_engine",
+      "passed": true
+    },
+    {
+      "name": "124_unique_decision_streams",
+      "passed": true
+    },
+    {
+      "name": "52_calibration_72_test",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/fitting/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/fitting/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/fitting/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/fitting/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/fitting/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/fitting/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/calibration/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/calibration/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/calibration/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/calibration/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/calibration/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/calibration/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/test/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/test/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/test/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/test/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/test/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/test/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/test/comp60/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/test/comp60/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/Newton/test/comp160/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/Newton/test/comp160/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/fitting/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/fitting/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/fitting/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/fitting/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/fitting/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/fitting/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/calibration/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/calibration/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/calibration/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/calibration/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/calibration/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/calibration/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/test/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/test/pure/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/test/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/test/comp40/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/test/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/test/comp80/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/test/comp60/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/test/comp60/source_expression",
+      "passed": true
+    },
+    {
+      "name": "population/QUMOND/test/comp160/source_expression",
+      "passed": true
+    },
+    {
+      "name": "observer/QUMOND/test/comp160/source_expression",
+      "passed": true
+    },
+    {
+      "name": "44_unique_upstream_streams",
+      "passed": true
+    },
+    {
+      "name": "no_decision_upstream_collision",
+      "passed": true
+    },
+    {
+      "name": "16_unique_upstream_fixture_streams",
+      "passed": true
+    },
+    {
+      "name": "no_decision_fixture_collision",
+      "passed": true
+    },
+    {
+      "name": "no_upstream_fixture_collision",
+      "passed": true
+    },
+    {
+      "name": "275000001_reserved_only_for_executed_analytic_fixture",
+      "passed": true
+    },
+    {
+      "name": "all_large_integer_candidates_accounted_for",
+      "passed": false
+    },
+    {
+      "name": "analytic_fixture_literal_present",
+      "passed": true
+    },
+    {
+      "name": "corrected_software_streams_distinct",
+      "passed": true
+    },
+    {
+      "name": "preserved_executed_engine_hash",
+      "passed": true
+    },
+    {
+      "name": "preserved_executed_protocol_hash",
+      "passed": true
+    }
+  ],
+  "scientific_execution_performed": false,
+  "decision_streams": [
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "theta_index": 0,
+      "seed": 270000001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "theta_index": 1,
+      "seed": 270000101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.5,
+      "theta_index": 2,
+      "seed": 270000201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 1.0,
+      "theta_index": 3,
+      "seed": 270000301,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 0.0,
+      "theta_index": 4,
+      "seed": 270000401,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 0.5,
+      "theta_index": 5,
+      "seed": 270000501,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 1.0,
+      "theta_index": 6,
+      "seed": 270000601,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "theta_index": 7,
+      "seed": 270000701,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.5,
+      "theta_index": 8,
+      "seed": 270000801,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 1.0,
+      "theta_index": 9,
+      "seed": 270000901,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "theta_index": 10,
+      "seed": 270001001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.5,
+      "theta_index": 11,
+      "seed": 270001101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 1.0,
+      "theta_index": 12,
+      "seed": 270001201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "theta_index": 13,
+      "seed": 270010001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "theta_index": 14,
+      "seed": 270010101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.5,
+      "theta_index": 15,
+      "seed": 270010201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 1.0,
+      "theta_index": 16,
+      "seed": 270010301,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 0.0,
+      "theta_index": 17,
+      "seed": 270010401,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 0.5,
+      "theta_index": 18,
+      "seed": 270010501,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 1.0,
+      "theta_index": 19,
+      "seed": 270010601,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "theta_index": 20,
+      "seed": 270010701,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.5,
+      "theta_index": 21,
+      "seed": 270010801,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 1.0,
+      "theta_index": 22,
+      "seed": 270010901,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "theta_index": 23,
+      "seed": 270011001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.5,
+      "theta_index": 24,
+      "seed": 270011101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 1.0,
+      "theta_index": 25,
+      "seed": 270011201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "theta_index": 0,
+      "seed": 271000001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "theta_index": 1,
+      "seed": 271000101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.5,
+      "theta_index": 2,
+      "seed": 271000201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 1.0,
+      "theta_index": 3,
+      "seed": 271000301,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 0.0,
+      "theta_index": 4,
+      "seed": 271000401,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 0.5,
+      "theta_index": 5,
+      "seed": 271000501,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.15,
+      "eta": 1.0,
+      "theta_index": 6,
+      "seed": 271000601,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "theta_index": 7,
+      "seed": 271000701,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.5,
+      "theta_index": 8,
+      "seed": 271000801,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 1.0,
+      "theta_index": 9,
+      "seed": 271000901,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "theta_index": 10,
+      "seed": 271001001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.5,
+      "theta_index": 11,
+      "seed": 271001101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 1.0,
+      "theta_index": 12,
+      "seed": 271001201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "theta_index": 13,
+      "seed": 271010001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "theta_index": 14,
+      "seed": 271010101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.5,
+      "theta_index": 15,
+      "seed": 271010201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 1.0,
+      "theta_index": 16,
+      "seed": 271010301,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 0.0,
+      "theta_index": 17,
+      "seed": 271010401,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 0.5,
+      "theta_index": 18,
+      "seed": 271010501,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.15,
+      "eta": 1.0,
+      "theta_index": 19,
+      "seed": 271010601,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "theta_index": 20,
+      "seed": 271010701,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.5,
+      "theta_index": 21,
+      "seed": 271010801,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 1.0,
+      "theta_index": 22,
+      "seed": 271010901,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "theta_index": 23,
+      "seed": 271011001,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.5,
+      "theta_index": 24,
+      "seed": 271011101,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 1.0,
+      "theta_index": 25,
+      "seed": 271011201,
+      "prior": null,
+      "role": "calibration"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274000001,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274000101,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274000201,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274000301,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274001001,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274001101,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274001201,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274001301,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274002001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274002101,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274002201,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274002301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274003001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274003101,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274003201,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274003301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274010001,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274010101,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274010201,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274010301,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274011001,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274011101,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274011201,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274011301,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274012001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274012101,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274012201,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274012301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274013001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 274013101,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 274013201,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274013301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.3,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274022001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.3,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274022301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.3,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 274023001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "Newton",
+      "hypothesis_index": 0,
+      "beta": 1.3,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 274023301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277000001,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277000101,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277000201,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277000301,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277001001,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277001101,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277001201,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277001301,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277002001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277002101,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277002201,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277002301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277003001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277003101,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277003201,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.0,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277003301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277010001,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277010101,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277010201,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277010301,
+      "prior": 40,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277011001,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277011101,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277011201,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277011301,
+      "prior": 80,
+      "role": "test",
+      "family": "endpoint",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277012001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277012101,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277012201,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277012301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277013001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.075,
+      "eta": 0.0,
+      "seed": 277013101,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.225,
+      "eta": 0.0,
+      "seed": 277013201,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.6,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277013301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "endpoint"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.3,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277022001,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.3,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277022301,
+      "prior": 60,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.3,
+      "f": 0.0,
+      "eta": 0.0,
+      "seed": 277023001,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    },
+    {
+      "gravity": "QUMOND",
+      "hypothesis_index": 1,
+      "beta": 1.3,
+      "f": 0.3,
+      "eta": 0.0,
+      "seed": 277023301,
+      "prior": 160,
+      "role": "test",
+      "family": "outside_inner_prior",
+      "beta_family": "outside_beta_grid"
+    }
+  ],
+  "upstream_streams": [
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "pure",
+      "seed": 260000001
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "pure",
+      "seed": 263000001
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "comp40",
+      "seed": 260000101
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "comp40",
+      "seed": 263000101
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "comp80",
+      "seed": 260000201
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "fitting",
+      "component": "comp80",
+      "seed": 263000201
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "pure",
+      "seed": 260010001
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "pure",
+      "seed": 263010001
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "comp40",
+      "seed": 260010101
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "comp40",
+      "seed": 263010101
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "comp80",
+      "seed": 260010201
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "calibration",
+      "component": "comp80",
+      "seed": 263010201
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "pure",
+      "seed": 260020001
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "pure",
+      "seed": 263020001
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp40",
+      "seed": 260020101
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp40",
+      "seed": 263020101
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp80",
+      "seed": 260020201
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp80",
+      "seed": 263020201
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp60",
+      "seed": 260020301
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp60",
+      "seed": 263020301
+    },
+    {
+      "kind": "population",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp160",
+      "seed": 260020401
+    },
+    {
+      "kind": "observer",
+      "gravity": "Newton",
+      "role": "test",
+      "component": "comp160",
+      "seed": 263020401
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "pure",
+      "seed": 261000001
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "pure",
+      "seed": 264000001
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "comp40",
+      "seed": 261000101
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "comp40",
+      "seed": 264000101
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "comp80",
+      "seed": 261000201
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "fitting",
+      "component": "comp80",
+      "seed": 264000201
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "pure",
+      "seed": 261010001
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "pure",
+      "seed": 264010001
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "comp40",
+      "seed": 261010101
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "comp40",
+      "seed": 264010101
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "comp80",
+      "seed": 261010201
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "calibration",
+      "component": "comp80",
+      "seed": 264010201
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "pure",
+      "seed": 261020001
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "pure",
+      "seed": 264020001
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp40",
+      "seed": 261020101
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp40",
+      "seed": 264020101
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp80",
+      "seed": 261020201
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp80",
+      "seed": 264020201
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp60",
+      "seed": 261020301
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp60",
+      "seed": 264020301
+    },
+    {
+      "kind": "population",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp160",
+      "seed": 261020401
+    },
+    {
+      "kind": "observer",
+      "gravity": "QUMOND",
+      "role": "test",
+      "component": "comp160",
+      "seed": 264020401
+    }
+  ],
+  "fixture_streams": [
+    {
+      "path": "verify_orbits.py",
+      "purpose": "analytic_trajectories",
+      "seed": 268000001
+    },
+    {
+      "path": "verify_population.py",
+      "purpose": "population_pure",
+      "seed": 268000011
+    },
+    {
+      "path": "verify_population.py",
+      "purpose": "population_comp40",
+      "seed": 268000012
+    },
+    {
+      "path": "verify_population.py",
+      "purpose": "population_comp160",
+      "seed": 268000013
+    },
+    {
+      "path": "verify_population.py",
+      "purpose": "empty_helper",
+      "seed": 268000020
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "purpose": "initial_newton",
+      "seed": 268000101
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "purpose": "initial_qumond",
+      "seed": 268001101
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "purpose": "observer_newton",
+      "seed": 268000201
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "purpose": "observer_qumond",
+      "seed": 268001201
+    },
+    {
+      "path": "verify_observer.py",
+      "purpose": "analytic_inputs",
+      "seed": 269000001
+    },
+    {
+      "path": "verify_observer.py",
+      "purpose": "paired_noise_uniform_white",
+      "seed": 269000002
+    },
+    {
+      "path": "verify_observer.py",
+      "purpose": "paired_noise_clustered_correlated",
+      "seed": 269000003
+    },
+    {
+      "path": "verify_observer.py",
+      "purpose": "paired_noise_sparse_floor",
+      "seed": 269000004
+    },
+    {
+      "path": "review/verify_interpolant.py",
+      "purpose": "polynomial_fixture",
+      "seed": 268900001
+    },
+    {
+      "path": "review/export_model_probes.py",
+      "purpose": "interpolation_probes",
+      "seed": 268900101
+    },
+    {
+      "path": "review/check_energy.py",
+      "purpose": "executed_analytic_action_fixture",
+      "seed": 275000001
+    }
+  ],
+  "corrected_software_streams": [
+    279000001,
+    279000002,
+    279000003,
+    279000010,
+    279100001,
+    279101001,
+    279102001,
+    279103001,
+    279104001,
+    279105001,
+    279106001,
+    279107001,
+    279108001,
+    279109001,
+    279110001,
+    279111001,
+    279112001,
+    279113001,
+    279114001,
+    279115001,
+    279116001,
+    279117001,
+    279118001,
+    279119001,
+    279120001,
+    279121001,
+    279122001,
+    279123001,
+    279124001,
+    279125001,
+    279126001,
+    279127001,
+    279128001,
+    279129001,
+    279130001,
+    279131001,
+    279132001,
+    279133001,
+    279134001,
+    279135001,
+    279136001,
+    279137001,
+    279138001,
+    279139001,
+    279140001,
+    279141001,
+    279142001,
+    279143001,
+    279144001,
+    279145001,
+    279146001,
+    279147001,
+    279148001,
+    279149001,
+    279150001,
+    279151001,
+    279300001,
+    279301001,
+    279302001,
+    279303001,
+    279304001,
+    279305001,
+    279306001,
+    279307001,
+    279308001,
+    279309001,
+    279310001,
+    279311001,
+    279312001,
+    279313001,
+    279314001,
+    279315001,
+    279316001,
+    279317001,
+    279318001,
+    279319001,
+    279320001,
+    279321001,
+    279322001,
+    279323001,
+    279324001,
+    279325001,
+    279326001,
+    279327001,
+    279328001,
+    279329001,
+    279330001,
+    279331001,
+    279332001,
+    279333001,
+    279334001,
+    279335001,
+    279336001,
+    279337001,
+    279338001,
+    279339001,
+    279340001,
+    279341001,
+    279342001,
+    279343001,
+    279344001,
+    279345001,
+    279346001,
+    279347001,
+    279348001,
+    279349001,
+    279350001,
+    279351001,
+    279352001,
+    279353001,
+    279354001,
+    279355001,
+    279356001,
+    279357001,
+    279358001,
+    279359001,
+    279360001,
+    279361001,
+    279362001,
+    279363001,
+    279364001,
+    279365001,
+    279366001,
+    279367001,
+    279368001,
+    279369001,
+    279370001,
+    279371001
+  ],
+  "large_integer_candidates": [
+    {
+      "path": "generate_banks.py",
+      "line": 44,
+      "value": 268000000,
+      "expression_line": "assert len(records)==22 and len(streams)==len(set(streams))==44 and max(streams)<268000000"
+    },
+    {
+      "path": "generate_banks.py",
+      "line": 37,
+      "value": 260000001,
+      "expression_line": "ps=260000001+gi*1000000+ri*10000+ci*100"
+    },
+    {
+      "path": "generate_banks.py",
+      "line": 38,
+      "value": 263000001,
+      "expression_line": "os=263000001+gi*1000000+ri*10000+ci*100"
+    },
+    {
+      "path": "review/check_energy.py",
+      "line": 20,
+      "value": 275000001,
+      "expression_line": "rng=np.random.default_rng(275000001)"
+    },
+    {
+      "path": "review/export_model_probes.py",
+      "line": 20,
+      "value": 268900101,
+      "expression_line": "rng=np.random.default_rng(268900101);n=1200"
+    },
+    {
+      "path": "review/verify_decisions.py",
+      "line": 184,
+      "value": 270000001,
+      "expression_line": "seed=270000001+1000000*hi+10000*bi+100*mi,prior=None,role='calibration'))"
+    },
+    {
+      "path": "review/verify_decisions.py",
+      "line": 190,
+      "value": 274000001,
+      "expression_line": "seed=274000001+3000000*hi+10000*bi+1000*pi+100*fi,prior=prior,role='test',"
+    },
+    {
+      "path": "review/verify_interpolant.py",
+      "line": 105,
+      "value": 268900001,
+      "expression_line": "rng=np.random.default_rng(268900001);err=0."
+    },
+    {
+      "path": "review/verify_populations.py",
+      "line": 197,
+      "value": 268000000,
+      "expression_line": "checks.yes('independent_role_seed_namespaces',len(seeds)==44 and len(set(seeds))==44 and max(seeds)<268000000)"
+    },
+    {
+      "path": "review/verify_populations.py",
+      "line": 172,
+      "value": 260000001,
+      "expression_line": "expected_seed=260000001+gi*1000000+ri*10000+ci*100"
+    },
+    {
+      "path": "review/verify_populations.py",
+      "line": 173,
+      "value": 263000001,
+      "expression_line": "observer_seed=263000001+gi*1000000+ri*10000+ci*100"
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "line": 33,
+      "value": 268000101,
+      "expression_line": "p,meta=generate_library(512,268000101+gi*1000,potential,cmax,'comp40')"
+    },
+    {
+      "path": "validate_physical_chain.py",
+      "line": 45,
+      "value": 268000201,
+      "expression_line": "observed=observe_pairs(None,p['distance_pc'],p['pm_err_masyr'],inner,scenario,268000201+gi*1000,"
+    },
+    {
+      "path": "verify_observer.py",
+      "line": 12,
+      "value": 269000001,
+      "expression_line": "rng=np.random.default_rng(269000001);n=48"
+    },
+    {
+      "path": "verify_observer.py",
+      "line": 28,
+      "value": 269000002,
+      "expression_line": "args=(None,distance,errors,inner,scenario,269000002+si,ra,de)"
+    },
+    {
+      "path": "verify_observer.py",
+      "line": 35,
+      "value": 269000002,
+      "expression_line": "legacy=old.observe_pairs(velocity,distance,errors,inner,scenario,269000002+si,ra,de)"
+    },
+    {
+      "path": "verify_orbits.py",
+      "line": 20,
+      "value": 268000001,
+      "expression_line": "rng=np.random.default_rng(268000001);n=24"
+    },
+    {
+      "path": "verify_population.py",
+      "line": 35,
+      "value": 268000020,
+      "expression_line": "empty=inner_orbits(0,np.random.default_rng(268000020),np.empty((0,2)),np.empty(0),np.empty(0),40)"
+    },
+    {
+      "path": "verify_population.py",
+      "line": 13,
+      "value": 268000011,
+      "expression_line": "p,meta=generate_library(256,268000011+j,potential,2.,component)"
+    },
+    {
+      "path": "verify_population.py",
+      "line": 34,
+      "value": 269000000,
+      "expression_line": "check('roles not science',meta['seed']<269000000)"
+    }
+  ],
+  "unknown_candidates": [
+    {
+      "path": "review/verify_decisions.py",
+      "line": 184,
+      "value": 270000001,
+      "expression_line": "seed=270000001+1000000*hi+10000*bi+100*mi,prior=None,role='calibration'))"
+    },
+    {
+      "path": "review/verify_decisions.py",
+      "line": 190,
+      "value": 274000001,
+      "expression_line": "seed=274000001+3000000*hi+10000*bi+1000*pi+100*fi,prior=prior,role='test',"
+    }
+  ],
+  "source_sha256": {
+    "assemble_status.py": "8673666d3d6962a64f015f83d2fafbf7ccb2929043609611735fdb4dc2e01f6f",
+    "build_observer.py": "25ebcd6ae3cd739e518fccb106ccd383d3bb91a1d7fa5858d12567e43da2da69",
+    "generate_banks.py": "3a4fda62507dc4b2716b360e47d5f266f740df3f960c09c64cd8b07251d59f1d",
+    "inventory_dependencies.py": "8ae2b6ed137979b0ad42b9c66a5f41b0ceae61c64da361afac588a08ea5c7caf",
+    "joint_observer.py": "278ee60927b4cb905456cbee07b82d6be2e87b4a0337d00f2ce49767c3f75f22",
+    "orbits.py": "efbfa94ff5cc169594e7b9eccaf9446b89cf7f720735665698a68d50b1853050",
+    "physics/build_grid.py": "567a91501a9b55e5c820d2e17d4d7282e88b5d5e52b30593d14eff3348d71a6d",
+    "physics/interaction_energy.py": "631b6c8d77ffa51d9e05bbfd328625209a4d1a2575a7252571d93617195c8e33",
+    "physics/interaction_model.py": "3551de4294b95d32c1c0b90d2d29b463a6432e821948ad8c07f57cdcbc20cef7",
+    "physics/run_pipeline.py": "dd6200a95ee8d2a0bd84ed702dc48acf1796104e2bc9838cac7c1abefc64b8ef",
+    "physics/test_interpolant.py": "f5ab69fb561ef9a13cb49d82135908c5d217245a4883ae0187c80eadb769ad68",
+    "physics/validate_model.py": "f7bfe5b421034c511161122923912b1f9ff64cff4d93d16bf528fe78070c0f76",
+    "physics/write_report.py": "f7fa50a8c95bd8967b1eac9eefefea71c9185ea5b3a179f52bb80822dfdf3b53",
+    "population.py": "ab6cdb6a40afcf88f1f28593363f9f1a664e0ac7b83ac2bbb1a1565a33a7a7f9",
+    "review/check_available_populations.py": "c51658e9884061234b37b9d2b225ab9b25723ae011b465462a18dec7651b4825",
+    "review/check_energy.py": "88c75f8dd891375fe3036a6291043bc9c163da580d587cee7043efe38739598a",
+    "review/check_energy_numerics.py": "b7c073c16d1dcae0bd4e5086fbbac74ed985f6d8b1b491e56c36f79c341054de",
+    "review/export_model_probes.py": "761edd8462fc280a69498d8ccba1d2156f1b5022c8e30a154a038ba81bc903d1",
+    "review/independent_energy.py": "111ef7e61102e7756eac9d0195405faa433617ff39aa6901d4d67892fc13578e",
+    "review/report_energy.py": "77b446130caeb493b1842cb8944576b3da5c4698c08634920339dafce6b8ebda",
+    "review/verify_decisions.py": "d95e68577ebc34f8090c5dec118193cc7b02a339a97420080d28eb6c24f70193",
+    "review/verify_energy_grid.py": "dd2bd410c64aa32ca73eb0d599e8649d0c483c3f0a4f645b7fc1494928b3d7af",
+    "review/verify_interpolant.py": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406",
+    "review/verify_physics_report.py": "93f1b6019cf87242645c67603b9482e74c3a9b2110efc061c3c79044515442e7",
+    "review/verify_populations.py": "cf3d40fa2b480dab28acd695b11f5f9c65265a5ae3e812c5a25957e721b1eb93",
+    "review/write_review.py": "a69840882bf2c52dbdc490905feb47a582e56abd9b49b2c369b15ee23fb4ff9c",
+    "validate_physical_chain.py": "faf03a7dd85dacbb2865ffe627c94785a0e360fbf54624a3cf3b955cafdeb808",
+    "verify_delivery_api.py": "b9e53ddf692877c033fa725b4bde05abf8aa68fe22b98ca146fa766a23e97566",
+    "verify_observer.py": "b6a204d340adf640d9fc0567f1c87ba319f2f17c6866969b92cd8a37151f15fc",
+    "verify_orbits.py": "6d7bed9c8f49b94181cf1a66dbcd17c61eace82fbaa79438f06f5433e70b3c7b",
+    "verify_population.py": "036651704a974a32e9bc9f7fc9dc9538a5e77a918cfac6e5aada3b184b0e52f5"
+  },
+  "decision_source_sha256": {
+    "engine.py": "17ea561738cf9d9b75fa350529358c0bf444fa19ced5a6a870cb03d8b98589c6",
+    "PROTOCOL.md": "4c9ce8eb07dfebd01938d5cdb91a95ca623a0e3c14a285929bcd177a21531006",
+    "AMENDMENT_01_TEST_SEEDS.md": "8750d0dbf7517898071c526cee6d532b0c94445e1810d422e3e01de025536f29",
+    "seed_audit.py": "9eb8760389be48d27a512fd272708c09e6bdccfb0db9bcb63b920f5fe4aa09cd"
+  },
+  "intentional_reuse": [
+    "Same selected parents across cadence observations and comparisons.",
+    "Same population seed for predeclared 20k/40k prefix refinement.",
+    "Same null noise when verifying analytic versus legacy observers.",
+    "Source-seeded deterministic reruns of an existing declared check."
+  ],
+  "historical_exception": "The first artificial plumbing fixture inherited future decision seeds; its complete unchanged archive is disclosed in SOFTWARE_SEED_AUDIT.md. It is not an independent physical library or scientific test.",
+  "limitations": "Static source snapshot plus explicit current expression enumeration. Not an assertion about arbitrary uninspected future code or RNG substreams. Different seeds and finite-library role separation do not eliminate empirical covariate reuse."
+}

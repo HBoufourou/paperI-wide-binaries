@@ -1,0 +1,51 @@
+{
+  "pages": 15,
+  "pdf_sha256": "ae25b9065b44b3c719fdda74eb01110fed3b992a29c94538693bebfe9eab22c4",
+  "source_sha256": "94c578c0a2de402af947d4a723b871cd77331f617effd3de062dd12401e42e50",
+  "all_pages_have_text": true,
+  "unresolved_tokens_or_replacement_boxes_detected": false,
+  "rendered_pages": [
+    "page-01.png",
+    "page-02.png",
+    "page-03.png",
+    "page-04.png",
+    "page-05.png",
+    "page-06.png",
+    "page-07.png",
+    "page-08.png",
+    "page-09.png",
+    "page-10.png",
+    "page-11.png",
+    "page-12.png",
+    "page-13.png",
+    "page-14.png",
+    "page-15.png"
+  ],
+  "contact_sheets": [
+    "contact-1.png",
+    "contact-2.png",
+    "contact-3.png"
+  ],
+  "passed": true,
+  "visual_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_method": "All pages reviewed in contact sheets; equations, result tables and figure additionally examined at full page resolution.",
+  "material_clipping_or_overlap_detected": false,
+  "missing_math_glyphs_detected": false,
+  "limits": "Visual rendering QA and text checks, not independent scientific validation or journal acceptance."
+}

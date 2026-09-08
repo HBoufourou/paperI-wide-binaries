@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="249" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 249" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="249"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-249)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="85" y="234" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,468) scale(1,-1)">Wilson classification target</text>
+			<text x="295" y="234" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,468) scale(1,-1)">Wilson true-retention target</text>
+			<circle cx="150" cy="215" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="158" y="212" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,424) scale(1,-1)">Baseline</text>
+			<rect x="227" y="212" width="6" height="6" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<text x="239" y="212" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,424) scale(1,-1)">Library envelope</text>
+			<text x="0" y="184" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,368) scale(1,-1)">Full66</text>
+			<circle cx="248.62962962962962" cy="189.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="245.33333333333331" y="179.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<circle cx="445.5925925925926" cy="189.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="446.44444444444446" y="179.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<text x="0" y="153" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,306) scale(1,-1)">No diagnostics</text>
+			<circle cx="251.0" cy="158.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="248.0" y="148.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<circle cx="439.96296296296293" cy="158.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="444.0740740740741" y="148.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<text x="0" y="122" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,244) scale(1,-1)">Full34</text>
+			<circle cx="235.88888888888889" cy="127.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="234.66666666666666" y="117.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<circle cx="434.03703703703707" cy="127.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="441.7037037037037" y="117.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<text x="0" y="91" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,182) scale(1,-1)">Covariates only</text>
+			<circle cx="91.0" cy="96.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="88.0" y="86.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<circle cx="412.1111111111111" cy="96.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="427.1851851851852" y="86.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<text x="0" y="60" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,120) scale(1,-1)">Conditional66</text>
+			<circle cx="239.74074074074073" cy="65.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="238.51851851851853" y="55.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<circle cx="449.44444444444446" cy="65.5" r="3" style="stroke: rgb(45%,49%,53%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="450.2962962962963" y="55.5" width="6.0" height="6.0" style="stroke: rgb(3%,48%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,50%); fill-rule: evenodd;"/>
+			<path d="M 91,44 L 91,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="88.776" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">0</text>
+			<path d="M 144.333333,44 L 144.333333,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="137.66133333333332" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">180</text>
+			<path d="M 197.666667,44 L 197.666667,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="190.99466666666666" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">360</text>
+			<path d="M 251,44 L 251,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="244.328" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">540</text>
+			<path d="M 91,44 L 251,44 Z" style="stroke: rgb(14%,23%,31%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="116.312" y="13" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,26) scale(1,-1)">Number of tested cells (of 540)</text>
+			<path d="M 301,44 L 301,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="298.776" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">0</text>
+			<path d="M 354.333333,44 L 354.333333,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="347.6613333333333" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">180</text>
+			<path d="M 407.666667,44 L 407.666667,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="400.9946666666666" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">360</text>
+			<path d="M 461,44 L 461,199 Z" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.3;"/>
+			<text x="454.328" y="31" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,62) scale(1,-1)">540</text>
+			<path d="M 301,44 L 461,44 Z" style="stroke: rgb(14%,23%,31%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="326.312" y="13" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,23%,31%); stroke:none;" transform="translate(0,26) scale(1,-1)">Number of tested cells (of 540)</text>
+		</g>
+	</g>
+</svg>

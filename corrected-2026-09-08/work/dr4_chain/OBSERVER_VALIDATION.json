@@ -1,0 +1,1200 @@
+{
+  "passed": true,
+  "checks": 174,
+  "records": [
+    {
+      "name": "uniform_white/legacy_zero/pm34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/pm66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/bias_noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/bias_noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/inner_bias34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/inner_bias66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/cov34_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/acceleration_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/combined_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_chi2_max34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/cov66_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/acceleration_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/combined_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_chi2_max66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/pm_source34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/acceleration_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/pm_source66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/residual_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/acceleration_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/cov_cross_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/sigma_al_mas",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/times_year",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/scan_angle_rad",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/n_epoch34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/legacy_zero/n_epoch66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_relative34",
+      "passed": true,
+      "max_abs": 3.552713678800501e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_outer34",
+      "passed": true,
+      "max_abs": 8.881784197001252e-16,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_invariance_residual_score34",
+      "passed": true,
+      "max_abs": 1.4210854715202004e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/straight_invariance_acceleration_score34",
+      "passed": true,
+      "max_abs": 3.410605131648481e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/straight_invariance_combined_score34",
+      "passed": true,
+      "max_abs": 3.410605131648481e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/source_slopes34",
+      "passed": true,
+      "max_abs": 3.9968028886505635e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_relative66",
+      "passed": true,
+      "max_abs": 2.220446049250313e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_outer66",
+      "passed": true,
+      "max_abs": 1.3322676295501878e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/straight_invariance_residual_score66",
+      "passed": true,
+      "max_abs": 1.7053025658242404e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/straight_invariance_acceleration_score66",
+      "passed": true,
+      "max_abs": 9.094947017729282e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/straight_invariance_combined_score66",
+      "passed": true,
+      "max_abs": 9.094947017729282e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "uniform_white/source_slopes66",
+      "passed": true,
+      "max_abs": 1.7763568394002505e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/decomposition34",
+      "passed": true,
+      "max_abs": 8.881784197001252e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "uniform_white/source_difference34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/noise_unchanged34",
+      "passed": true,
+      "max_abs": 1.7763568394002505e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "uniform_white/covariance_unchanged34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "uniform_white/decomposition66",
+      "passed": true,
+      "max_abs": 4.440892098500626e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "uniform_white/source_difference66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "uniform_white/noise_unchanged66",
+      "passed": true,
+      "max_abs": 2.6645352591003757e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "uniform_white/covariance_unchanged66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "uniform_white/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "uniform_white/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "uniform_white/reject_shape",
+      "passed": true
+    },
+    {
+      "name": "uniform_white/reject_nonfinite",
+      "passed": true
+    },
+    {
+      "name": "uniform_white/reject_mass",
+      "passed": true
+    },
+    {
+      "name": "uniform_white/reject_duplicate_slope",
+      "passed": true
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/pm34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/pm66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/bias_noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/bias_noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/inner_bias34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/inner_bias66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/cov34_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/acceleration_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/combined_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_chi2_max34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/cov66_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/acceleration_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/combined_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_chi2_max66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/pm_source34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/acceleration_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/pm_source66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/residual_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/acceleration_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/cov_cross_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/sigma_al_mas",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/times_year",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/scan_angle_rad",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/n_epoch34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/legacy_zero/n_epoch66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_relative34",
+      "passed": true,
+      "max_abs": 3.0531133177191805e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_outer34",
+      "passed": true,
+      "max_abs": 1.3322676295501878e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_residual_score34",
+      "passed": true,
+      "max_abs": 1.7053025658242404e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_acceleration_score34",
+      "passed": true,
+      "max_abs": 2.2737367544323206e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_combined_score34",
+      "passed": true,
+      "max_abs": 2.2737367544323206e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/source_slopes34",
+      "passed": true,
+      "max_abs": 3.3306690738754696e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_relative66",
+      "passed": true,
+      "max_abs": 3.552713678800501e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_outer66",
+      "passed": true,
+      "max_abs": 2.220446049250313e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_residual_score66",
+      "passed": true,
+      "max_abs": 4.547473508864641e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_acceleration_score66",
+      "passed": true,
+      "max_abs": 3.637978807091713e-12,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/straight_invariance_combined_score66",
+      "passed": true,
+      "max_abs": 3.637978807091713e-12,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "clustered_correlated/source_slopes66",
+      "passed": true,
+      "max_abs": 2.9976021664879227e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/decomposition34",
+      "passed": true,
+      "max_abs": 8.881784197001252e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "clustered_correlated/source_difference34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/noise_unchanged34",
+      "passed": true,
+      "max_abs": 4.9960036108132044e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "clustered_correlated/covariance_unchanged34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "clustered_correlated/decomposition66",
+      "passed": true,
+      "max_abs": 4.440892098500626e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "clustered_correlated/source_difference66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "clustered_correlated/noise_unchanged66",
+      "passed": true,
+      "max_abs": 2.4424906541753444e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "clustered_correlated/covariance_unchanged66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "clustered_correlated/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "clustered_correlated/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "clustered_correlated/reject_shape",
+      "passed": true
+    },
+    {
+      "name": "clustered_correlated/reject_nonfinite",
+      "passed": true
+    },
+    {
+      "name": "clustered_correlated/reject_mass",
+      "passed": true
+    },
+    {
+      "name": "clustered_correlated/reject_duplicate_slope",
+      "passed": true
+    },
+    {
+      "name": "sparse_floor/legacy_zero/pm34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/pm66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/bias_noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/bias_noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/inner_bias34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/inner_bias66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/noise34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/noise66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/cov34_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/acceleration_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/combined_score34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_chi2_max34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/cov66_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/acceleration_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/combined_score66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_chi2_max66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/pm_source34_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/acceleration_score_source34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/pm_source66_masyr",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/residual_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/acceleration_score_source66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/cov_cross_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/sigma_al_mas",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/times_year",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/scan_angle_rad",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/n_epoch34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/legacy_zero/n_epoch66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_relative34",
+      "passed": true,
+      "max_abs": 3.552713678800501e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_outer34",
+      "passed": true,
+      "max_abs": 1.7763568394002505e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_invariance_residual_score34",
+      "passed": true,
+      "max_abs": 4.831690603168681e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/straight_invariance_acceleration_score34",
+      "passed": true,
+      "max_abs": 7.958078640513122e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/straight_invariance_combined_score34",
+      "passed": true,
+      "max_abs": 7.958078640513122e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/source_slopes34",
+      "passed": true,
+      "max_abs": 3.941291737419306e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_relative66",
+      "passed": true,
+      "max_abs": 3.552713678800501e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_outer66",
+      "passed": true,
+      "max_abs": 2.220446049250313e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/straight_invariance_residual_score66",
+      "passed": true,
+      "max_abs": 3.126388037344441e-13,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/straight_invariance_acceleration_score66",
+      "passed": true,
+      "max_abs": 3.637978807091713e-12,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/straight_invariance_combined_score66",
+      "passed": true,
+      "max_abs": 3.637978807091713e-12,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "sparse_floor/source_slopes66",
+      "passed": true,
+      "max_abs": 2.9976021664879227e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/decomposition34",
+      "passed": true,
+      "max_abs": 4.440892098500626e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "sparse_floor/source_difference34",
+      "passed": true,
+      "max_abs": 1.7763568394002505e-15,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/noise_unchanged34",
+      "passed": true,
+      "max_abs": 5.551115123125783e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "sparse_floor/covariance_unchanged34",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "sparse_floor/decomposition66",
+      "passed": true,
+      "max_abs": 4.440892098500626e-16,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "sparse_floor/source_difference66",
+      "passed": true,
+      "max_abs": 8.881784197001252e-16,
+      "atol": 1e-11,
+      "rtol": 1e-11
+    },
+    {
+      "name": "sparse_floor/noise_unchanged66",
+      "passed": true,
+      "max_abs": 2.6645352591003757e-15,
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    {
+      "name": "sparse_floor/covariance_unchanged66",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "sparse_floor/cov_delta_relative_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "sparse_floor/cov_delta_source_masyr2",
+      "passed": true,
+      "max_abs": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "sparse_floor/reject_shape",
+      "passed": true
+    },
+    {
+      "name": "sparse_floor/reject_nonfinite",
+      "passed": true
+    },
+    {
+      "name": "sparse_floor/reject_mass",
+      "passed": true
+    },
+    {
+      "name": "sparse_floor/reject_duplicate_slope",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "joint_observer.py": "278ee60927b4cb905456cbee07b82d6be2e87b4a0337d00f2ce49767c3f75f22",
+    "OBSERVER_PROTOCOL.md": "7f239ec1fafd1fc31af508004378aa0df1235f4fde38ecc83a70d74e861912bc",
+    "verify_observer.py": "b6a204d340adf640d9fc0567f1c87ba319f2f17c6866969b92cd8a37151f15fc"
+  },
+  "fixture_systems": 48,
+  "scenarios": [
+    "uniform_white",
+    "clustered_correlated",
+    "sparse_floor"
+  ],
+  "scope": "Analytic linear signal, combined fits, additive decomposition and legacy covariance; no gravity decision or population validation."
+}

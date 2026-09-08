@@ -1,0 +1,123 @@
+{
+  "source_sha256": "77b446130caeb493b1842cb8944576b3da5c4698c08634920339dafce6b8ebda",
+  "input_sha256": {
+    "review\\energy_validation.json": "3798db690b807c4ff584b0a0ebbe683a18b33fa38702d5d0b835421f8a755152",
+    "review\\energy_numerics.json": "6bbb1e58b3afc7cea55a44a2da19fbc3e8a5585788b60a267a737b639e4aef0c",
+    "physics\\pilot_first.json": "2f9b37634b2caff5e6205f20257785edb82753841b2111a743e16352fb127db1",
+    "physics\\pilot_controls.json": "cde564b7cd38e86d6d81d0b4a7580de2f83a05ffe84c9b98a17dc0d9886c1693"
+  },
+  "completed": true,
+  "passed": true,
+  "primary_integrals": 31,
+  "primary_nodes": 505036800,
+  "auxiliary_integrals": 6,
+  "gradient_comparison": [
+    {
+      "q": 1.0,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.002,
+      "step_theta_radians": 0.002,
+      "U_centre": -0.36308224647973003,
+      "radial_derivative": 0.33398520876425086,
+      "angular_derivative": 0.017706295411368256,
+      "force1_lab": [
+        0.2486834474882773,
+        0.0,
+        0.2236429643781358
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q1_d1_t45_reference.json",
+        "sha256": "de549295ce3ef50139b8f203ae0b30a20df67b7b3aab579e09762a22d9413c6e",
+        "force": [
+          0.2486826333962669,
+          3.902508585190382e-19,
+          0.22364208135936922
+        ]
+      },
+      "force_reference_relative_error": 3.591020990828981e-06,
+      "force_reference_component_difference": [
+        8.140920104149352e-07,
+        -3.902508585190382e-19,
+        8.830187665787026e-07
+      ]
+    },
+    {
+      "q": 0.3,
+      "theta": 45.0,
+      "order": 12,
+      "step_r": 0.002,
+      "step_theta_radians": 0.002,
+      "U_centre": -0.2562384720893619,
+      "radial_derivative": 0.24203739171375915,
+      "angular_derivative": 0.01432754729840946,
+      "force1_lab": [
+        0.18127738683398015,
+        0.0,
+        0.16101517512902747
+      ],
+      "reference": {
+        "path": "C:\\Users\\hicha\\Documents\\Codex\\2026-09-07\\https-github-com-hboufourou-ddf-i\\work\\dr4_binary\\physics\\results\\jobs\\reference_E1_q0.3_d1_t45_reference.json",
+        "sha256": "7cedf125ae3c452a8350b96e60a7421fb6d3f271709b10590d6a72bec83956fd",
+        "force": [
+          0.181276738575915,
+          3.9558276726175826e-20,
+          0.16101414636761427
+        ]
+      },
+      "force_reference_relative_error": 5.015147604545412e-06,
+      "force_reference_component_difference": [
+        6.482580651445691e-07,
+        -3.9558276726175826e-20,
+        1.0287614131965217e-06
+      ]
+    }
+  ],
+  "potential_comparison": [
+    {
+      "q": 1.0,
+      "production_level": "base",
+      "production_Rfactor": 64.0,
+      "production_U": -0.3630822192027284,
+      "independent_U": -0.36308224647973003,
+      "relative_difference": 7.51262335674241e-08
+    },
+    {
+      "q": 1.0,
+      "production_level": "reference",
+      "production_Rfactor": 64.0,
+      "production_U": -0.36308245039808623,
+      "independent_U": -0.36308224647973003,
+      "relative_difference": 5.616313056844291e-07
+    },
+    {
+      "q": 1.0,
+      "production_level": "base",
+      "production_Rfactor": 128.0,
+      "production_U": -0.3630820360469583,
+      "independent_U": -0.36308224647973003,
+      "relative_difference": 5.79573288805868e-07
+    },
+    {
+      "q": 0.3,
+      "production_level": "base",
+      "production_Rfactor": 64.0,
+      "production_U": -0.2562385555363851,
+      "independent_U": -0.2562384720893619,
+      "relative_difference": 3.2566157015523345e-07
+    }
+  ],
+  "numerical_auxiliary_checks": {
+    "equal_mass_reflection_relative": 4.99181412149907e-13,
+    "unequal_mass_label_exchange_relative": 6.900427924330934e-13,
+    "mixed_hessian_switch_relative": 9.590592317162937e-13,
+    "infinite_tail_breakpoint_relative": 5.595481715110728e-09
+  },
+  "signed_asymmetry": {
+    "q": 0.3,
+    "U_plus_mu": -0.2562384720893619,
+    "U_minus_mu": -0.26048399289616536,
+    "relative_to_plus": 0.01656863144782902
+  },
+  "limited_scope": "Independent action/force checks at q=1,.3,d=1,E_N=1,epsilon=.00125; signed case135deg. No uniform full-grid guarantee, population or sky verdict."
+}

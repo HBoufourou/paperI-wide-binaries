@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this dated corrected repository version and the manuscript it contains; include the commit identifier used. The older Zenodo DOIs do not identify this experiment."
+type: software
+title: "Conditional gravity decisions for wide binaries: orbital populations, shared astrometry and calibration-library transfer"
+authors:
+  - family-names: Boufourou
+    given-names: Hicham
+version: "corrected-2026-09-08"
+date-released: 2026-09-09
+repository-code: "https://github.com/HBoufourou/paperI-wide-binaries"
+url: "https://github.com/HBoufourou/paperI-wide-binaries/tree/main/corrected-2026-09-08"
+keywords:
+  - wide binaries
+  - gravity
+  - Newtonian dynamics
+  - QUMOND
+  - simulation calibration
+  - Gaia

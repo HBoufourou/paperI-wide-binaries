@@ -1,0 +1,496 @@
+{
+  "source_sha256": "e24c8cfed5a5f6898e73d0f0ac142da9515c0742c1a5b02e086850ea6ff65406",
+  "fixtures": {
+    "bicubic_known_polynomial_absolute_error": 1.7763568394002505e-15,
+    "horner_evaluation_known_potential_absolute_error": 8.881784197001252e-16,
+    "gradient_closed_potential_difference_absolute_error": 4.391065289155449e-11,
+    "passed": true
+  },
+  "complete": true,
+  "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+  "model_path": "work\\dr4_chain\\physics\\results\\model_refined.npz",
+  "models": [
+    {
+      "gravity": "newton",
+      "q": 0.1,
+      "coefficient_max_absolute_difference": 5.626219840492927e-15,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 5.551115123125783e-15,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    },
+    {
+      "gravity": "newton",
+      "q": 0.3,
+      "coefficient_max_absolute_difference": 6.593427585607291e-15,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 5.440092820663267e-15,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    },
+    {
+      "gravity": "newton",
+      "q": 1.0,
+      "coefficient_max_absolute_difference": 7.532736421249483e-15,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 5.440092820663267e-15,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    },
+    {
+      "gravity": "qumond",
+      "q": 0.1,
+      "coefficient_max_absolute_difference": 1.8150044835130164e-11,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 1.0880185641326534e-14,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    },
+    {
+      "gravity": "qumond",
+      "q": 0.3,
+      "coefficient_max_absolute_difference": 1.5872447019921188e-11,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 1.0880185641326534e-14,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    },
+    {
+      "gravity": "qumond",
+      "q": 1.0,
+      "coefficient_max_absolute_difference": 1.8883789822642105e-11,
+      "exact_bernstein_intervals_checked": 8192,
+      "exact_interval_failures": [],
+      "max_interval_width": 1.0880185641326534e-14,
+      "global_and_outer_bounds_passed": true,
+      "passed": true
+    }
+  ],
+  "scope": "Encoded scalar polynomial reconstruction and bounds; no new physical accuracy guarantee.",
+  "passed": true,
+  "api_probes": {
+    "file_sha256": "966e9fa3382067320809a1a92875efd548e6b78598f4eb9e6d666fc838cc1ecc",
+    "metadata": {
+      "cases": [
+        {
+          "acceleration_shape": [
+            1200,
+            3
+          ],
+          "gravity": "newton",
+          "key": "case00",
+          "position_shape": [
+            1200,
+            3
+          ],
+          "potential_shape": [
+            1200
+          ],
+          "q_shape": [
+            1200
+          ]
+        },
+        {
+          "acceleration_shape": [
+            12,
+            10,
+            3
+          ],
+          "gravity": "newton",
+          "key": "case01",
+          "position_shape": [
+            12,
+            10,
+            3
+          ],
+          "potential_shape": [
+            12,
+            10
+          ],
+          "q_shape": [
+            12,
+            1
+          ]
+        },
+        {
+          "acceleration_shape": [
+            3
+          ],
+          "gravity": "newton",
+          "key": "case02",
+          "position_shape": [
+            3
+          ],
+          "potential_shape": [],
+          "q_shape": []
+        },
+        {
+          "acceleration_shape": [
+            3,
+            3
+          ],
+          "gravity": "newton",
+          "key": "case03",
+          "position_shape": [
+            3
+          ],
+          "potential_shape": [
+            3
+          ],
+          "q_shape": [
+            3
+          ]
+        },
+        {
+          "acceleration_shape": [
+            6,
+            3
+          ],
+          "gravity": "newton",
+          "key": "case04",
+          "position_shape": [
+            6,
+            3
+          ],
+          "potential_shape": [
+            6
+          ],
+          "q_shape": [
+            6
+          ]
+        },
+        {
+          "acceleration_shape": [
+            1200,
+            3
+          ],
+          "gravity": "qumond",
+          "key": "case05",
+          "position_shape": [
+            1200,
+            3
+          ],
+          "potential_shape": [
+            1200
+          ],
+          "q_shape": [
+            1200
+          ]
+        },
+        {
+          "acceleration_shape": [
+            12,
+            10,
+            3
+          ],
+          "gravity": "qumond",
+          "key": "case06",
+          "position_shape": [
+            12,
+            10,
+            3
+          ],
+          "potential_shape": [
+            12,
+            10
+          ],
+          "q_shape": [
+            12,
+            1
+          ]
+        },
+        {
+          "acceleration_shape": [
+            3
+          ],
+          "gravity": "qumond",
+          "key": "case07",
+          "position_shape": [
+            3
+          ],
+          "potential_shape": [],
+          "q_shape": []
+        },
+        {
+          "acceleration_shape": [
+            3,
+            3
+          ],
+          "gravity": "qumond",
+          "key": "case08",
+          "position_shape": [
+            3
+          ],
+          "potential_shape": [
+            3
+          ],
+          "q_shape": [
+            3
+          ]
+        },
+        {
+          "acceleration_shape": [
+            6,
+            3
+          ],
+          "gravity": "qumond",
+          "key": "case09",
+          "position_shape": [
+            6,
+            3
+          ],
+          "potential_shape": [
+            6
+          ],
+          "q_shape": [
+            6
+          ]
+        }
+      ],
+      "invalid_inputs": [
+        {
+          "label": "zero_radius",
+          "rejected": true
+        },
+        {
+          "label": "too_small",
+          "rejected": true
+        },
+        {
+          "label": "too_large",
+          "rejected": true
+        },
+        {
+          "label": "unknown_q",
+          "rejected": true
+        },
+        {
+          "label": "nan_position",
+          "rejected": true
+        },
+        {
+          "label": "unknown_gravity",
+          "rejected": true
+        }
+      ],
+      "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+      "production_source_sha256": "3551de4294b95d32c1c0b90d2d29b463a6432e821948ad8c07f57cdcbc20cef7",
+      "purpose": "numerical_api_probes_only",
+      "require_validation": false,
+      "source_sha256": "761edd8462fc280a69498d8ccba1d2156f1b5022c8e30a154a038ba81bc903d1"
+    },
+    "cases": [
+      {
+        "acceleration_shape": [
+          1200,
+          3
+        ],
+        "gravity": "newton",
+        "key": "case00",
+        "position_shape": [
+          1200,
+          3
+        ],
+        "potential_shape": [
+          1200
+        ],
+        "q_shape": [
+          1200
+        ],
+        "potential_max_absolute_error": 3.552713678800501e-15,
+        "acceleration_max_absolute_error": 2.2737367544323206e-13,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          12,
+          10,
+          3
+        ],
+        "gravity": "newton",
+        "key": "case01",
+        "position_shape": [
+          12,
+          10,
+          3
+        ],
+        "potential_shape": [
+          12,
+          10
+        ],
+        "q_shape": [
+          12,
+          1
+        ],
+        "potential_max_absolute_error": 3.552713678800501e-15,
+        "acceleration_max_absolute_error": 1.1368683772161603e-13,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          3
+        ],
+        "gravity": "newton",
+        "key": "case02",
+        "position_shape": [
+          3
+        ],
+        "potential_shape": [],
+        "q_shape": [],
+        "potential_max_absolute_error": 0.0,
+        "acceleration_max_absolute_error": 8.881784197001252e-16,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          3,
+          3
+        ],
+        "gravity": "newton",
+        "key": "case03",
+        "position_shape": [
+          3
+        ],
+        "potential_shape": [
+          3
+        ],
+        "q_shape": [
+          3
+        ],
+        "potential_max_absolute_error": 0.0,
+        "acceleration_max_absolute_error": 8.881784197001252e-16,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          6,
+          3
+        ],
+        "gravity": "newton",
+        "key": "case04",
+        "position_shape": [
+          6,
+          3
+        ],
+        "potential_shape": [
+          6
+        ],
+        "q_shape": [
+          6
+        ],
+        "potential_max_absolute_error": 6.938893903907228e-18,
+        "acceleration_max_absolute_error": 2.168404344971009e-19,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          1200,
+          3
+        ],
+        "gravity": "qumond",
+        "key": "case05",
+        "position_shape": [
+          1200,
+          3
+        ],
+        "potential_shape": [
+          1200
+        ],
+        "q_shape": [
+          1200
+        ],
+        "potential_max_absolute_error": 1.4210854715202004e-14,
+        "acceleration_max_absolute_error": 4.547473508864641e-13,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          12,
+          10,
+          3
+        ],
+        "gravity": "qumond",
+        "key": "case06",
+        "position_shape": [
+          12,
+          10,
+          3
+        ],
+        "potential_shape": [
+          12,
+          10
+        ],
+        "q_shape": [
+          12,
+          1
+        ],
+        "potential_max_absolute_error": 1.0658141036401503e-14,
+        "acceleration_max_absolute_error": 2.2737367544323206e-13,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          3
+        ],
+        "gravity": "qumond",
+        "key": "case07",
+        "position_shape": [
+          3
+        ],
+        "potential_shape": [],
+        "q_shape": [],
+        "potential_max_absolute_error": 4.440892098500626e-16,
+        "acceleration_max_absolute_error": 1.7763568394002505e-15,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          3,
+          3
+        ],
+        "gravity": "qumond",
+        "key": "case08",
+        "position_shape": [
+          3
+        ],
+        "potential_shape": [
+          3
+        ],
+        "q_shape": [
+          3
+        ],
+        "potential_max_absolute_error": 8.881784197001252e-16,
+        "acceleration_max_absolute_error": 1.7763568394002505e-15,
+        "passed": true
+      },
+      {
+        "acceleration_shape": [
+          6,
+          3
+        ],
+        "gravity": "qumond",
+        "key": "case09",
+        "position_shape": [
+          6,
+          3
+        ],
+        "potential_shape": [
+          6
+        ],
+        "q_shape": [
+          6
+        ],
+        "potential_max_absolute_error": 1.3877787807814457e-17,
+        "acceleration_max_absolute_error": 2.168404344971009e-19,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "seconds": 2.0030386447906494
+}

@@ -1,0 +1,903 @@
+{
+  "stage": "final",
+  "model_path": "work\\dr4_chain\\physics\\results\\model_refined.npz",
+  "max_force_error": 0.00010252404137533288,
+  "rows": [
+    {
+      "q": 0.1,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "relative_force_error": 2.1041986499907763e-06,
+      "interpolated_acceleration": [
+        -390.85665268444245,
+        -0.0,
+        -300.886083868255
+      ],
+      "reference_acceleration": [
+        -390.8558302461322,
+        -0.0,
+        -300.88545074549563
+      ],
+      "finite_difference_gradient_error": 2.7940475194943835e-11,
+      "jacobian_asymmetry": 1.2471840442462066e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "relative_force_error": 3.6059894398676105e-06,
+      "interpolated_acceleration": [
+        -391.47408736554945,
+        -0.0,
+        -301.3545134273928
+      ],
+      "reference_acceleration": [
+        -391.47546082637484,
+        -2.692555256124339e-18,
+        -301.3556480039645
+      ],
+      "finite_difference_gradient_error": 6.750396648448152e-12,
+      "jacobian_asymmetry": 1.2473203804730398e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "relative_force_error": 3.048970730988035e-08,
+      "interpolated_acceleration": [
+        -67.73201565658603,
+        -0.0,
+        15.275290006986971
+      ],
+      "reference_acceleration": [
+        -67.73201772171542,
+        -0.0,
+        15.275290472726116
+      ],
+      "finite_difference_gradient_error": 9.196146040036509e-11,
+      "jacobian_asymmetry": 1.958077569232132e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "relative_force_error": 3.625850807692251e-07,
+      "interpolated_acceleration": [
+        -68.48942331942234,
+        -0.0,
+        15.437580171518412
+      ],
+      "reference_acceleration": [
+        -68.48944649649954,
+        -6.455829397953093e-18,
+        15.437590699804481
+      ],
+      "finite_difference_gradient_error": 9.76357345583944e-11,
+      "jacobian_asymmetry": 1.95470700106969e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "relative_force_error": 3.35931663033527e-09,
+      "interpolated_acceleration": [
+        -2.933044884717069,
+        -0.0,
+        -5.175418599756018
+      ],
+      "reference_acceleration": [
+        -2.933044894570096,
+        -0.0,
+        -5.1754186171418874
+      ],
+      "finite_difference_gradient_error": 6.108958689658744e-11,
+      "jacobian_asymmetry": 2.2267271415591164e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "relative_force_error": 3.363116975137962e-05,
+      "interpolated_acceleration": [
+        -3.299544383110863,
+        -0.0,
+        -5.724344193893456
+      ],
+      "reference_acceleration": [
+        -3.2996590928173797,
+        -1.2743428720364022e-17,
+        -5.724534512991754
+      ],
+      "finite_difference_gradient_error": 5.559742715009904e-11,
+      "jacobian_asymmetry": 2.190073152110178e-08
+    },
+    {
+      "q": 0.1,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "relative_force_error": 1.3268948089032285e-09,
+      "interpolated_acceleration": [
+        -0.8693822703155223,
+        -0.0,
+        0.8765406747249894
+      ],
+      "reference_acceleration": [
+        -0.8693822691619435,
+        -0.0,
+        0.8765406735619121
+      ],
+      "finite_difference_gradient_error": 3.280569828151212e-11,
+      "jacobian_asymmetry": 4.1380435851936836e-10
+    },
+    {
+      "q": 0.1,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "relative_force_error": 4.806869769700788e-05,
+      "interpolated_acceleration": [
+        -1.1967654584709233,
+        -0.0,
+        1.1080416689519514
+      ],
+      "reference_acceleration": [
+        -1.196818448499053,
+        3.809379843910592e-19,
+        1.108099451735587
+      ],
+      "finite_difference_gradient_error": 2.1589624464830875e-11,
+      "jacobian_asymmetry": 6.551138291853672e-10
+    },
+    {
+      "q": 0.1,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "relative_force_error": 2.0124561642924713e-11,
+      "interpolated_acceleration": [
+        -0.1252275251064504,
+        -0.0,
+        -0.0242346866331252
+      ],
+      "reference_acceleration": [
+        -0.12522752510393026,
+        -0.0,
+        -0.024234686632637496
+      ],
+      "finite_difference_gradient_error": 9.057367463840031e-11,
+      "jacobian_asymmetry": 1.7486630019133003e-08
+    },
+    {
+      "q": 0.1,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "relative_force_error": 2.4979384513508794e-05,
+      "interpolated_acceleration": [
+        -0.1767614965167356,
+        -0.0,
+        -0.03304692241358759
+      ],
+      "reference_acceleration": [
+        -0.17676190499429162,
+        -1.449856642890414e-18,
+        -0.03305139572959976
+      ],
+      "finite_difference_gradient_error": 1.0176566185540992e-10,
+      "jacobian_asymmetry": 1.662584717909652e-08
+    },
+    {
+      "q": 0.1,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "relative_force_error": 1.887853256050897e-12,
+      "interpolated_acceleration": [
+        -0.006713942529170486,
+        -0.0,
+        0.003478260807929633
+      ],
+      "reference_acceleration": [
+        -0.006713942529157811,
+        -0.0,
+        0.003478260807923066
+      ],
+      "finite_difference_gradient_error": 3.8802336790713647e-11,
+      "jacobian_asymmetry": 2.380282497441249e-08
+    },
+    {
+      "q": 0.1,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "relative_force_error": 6.127898530943706e-05,
+      "interpolated_acceleration": [
+        -0.010456431787654654,
+        -0.0,
+        0.0037685085714016615
+      ],
+      "reference_acceleration": [
+        -0.010456382593347913,
+        -3.9203715577447107e-19,
+        0.0037691879070342466
+      ],
+      "finite_difference_gradient_error": 6.775737140628679e-11,
+      "jacobian_asymmetry": 2.3405556052261118e-08
+    },
+    {
+      "q": 0.1,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "relative_force_error": 1.0285972200902106e-11,
+      "interpolated_acceleration": [
+        -0.0010644215967887869,
+        -0.0,
+        -0.0013715277722111238
+      ],
+      "reference_acceleration": [
+        -0.0010644215967778382,
+        -0.0,
+        -0.0013715277721970164
+      ],
+      "finite_difference_gradient_error": 3.30494240671472e-11,
+      "jacobian_asymmetry": 1.214783605855072e-08
+    },
+    {
+      "q": 0.1,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "relative_force_error": 0.00010252404137533288,
+      "interpolated_acceleration": [
+        -0.0019111390230488082,
+        -0.0,
+        -0.0018618084941129456
+      ],
+      "reference_acceleration": [
+        -0.0019111266643969279,
+        -1.7401418623368456e-18,
+        -0.0018620817783413252
+      ],
+      "finite_difference_gradient_error": 4.554462528541851e-11,
+      "jacobian_asymmetry": 5.498830455285576e-09
+    },
+    {
+      "q": 0.3,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "relative_force_error": 2.149916098363613e-06,
+      "interpolated_acceleration": [
+        -390.85559285425467,
+        -0.0,
+        -300.88526799841486
+      ],
+      "reference_acceleration": [
+        -390.8547525493301,
+        -0.0,
+        -300.8846211217241
+      ],
+      "finite_difference_gradient_error": 2.6148791530979896e-11,
+      "jacobian_asymmetry": 1.2471249426246925e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "relative_force_error": 3.104858707321598e-06,
+      "interpolated_acceleration": [
+        -391.420120305126,
+        -0.0,
+        -301.31300976513444
+      ],
+      "reference_acceleration": [
+        -391.42134208754845,
+        -1.2749371484105558e-18,
+        -301.31393683094035
+      ],
+      "finite_difference_gradient_error": 1.9007071277481746e-11,
+      "jacobian_asymmetry": 1.2471479894513368e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "relative_force_error": 3.062198313462081e-08,
+      "interpolated_acceleration": [
+        -67.73201083711915,
+        -0.0,
+        15.27528892007477
+      ],
+      "reference_acceleration": [
+        -67.7320129112077,
+        -0.0,
+        15.275289387834428
+      ],
+      "finite_difference_gradient_error": 9.830420975867859e-11,
+      "jacobian_asymmetry": 1.958055722416932e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "relative_force_error": 8.503429180627939e-07,
+      "interpolated_acceleration": [
+        -68.42469613973687,
+        -0.0,
+        15.423741318763426
+      ],
+      "reference_acceleration": [
+        -68.42474083004775,
+        -3.5772320730671184e-18,
+        15.42378081848296
+      ],
+      "finite_difference_gradient_error": 9.942307711821268e-11,
+      "jacobian_asymmetry": 1.9549444254372876e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "relative_force_error": 3.3600978056865658e-09,
+      "interpolated_acceleration": [
+        -2.933044882742786,
+        -0.0,
+        -5.175418596272355
+      ],
+      "reference_acceleration": [
+        -2.933044892598104,
+        -0.0,
+        -5.175418613662267
+      ],
+      "finite_difference_gradient_error": 5.961308562932475e-11,
+      "jacobian_asymmetry": 2.2267271449207903e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "relative_force_error": 3.259421332970838e-05,
+      "interpolated_acceleration": [
+        -3.260671346114368,
+        -0.0,
+        -5.664475779775092
+      ],
+      "reference_acceleration": [
+        -3.2607753163708737,
+        -5.137095822417673e-18,
+        -5.664661726783818
+      ],
+      "finite_difference_gradient_error": 7.526326552928511e-11,
+      "jacobian_asymmetry": 2.1874656495796348e-08
+    },
+    {
+      "q": 0.3,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "relative_force_error": 1.3270189989058697e-09,
+      "interpolated_acceleration": [
+        -0.8693822702868362,
+        -0.0,
+        0.876540674696067
+      ],
+      "reference_acceleration": [
+        -0.8693822691331494,
+        -0.0,
+        0.8765406735328809
+      ],
+      "finite_difference_gradient_error": 2.2775097630685536e-11,
+      "jacobian_asymmetry": 4.1328511458336306e-10
+    },
+    {
+      "q": 0.3,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "relative_force_error": 4.7258667548129527e-05,
+      "interpolated_acceleration": [
+        -1.180769132461707,
+        -0.0,
+        1.0949687375988917
+      ],
+      "reference_acceleration": [
+        -1.1808180216363897,
+        2.6643805712959514e-18,
+        1.0950270637091963
+      ],
+      "finite_difference_gradient_error": 3.90119637670076e-11,
+      "jacobian_asymmetry": 5.937232441655989e-10
+    },
+    {
+      "q": 0.3,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "relative_force_error": 2.0125228403132124e-11,
+      "interpolated_acceleration": [
+        -0.12522752510639817,
+        -0.0,
+        -0.024234686633115086
+      ],
+      "reference_acceleration": [
+        -0.12522752510387794,
+        -0.0,
+        -0.024234686632627365
+      ],
+      "finite_difference_gradient_error": 8.883107656452156e-11,
+      "jacobian_asymmetry": 1.748702259910259e-08
+    },
+    {
+      "q": 0.3,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "relative_force_error": 2.5683645702701703e-05,
+      "interpolated_acceleration": [
+        -0.17777977723533733,
+        -0.0,
+        -0.029909010645463717
+      ],
+      "reference_acceleration": [
+        -0.17778145698356007,
+        1.6979162873008586e-18,
+        -0.029904695855299108
+      ],
+      "finite_difference_gradient_error": 9.92376306714689e-11,
+      "jacobian_asymmetry": 1.4977094775029908e-08
+    },
+    {
+      "q": 0.3,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "relative_force_error": 1.890161483710305e-12,
+      "interpolated_acceleration": [
+        -0.006713942529170488,
+        -0.0,
+        0.0034782608079296337
+      ],
+      "reference_acceleration": [
+        -0.006713942529157798,
+        -0.0,
+        0.003478260807923059
+      ],
+      "finite_difference_gradient_error": 4.414866372750059e-11,
+      "jacobian_asymmetry": 2.3803156084768313e-08
+    },
+    {
+      "q": 0.3,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "relative_force_error": 6.7294087319284175e-06,
+      "interpolated_acceleration": [
+        -0.010400154976988131,
+        -0.0,
+        0.0037826873073102214
+      ],
+      "reference_acceleration": [
+        -0.010400106457377973,
+        1.1773742105524337e-18,
+        0.0037827438047090736
+      ],
+      "finite_difference_gradient_error": 6.530324528730021e-11,
+      "jacobian_asymmetry": 2.315476658633901e-08
+    },
+    {
+      "q": 0.3,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "relative_force_error": 1.0285446456147475e-11,
+      "interpolated_acceleration": [
+        -0.0010644215967887864,
+        -0.0,
+        -0.0013715277722111234
+      ],
+      "reference_acceleration": [
+        -0.0010644215967778384,
+        -0.0,
+        -0.0013715277721970166
+      ],
+      "finite_difference_gradient_error": 3.739665683391852e-11,
+      "jacobian_asymmetry": 1.2148196686174166e-08
+    },
+    {
+      "q": 0.3,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "relative_force_error": 3.2957163423922415e-05,
+      "interpolated_acceleration": [
+        -0.0019180807491767813,
+        -0.0,
+        -0.0018662952150417717
+      ],
+      "reference_acceleration": [
+        -0.0019180555292522374,
+        -9.634388122768038e-19,
+        -0.0018663797341231005
+      ],
+      "finite_difference_gradient_error": 5.347343974977104e-11,
+      "jacobian_asymmetry": 5.4918411400576525e-09
+    },
+    {
+      "q": 1.0,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "newton",
+      "relative_force_error": 2.182891659228635e-06,
+      "interpolated_acceleration": [
+        -390.8548148538759,
+        -0.0,
+        -300.884669084502
+      ],
+      "reference_acceleration": [
+        -390.85396166202304,
+        -0.0,
+        -300.8840122873011
+      ],
+      "finite_difference_gradient_error": 2.3186623212762972e-11,
+      "jacobian_asymmetry": 1.2471637241890816e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.045,
+      "mu": 0.61,
+      "gravity": "qumond",
+      "relative_force_error": 3.0520442297200195e-06,
+      "interpolated_acceleration": [
+        -391.3929744897583,
+        -0.0,
+        -301.29212738756723
+      ],
+      "reference_acceleration": [
+        -391.39420312866935,
+        -5.461675703963116e-19,
+        -301.2930008815292
+      ],
+      "finite_difference_gradient_error": 4.484874248368355e-11,
+      "jacobian_asymmetry": 1.2470817662785721e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "newton",
+      "relative_force_error": 3.071897594137563e-08,
+      "interpolated_acceleration": [
+        -67.7320072667018,
+        -0.0,
+        15.275288114854968
+      ],
+      "reference_acceleration": [
+        -67.73200934735976,
+        -0.0,
+        15.275288584096197
+      ],
+      "finite_difference_gradient_error": 9.77253084818843e-11,
+      "jacobian_asymmetry": 1.9581076619349855e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.12,
+      "mu": -0.22,
+      "gravity": "qumond",
+      "relative_force_error": 1.4048709995022538e-07,
+      "interpolated_acceleration": [
+        -68.39300007880698,
+        -0.0,
+        15.417776676990677
+      ],
+      "reference_acceleration": [
+        -68.39299992965945,
+        -3.961188120376857e-18,
+        15.417766828671736
+      ],
+      "finite_difference_gradient_error": 9.887305336514735e-11,
+      "jacobian_asymmetry": 1.954901711879262e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "newton",
+      "relative_force_error": 3.360681270536375e-09,
+      "interpolated_acceleration": [
+        -2.9330448812698515,
+        -0.0,
+        -5.175418593673331
+      ],
+      "reference_acceleration": [
+        -2.9330448911268805,
+        -0.0,
+        -5.175418611066263
+      ],
+      "finite_difference_gradient_error": 6.533576467898255e-11,
+      "jacobian_asymmetry": 2.2267056024411772e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.41,
+      "mu": 0.87,
+      "gravity": "qumond",
+      "relative_force_error": 2.2766824968770734e-05,
+      "interpolated_acceleration": [
+        -3.236227770620663,
+        -0.0,
+        -5.632061261659765
+      ],
+      "reference_acceleration": [
+        -3.236311872637664,
+        -4.777090937423082e-18,
+        -5.632182907938913
+      ],
+      "finite_difference_gradient_error": 3.7564242011806747e-11,
+      "jacobian_asymmetry": 2.18675731510851e-08
+    },
+    {
+      "q": 1.0,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "newton",
+      "relative_force_error": 1.3271129841495435e-09,
+      "interpolated_acceleration": [
+        -0.8693822702653698,
+        -0.0,
+        0.876540674674424
+      ],
+      "reference_acceleration": [
+        -0.8693822691116013,
+        -0.0,
+        0.8765406735111555
+      ],
+      "finite_difference_gradient_error": 1.3758936994943661e-11,
+      "jacobian_asymmetry": 4.1354473659039126e-10
+    },
+    {
+      "q": 1.0,
+      "r": 0.9,
+      "mu": -0.71,
+      "gravity": "qumond",
+      "relative_force_error": 6.744260044283804e-05,
+      "interpolated_acceleration": [
+        -1.181161264823373,
+        -0.0,
+        1.0909562379589681
+      ],
+      "reference_acceleration": [
+        -1.1812362978121436,
+        2.1440438361706745e-18,
+        1.0910345387068672
+      ],
+      "finite_difference_gradient_error": 4.237290640186047e-11,
+      "jacobian_asymmetry": 5.320621208612364e-10
+    },
+    {
+      "q": 1.0,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "newton",
+      "relative_force_error": 2.0125014763128628e-11,
+      "interpolated_acceleration": [
+        -0.1252275251063589,
+        -0.0,
+        -0.024234686633107492
+      ],
+      "reference_acceleration": [
+        -0.1252275251038387,
+        -0.0,
+        -0.02423468663261977
+      ],
+      "finite_difference_gradient_error": 1.0112869669203568e-10,
+      "jacobian_asymmetry": 1.7487336689453364e-08
+    },
+    {
+      "q": 1.0,
+      "r": 2.8,
+      "mu": 0.19,
+      "gravity": "qumond",
+      "relative_force_error": 1.0583007840022478e-05,
+      "interpolated_acceleration": [
+        -0.1798992136253361,
+        -0.0,
+        -0.025438786636817656
+      ],
+      "reference_acceleration": [
+        -0.17989730670553206,
+        4.004840637446304e-19,
+        -0.025438540067099204
+      ],
+      "finite_difference_gradient_error": 8.908054389972362e-11,
+      "jacobian_asymmetry": 1.3271405036948282e-08
+    },
+    {
+      "q": 1.0,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "newton",
+      "relative_force_error": 1.8927525649726576e-12,
+      "interpolated_acceleration": [
+        -0.006713942529170495,
+        -0.0,
+        0.0034782608079296376
+      ],
+      "reference_acceleration": [
+        -0.0067139425291577876,
+        -0.0,
+        0.003478260807923054
+      ],
+      "finite_difference_gradient_error": 4.536956849521755e-11,
+      "jacobian_asymmetry": 2.3803487195114805e-08
+    },
+    {
+      "q": 1.0,
+      "r": 11.5,
+      "mu": -0.46,
+      "gravity": "qumond",
+      "relative_force_error": 2.0845098274717666e-05,
+      "interpolated_acceleration": [
+        -0.01031357541218767,
+        -0.0,
+        0.0038041245469553073
+      ],
+      "reference_acceleration": [
+        -0.010313530571150793,
+        9.335343076285397e-19,
+        0.0038043492630301786
+      ],
+      "finite_difference_gradient_error": 6.593853080583646e-11,
+      "jacobian_asymmetry": 2.274165325474927e-08
+    },
+    {
+      "q": 1.0,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "newton",
+      "relative_force_error": 1.0286246119918307e-11,
+      "interpolated_acceleration": [
+        -0.001064421596788787,
+        -0.0,
+        -0.0013715277722111242
+      ],
+      "reference_acceleration": [
+        -0.0010644215967778382,
+        -0.0,
+        -0.0013715277721970164
+      ],
+      "finite_difference_gradient_error": 2.941681109937038e-11,
+      "jacobian_asymmetry": 1.2147836058550882e-08
+    },
+    {
+      "q": 1.0,
+      "r": 24,
+      "mu": 0.79,
+      "gravity": "qumond",
+      "relative_force_error": 4.785244901038314e-05,
+      "interpolated_acceleration": [
+        -0.00192861397082526,
+        -0.0,
+        -0.0018732366610200698
+      ],
+      "reference_acceleration": [
+        -0.0019286036457417234,
+        1.4681868599835982e-18,
+        -0.0018733649060454773
+      ],
+      "finite_difference_gradient_error": 5.119692938045552e-11,
+      "jacobian_asymmetry": 5.490178719778841e-09
+    }
+  ],
+  "energy_controls": [
+    {
+      "q": 0.3,
+      "r": 0.05,
+      "mu": -0.6,
+      "mesh_relative": 5.554268822649533e-09,
+      "outer_relative": 7.15095538339483e-10
+    },
+    {
+      "q": 0.3,
+      "r": 1.0,
+      "mu": -0.6,
+      "mesh_relative": 3.7955456821947564e-07,
+      "outer_relative": 5.310845452299873e-07
+    },
+    {
+      "q": 0.3,
+      "r": 20.0,
+      "mu": -0.6,
+      "mesh_relative": 3.7551154696835454e-07,
+      "outer_relative": 5.238759115400171e-07
+    },
+    {
+      "q": 1.0,
+      "r": 0.05,
+      "mu": -0.6,
+      "mesh_relative": 3.836649997701613e-08,
+      "outer_relative": 3.9780312377502014e-10
+    },
+    {
+      "q": 1.0,
+      "r": 1.0,
+      "mu": -0.6,
+      "mesh_relative": 4.02015951195267e-07,
+      "outer_relative": 5.369578763847471e-07
+    },
+    {
+      "q": 1.0,
+      "r": 20.0,
+      "mu": -0.6,
+      "mesh_relative": 2.3428398443492426e-08,
+      "outer_relative": 5.25047111787913e-07
+    }
+  ],
+  "old_reference_comparisons": [
+    {
+      "q": 0.1,
+      "relative_error": 0.00030592395514173094
+    },
+    {
+      "q": 0.3,
+      "relative_error": 0.0002799999694624708
+    },
+    {
+      "q": 1.0,
+      "relative_error": 9.547100740568507e-05
+    }
+  ],
+  "passed": true,
+  "scope": "pointwise force/energy validation; no uniform physical accuracy certificate",
+  "model_sha256": "d15c7a58dfda747bc92cf4c67e6a52b4a42bb5cba38438598307f78f5ce2f97f",
+  "evaluator_sha256": "3551de4294b95d32c1c0b90d2d29b463a6432e821948ad8c07f57cdcbc20cef7",
+  "cmax": {
+    "newton": [
+      0.999999999131947,
+      0.9999999991319477,
+      0.9999999991319471
+    ],
+    "qumond": [
+      1.63417323970216,
+      1.6254339002040021,
+      1.6177918988945792
+    ]
+  },
+  "cmin": {
+    "newton": [
+      0.9991305343319374,
+      0.9991279254641803,
+      0.9991260161803271
+    ],
+    "qumond": [
+      1.0304851785448899,
+      1.0287399829374626,
+      1.02784973623857
+    ]
+  },
+  "outer_amax": {
+    "newton": [
+      0.999999999131947,
+      0.9999999991319477,
+      0.9999999991319471
+    ],
+    "qumond": [
+      1.6235360739226046,
+      1.6212670441821122,
+      1.6177918988945792
+    ]
+  }
+}
